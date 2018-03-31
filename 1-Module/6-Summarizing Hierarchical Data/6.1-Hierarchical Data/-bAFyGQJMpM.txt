@@ -1,0 +1,84 @@
+Hierarchical data sets are perfect when
+there are natural groupings or layers
+within the data. Organizational
+structures are classic examples of
+hierarchical data sets,
+other examples include product models,
+inventory lists, it goes on. Essentially
+hierarchical data uses a one-to-many
+relationship for data elements. It uses a
+structure that links desparate elements
+to one owner or parent. In hierarchical
+data each child record has only one
+parent but each parent record can have
+one or more children. In this example you
+can see that vehicles can be divided
+into children called cars and trucks
+within a car you might have different
+types Toyota and Ford, and within that a
+specific version of a Toyota car and a
+specific version of a Toyota truck.
+Of course this relationship can be
+depicted in a slightly different way.
+Here the ultimate parent is still
+vehicle but the children are now the
+different types of vehicles that you
+could have, Ford and Toyota
+rather than truck and car as was in the
+previous example. Children of Ford and Toyota
+are now truck and car and their
+children are focus & f-150. Looking at
+these relationships in a table can be
+overwhelming, providing visual structure
+to hierarchical data can help with
+interpretation within Excel you have two
+very cool choices and how to display
+hierarchical data, Tree maps or Sunburst charts
+you might wonder when should use
+one over the other. It shouldn't surprise
+you to know that the answer lies in what
+you want to convey by creating the
+visualization. Tree maps like you see
+here are by their rectangular nature are
+better suited for comparison among
+hierarchical levels, a tree map makes it
+easy to spot patterns such as which
+organizations spent the most money on HR,
+physical resources, or other functions
+and within each of those spending
+categories more specifically where the
+money was spent. Tree maps display
+categories by color with each sub branch
+being a different color. The size of the
+rectangle represents a category
+corresponding with its importance in the
+hierarchical structure, in other words
+how much is below it in the hierarchy.
+Tree maps are good for comparing proportions within
+the hierarchy, but they are not good at
+showing hierarchical levels for that you
+need a Sunburst chart. In Sunburst charts
+each level of the hierarchy is
+represented by one ring with the
+innermost ring being the top hierarchy.
+A Sunburst chart without any hierarchical
+data has only one level of category is
+essentially a donut chart, however a
+Sunburst chart with multiple levels of
+categories shows how the outer rings
+relate to the inner rings. You can use
+Sunburst charts to emphasize a single
+slice allowing you to dig deeper into
+different areas of the hierarchy of
+interest, for example a sales report may
+want to highlight a specific month or
+business unit. Sunburst charts show the
+full picture of the hierarchy
+and illustrate the different depths of the
+hierarchical groups whereas a tree map
+loses the categories in the middle. As a
+result Sunburst charts are most
+effective at showing how one ring is
+broken into its contributing pieces,
+while Tree maps are ideal for comparing
+relative sizes within each level of the hierarchy.

@@ -1,0 +1,91 @@
+Hi, since our course is called Essential Statistics for
+Data Analysis Using Excel,
+we should probably start off talking about what we mean by data.
+So data is made up of individuals and variables.
+Okay, so what do we mean by individuals?
+Individuals are the objects described by the data set.
+Individuals might be people, stocks, cities, etc.
+So do we mean by a variable?
+A variable is a characteristic of an individual and
+here are some examples.
+So the individual might be a person.
+So what variables might you associate with a person?
+Well, their height, their weight, their IQ, the number of siblings,
+perhaps their family income.
+If the individual is a city,
+what are some variables you might associate with a city?
+The population of the city, the area of the city,
+the total income of individuals in the city.
+If the individual is a stock,
+what variable might you associate with a stock?
+Well, there are many, but you might look at the price of the stock
+during each day in the year 2020, or whatever year you're interested in.
+If your individual is a car,
+there are many variables you might associate with a car.
+The color of the car, the horsepower of the car.
+You might use the miles per gallon.
+There are just so many.
+Okay, so the next thing we wanna talk about are variables, okay?
+And there are two types of variables, categorical or numerical.
+Okay, so a numerical or
+sometimes a quantitative variable takes a numerical value.
+A numerical value can be a mistake.
+A numerical variable can be discrete or continuous.
+A discrete variable assumes distinct values,
+whereas continuous variable can assume any value within a range.
+Often a discrete variable assumes an integer value.
+Here are some examples.
+If we look at the market share for a cholesterol drug,
+that's a continuous variable, why?
+Cuz you can take on any value between zero and
+one, any value in an interval.
+Profit margin for a product is continuous.
+Again, it can take on any value between zero and one.
+The number of children in a family is discrete.
+You could have zero children in a family, one child, two child,
+I don't know, the Guinness Book of World Records may be 25 children.
+The number of days a child misses of school in a year is discrete.
+They can miss zero days hopefully, one day, two days.
+If there's 180 days of school I suppose they can miss 180 days.
+I hope they're not that sick.
+Height and weight are continuous.
+Now you might think, if you're a man,
+that your height might be 5 foot 10, 5 foot 11 or 6 feet.
+But your height could be sort of any number, let's say between 2 feet and
+8 feet.
+So basically your height, if you say you're 6 feet tall,
+it may mean you're 72.0000 inches.
+The annual return on a stock is continuous.
+The worst thing that could happen to a stock, it loses all its value,
+you would have a minus 100% return during a year.
+But there is no upper limit on what the return on the stock could be.
+Now, we also wanna talk about non-numerical or
+quantitative variables called categorical variables.
+Also, the term used is qualitative variables.
+And we classify a variable into one of several categories.
+So a categorical variable can be nominal or ordinal.
+For a nominal variable,
+the categories cannot be assigned a numerical value.
+For ordinal data, the categories can be sorted in a logical fashion.
+So here are some examples of categorical variables.
+The color of a car is nominal.
+I mean, I don't think there's any ordering where you can order a green
+car over a red car over a silver car.
+The age group of a person in the US, Generation X, Millenial,
+Baby Boomers common classifications, that's ordinal.
+Cuz basically based on your birth date,
+you're classified in one of these groups.
+If you're older or you were born in 1946-1964, you're a Baby Boomer.
+The Gen X is 65-80 and the Millenials, in the 80s and 90s.
+So there is a numerical order that can be associated there.
+Basically, we would have an ordinal categorical variable.
+Your party affiliation United States, Republican, Democrat,
+Libertarian or Independent, that's nominal.
+I don't think that you can place a numerical order on that.
+Rating a teacher,
+which is controversial in the US as excellent, good, average or poor.
+Now that is ordinal because basically you might base those
+ratings on teacher evaluations, you might say a seven or
+a six is excellent, a five or four is good, etc.
+In our next video, we'll talk about how we can summarize quantitative or
+numerical data using histograms.

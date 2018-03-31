@@ -1,0 +1,127 @@
+Now that we've installed the Analysis Toolpak, or
+the data analysis add-in, let's use it to analyze monthly
+returns in the 1990s on GM and Cisco.
+There are some other stocks here, but we'll just focus on GM and
+Cisco here.
+Okay, so we go data, data analysis,
+which we now see cuz we installed it.
+And then there's plenty of options here but what we really care about
+is Descriptive Statistics, which is right here.
+We'll be using a bunch more of these things later in the course, okay, so
+now we gotta fill in this dialog box.
+So the Input Range is our data and I'd like to include the labels, so
+I'll start here with GM.
+I do Ctrl+Shift+Right Arrow to go to the right, down right go to
+the bottom, that picks off my datam, the data is in columns.
+Output range is the upper left hand corner of where I want excel to put
+its statistics, I can just say right here.
+Let's say, I6, then you have to check summary statistics or
+you won't get any, so you click okay.
+You'll get summary statistics,
+okay, now we might make that a little bit bigger.
+Bold face it, okay.
+So now what we want to do is really compare GM and
+Cisco on three dimensions.
+Remember we said, typical value.
+Now, question would be mean or median or mode here.
+Okay, so the mean is right here.
+So, GM average about 1% a month returns, CSCO about 5.5% and
+media which you know, half the data is below it, half the data is above
+it, GM's median was actually slightly negative.
+Cisco's median was 5% which is fairly positive.
+There is no mode, remember that mode is most frequently occurring value.
+Again, let me highlight basically, let's say in yellow, what we use for
+typical value.
+So there's no mode for GM and the reason for
+that is because no, return on GM occurred more than once.
+And for CISCO the most recurring value is 5.1% we dont
+use that too much.
+But the question is, for
+typical value should I use the Mean or the Median.
+And it depends on Skewness as it turns out.
+If you have lots of Skewness and
+there's a measure of Skewness on the output.
+There's a skewness value here, okay.
+And we'll define what we mean by lots of skewness in a minute, okay.
+If have lots of skewness and
+basically that generally means that skewness measure
+if it's greater than +1 it means it's very positive we skew the data.
+Or the skewness is less than minus one.
+If you have a lot of skewness,
+we'll have a great example of this in a minute,
+you should use the median.
+Because basically what happens is the extreme values basically distort
+the typical value.
+If you look at income that's a very good example where there's a lot of
+skewness.
+If somebody has an income of a hundred million dollars a year in
+a small town, they would greatly raise the mean.
+We'll see example of this in a minute but
+they really wouldn't do much to the median and
+there $100 million a year is not really the typical person, okay.
+So we look here we don't have much skewness we would use the mean for
+typical value, So
+Cisco does better than GM typically, higher mean.
+Now what about spread about the mean,
+which doc has more spread about the mean?
+Well, we learned a couple of videos ago you look at the standard
+deviation and the variance.
+And so the standard deviation is what we usually like to use,
+it's the square root the variance.
+You really need the variance to get to the standard deviation,
+but once you have the standard deviation that's enough.
+So, standard deviation on Cisco is 12.2% on the monthly returns,
+on GM it's about 9%, so there's more spread about the mean for Cisco.
+And then there's not much skewness,
+these numbers are very close to zero, again greater and
+plus one is possibly skew, minus one is negatively skewed.
+So basically not much skewness and
+we saw that in the histograms that we had for GM and sysco.
+Fairly symmetric data sets.
+Now a more powerful example of why you don't always want to use
+the mean for
+typical value, though people like to do this is based on real situation.
+Let’s talk about 1984 and this really happen, if you are basketball
+fan you may think about his and even if you are not a U-S
+citizen I think the person I’m talking about you heard of.
+Because he was one of the most recognizable people in the world,
+okay so let’s look at 1984 University of North Carolina,
+a great school.
+Geography majors had the highest average salary, this is true.
+A friend of mine told me, at the University of North Carolina, okay.
+So should everybody have wanted to be a geography major?
+So let's suppose there were 15 geography majors,
+who average $40,000 who got made $40,000, and one made $1 million.
+This isn't that far from the truth.
+Now if you look at the median, you know that's gonna be the midpoint
+between the eighth and ninth largest salary, that's gonna be 40,000.
+That's a much better measure of the typical income of the geography
+major than if I average these numbers, I mean we'll skip ahead.
+There's a function average which we'll learn about later, but
+I think most of you know that one.
+What was the average salary for geography majors?
+$100,000 and it's indeed true the highest average salary for
+1984 geography majors at UNC.
+The highest starting salary majors in any
+academic major at UNC was geography majors.
+So should everybody have been a geography major?
+But the median salary was surely higher for let's say,
+accounting mayors or computer science mayors.
+What was going on?
+Michael Jordan was a geography mayor.
+As we know we can't all be like Mike,
+I mean that's probably a slogan.
+Basically we should've been looked at the mean salary of geography
+majors, we should've the mediator, the typical value.
+Basically here is a great example,
+there would be a lot of scewness against skipping ahead of it.
+There is an Excel function that measures skewness and
+if you would look at the skewness of this dataset,
+you get a skewness of four which is much bigger than +1.
+So our roll would tell you to use the median income to measure
+basically atypical value for UNC Geography Majors income,
+rather than the mean.
+Now in the next video will show how you can take the mean for
+a data set and the standard deviation, put them together and try
+to understand the typical range for a data set, which is very important.
+And also spot unusual data points know as highlighters.

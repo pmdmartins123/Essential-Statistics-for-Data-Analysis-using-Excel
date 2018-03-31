@@ -1,0 +1,256 @@
+0
+00:00:00,610 --> 00:00:04,270
+You recall earlier in this module we discussed categorical data, so
+
+1
+00:00:04,270 --> 00:00:06,250
+now let's return to that.
+
+2
+00:00:06,250 --> 00:00:09,760
+There are two types of categorical data, nominal and ordinal.
+
+3
+00:00:09,760 --> 00:00:12,360
+So how can we graphically summarize nominal and
+
+4
+00:00:12,360 --> 00:00:14,380
+ordinal categorical data?
+
+5
+00:00:14,380 --> 00:00:17,160
+Let's talk first about nominal categorical data.
+
+6
+00:00:18,380 --> 00:00:19,630
+So here we have an example.
+
+7
+00:00:19,630 --> 00:00:22,380
+We have colors of US cars.
+
+8
+00:00:22,380 --> 00:00:25,620
+Okay, so what are some ways that we could summarize this data?
+
+9
+00:00:26,950 --> 00:00:32,020
+Well, we're gonna use a pivot table tool to basically find out how many
+
+10
+00:00:32,020 --> 00:00:35,000
+cars were of each color or the percentage of cars of each color.
+
+11
+00:00:35,000 --> 00:00:36,470
+We'll do the percentage.
+
+12
+00:00:36,470 --> 00:00:39,410
+Okay, so now we can select this data here.
+
+13
+00:00:40,420 --> 00:00:41,970
+And if you're not familiar with pivot tables,
+
+14
+00:00:41,970 --> 00:00:44,380
+you can follow these steps pretty easily and
+
+15
+00:00:44,380 --> 00:00:46,230
+the book has a lot of stuff on this.
+
+16
+00:00:46,230 --> 00:00:50,296
+Insert pivot table, okay, now we'll say the current worksheet,
+
+17
+00:00:53,950 --> 00:00:57,720
+Okay, now we wanna drag the car type here.
+
+18
+00:00:59,900 --> 00:01:04,320
+All the colors are there and then value is right here.
+
+19
+00:01:04,320 --> 00:01:08,090
+It's gonna count how many cars of each type, there were 500 cars here.
+
+20
+00:01:08,090 --> 00:01:10,760
+Now we can leave it like this to summarize, but maybe we want to know
+
+21
+00:01:10,760 --> 00:01:15,630
+the percentage of basically cars that were each color.
+
+22
+00:01:15,630 --> 00:01:17,660
+So then you can right-click on a pivot table.
+
+23
+00:01:17,660 --> 00:01:19,130
+Right-clicking is very helpful.
+
+24
+00:01:20,615 --> 00:01:22,350
+Right-click and
+
+25
+00:01:22,350 --> 00:01:28,340
+we can do Summarize > Show Values as Percentage of Column.
+
+26
+00:01:29,880 --> 00:01:33,260
+Now we see what percentage of the cars were each color.
+
+27
+00:01:33,260 --> 00:01:36,052
+Now you may want the car that's most common here,
+
+28
+00:01:36,052 --> 00:01:38,930
+gray or white to be on top.
+
+29
+00:01:38,930 --> 00:01:42,150
+You could go here and go Data Sort, you don't have to do that.
+
+30
+00:01:44,070 --> 00:01:47,631
+We will go largest to smallest.
+
+31
+00:01:47,631 --> 00:01:49,490
+Now we can do a chart.
+
+32
+00:01:49,490 --> 00:01:53,530
+So we can do a column chart or we could do a pie chart, okay.
+
+33
+00:01:53,530 --> 00:01:55,220
+So we want to do a column chart.
+
+34
+00:01:55,220 --> 00:01:56,400
+Basically go analyze,
+
+35
+00:01:56,400 --> 00:02:00,650
+you can create a chart from the pivot table by clicking on Analyze.
+
+36
+00:02:00,650 --> 00:02:04,030
+Okay, and then there's PivotChart and you can pick your type of chart.
+
+37
+00:02:04,030 --> 00:02:05,995
+Now the column chart is fine for me now.
+
+38
+00:02:08,929 --> 00:02:13,200
+So I can see the percentage of cars that basically were each color.
+
+39
+00:02:13,200 --> 00:02:16,460
+It goes grey, white, silver, I think I'm a little low on green.
+
+40
+00:02:16,460 --> 00:02:19,190
+I think a lot more cars are green than what I have here, but
+
+41
+00:02:19,190 --> 00:02:20,140
+that's okay.
+
+42
+00:02:20,140 --> 00:02:23,480
+But you might also wanna summarize this as a pie chart.
+
+43
+00:02:23,480 --> 00:02:25,260
+So you want to summarize this as a pie chart,
+
+44
+00:02:25,260 --> 00:02:26,960
+you can always change the type of chart.
+
+45
+00:02:26,960 --> 00:02:32,170
+You can go right-click, Change Chart Type, okay, so I can go pie chart.
+
+46
+00:02:33,840 --> 00:02:36,760
+Okay, now that's a pretty boring pie chart cuz it doesn't have any
+
+47
+00:02:36,760 --> 00:02:38,400
+numbers inside there.
+
+48
+00:02:38,400 --> 00:02:42,720
+It does have the orange being the black car, etc.
+
+49
+00:02:42,720 --> 00:02:49,090
+But then if you go up into Excel, you go Format, sorry, Design.
+
+50
+00:02:49,090 --> 00:02:50,020
+Add Chart Element.
+
+51
+00:02:52,090 --> 00:02:56,200
+And you can go Data Labels and say More Label Options.
+
+52
+00:02:57,230 --> 00:03:00,369
+Okay, and now I wanna show the value and
+
+53
+00:03:00,369 --> 00:03:04,820
+I wanna show the category name in this cell.
+
+54
+00:03:04,820 --> 00:03:09,455
+Okay, so that would show like the brown cars were 8.3%, etc, and
+
+55
+00:03:09,455 --> 00:03:11,824
+I think that's a better pie chart.
+
+56
+00:03:14,331 --> 00:03:20,540
+So that let's you summarize again our nominal categorical data.
+
+57
+00:03:20,540 --> 00:03:22,280
+But we could have done it with a column chart.
+
+58
+00:03:22,280 --> 00:03:23,930
+I guess I like the pie chart better.
+
+59
+00:03:23,930 --> 00:03:26,660
+A lot of statisticians don't like pie charts, but
+
+60
+00:03:26,660 --> 00:03:30,041
+I think that's fairly nice there to show you what's going on.
+
+61
+00:03:30,041 --> 00:03:33,491
+In our next video, we'll talk about ordinal data and
+
+62
+00:03:33,491 --> 00:03:35,260
+how we can summarize that.
+
+63
+00:03:35,260 --> 00:03:39,530
+Again, the PivotTable will be the key basis of how we do this.
+

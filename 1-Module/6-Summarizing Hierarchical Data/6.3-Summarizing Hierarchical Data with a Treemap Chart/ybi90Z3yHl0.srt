@@ -1,0 +1,244 @@
+0
+00:00:01,130 --> 00:00:05,050
+In this video, we're gonna show you how to create an exciting Treemap
+
+1
+00:00:05,050 --> 00:00:07,420
+chart to summarize hierarchical data.
+
+2
+00:00:07,420 --> 00:00:10,630
+So, suppose you own an independent bookstore, and basically,
+
+3
+00:00:10,630 --> 00:00:14,860
+in column A you have sort of the major types of books you sell,
+
+4
+00:00:14,860 --> 00:00:17,040
+arts and photography, nonfiction.
+
+5
+00:00:17,040 --> 00:00:18,419
+You may sell some magazine,
+
+6
+00:00:18,419 --> 00:00:21,690
+science fiction and fantasy which some people like.
+
+7
+00:00:21,690 --> 00:00:22,950
+And then you have sub genre.
+
+8
+00:00:22,950 --> 00:00:23,562
+So, basically, for
+
+9
+00:00:23,562 --> 00:00:27,410
+children's book, you may have baby books aged three through five.
+
+10
+00:00:27,410 --> 00:00:28,898
+And there is no sub genre for
+
+11
+00:00:28,898 --> 00:00:31,307
+baby books before aged three through five.
+
+12
+00:00:31,307 --> 00:00:33,305
+We have first readers, ABCs and for
+
+13
+00:00:33,305 --> 00:00:36,303
+those parents who really wanna get their kids going,
+
+14
+00:00:36,303 --> 00:00:39,567
+we have Tolstoy for Tots that you can learn all about War and
+
+15
+00:00:39,567 --> 00:00:43,500
+Peace and Anna Karenina, the two greatest novels ever written.
+
+16
+00:00:43,500 --> 00:00:45,490
+So we have the revenue for each of these categories.
+
+17
+00:00:45,490 --> 00:00:47,350
+We wanna summarize, basically,
+
+18
+00:00:47,350 --> 00:00:49,700
+which of our books are selling a lot, okay?
+
+19
+00:00:49,700 --> 00:00:51,830
+Cuz these numbers just don't tell us much.
+
+20
+00:00:51,830 --> 00:00:55,190
+A chart is always a better way to summarize data if
+
+21
+00:00:55,190 --> 00:00:57,080
+you can come up with the right chart.
+
+22
+00:00:57,080 --> 00:01:02,530
+So, basically, if I just select this data, and
+
+23
+00:01:02,530 --> 00:01:04,690
+all I have to do is do Insert.
+
+24
+00:01:04,690 --> 00:01:06,980
+And then, what's new here is right here.
+
+25
+00:01:06,980 --> 00:01:10,430
+There's Treemap and Sunburst hierarchy chart.
+
+26
+00:01:10,430 --> 00:01:13,420
+So, let's do Treemap right here.
+
+27
+00:01:13,420 --> 00:01:15,120
+Now, we wanna make this bigger.
+
+28
+00:01:15,120 --> 00:01:18,220
+But basically, the areas are proportional to the numbers that we
+
+29
+00:01:18,220 --> 00:01:20,190
+have in the last column.
+
+30
+00:01:20,190 --> 00:01:23,440
+Okay, so we have the children's books,
+
+31
+00:01:23,440 --> 00:01:28,140
+we've got basically the 1st Readers, ABCs, Tolstoy for Tots, we can see
+
+32
+00:01:28,140 --> 00:01:31,670
+1st Readers was the best seller from the children's books there.
+
+33
+00:01:33,400 --> 00:01:37,850
+We can see that up here, the 24,000, and
+
+34
+00:01:37,850 --> 00:01:44,090
+if you hover over a number here, it should show you, basically,
+
+35
+00:01:44,090 --> 00:01:47,920
+right there, see there you can see the numerical value there.
+
+36
+00:01:47,920 --> 00:01:50,370
+And we can change the way these labels look in a minute.
+
+37
+00:01:50,370 --> 00:01:53,410
+Now, the problem is, what size should you make this chart?
+
+38
+00:01:53,410 --> 00:01:55,710
+So, I mean, you don't wanna make it too big or
+
+39
+00:01:55,710 --> 00:01:58,780
+basically, you couldn't print it or see all of it.
+
+40
+00:01:58,780 --> 00:02:01,430
+But if you make it bigger, you're gonna get more detail.
+
+41
+00:02:01,430 --> 00:02:04,820
+So, you just have to experiment with what size you want this thing to be.
+
+42
+00:02:04,820 --> 00:02:06,850
+But the main lesson we learned here is the orange,
+
+43
+00:02:06,850 --> 00:02:09,800
+the children's book, are the biggest percentage of our sales.
+
+44
+00:02:09,800 --> 00:02:12,630
+We don't sell much science fiction and fantasy.
+
+45
+00:02:12,630 --> 00:02:15,120
+We might use this reallocate our shelf space.
+
+46
+00:02:15,120 --> 00:02:18,560
+Then, are magazines here, we can see are in green.
+
+47
+00:02:18,560 --> 00:02:22,040
+But, basically, this is a really nice way to summarize for
+
+48
+00:02:22,040 --> 00:02:24,670
+a company that sells stuff what, basically,
+
+49
+00:02:24,670 --> 00:02:26,670
+are the products that you're selling.
+
+50
+00:02:26,670 --> 00:02:28,730
+Now if I right click in a blank space here and
+
+51
+00:02:28,730 --> 00:02:33,030
+do Format Data Series, I can change this to say banner.
+
+52
+00:02:33,030 --> 00:02:35,940
+So now, the labels look a little bit different which I think looks
+
+53
+00:02:35,940 --> 00:02:36,748
+a little bit better.
+
+54
+00:02:36,748 --> 00:02:41,108
+So that Treemap chart is one great way to summarize hierarchical data.
+
+55
+00:02:41,108 --> 00:02:45,358
+In the next video, we'll see a Sunburst chart which
+
+56
+00:02:45,358 --> 00:02:50,310
+basically can also be used to summarize hierarchical data.
+
+57
+00:02:50,310 --> 00:02:52,289
+See the one thing here that's the problem is,
+
+58
+00:02:52,289 --> 00:02:55,538
+I didn't see the breakdown for the age three through five kids.
+
+59
+00:02:55,538 --> 00:02:56,903
+Okay, and basically,
+
+60
+00:02:56,903 --> 00:02:59,912
+we'll see in the Sunburst chart that would show up.
+

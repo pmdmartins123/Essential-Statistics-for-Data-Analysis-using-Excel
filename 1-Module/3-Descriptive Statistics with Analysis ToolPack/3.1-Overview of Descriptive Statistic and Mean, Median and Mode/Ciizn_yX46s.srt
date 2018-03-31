@@ -1,0 +1,228 @@
+0
+00:00:00,940 --> 00:00:03,500
+Let's take a closer look at Descriptive Statistics.
+
+1
+00:00:03,520 --> 00:00:05,879
+Descriptive Statistics do exactly that,
+
+2
+00:00:05,890 --> 00:00:08,069
+they describe your data. Specifically its
+
+3
+00:00:08,080 --> 00:00:11,070
+most common values dispersion and distribution.
+
+4
+00:00:11,090 --> 00:00:14,490
+Here's a list of values which may represent something like say
+
+5
+00:00:14,510 --> 00:00:16,650
+hourly sales of cupcakes,
+
+6
+00:00:16,670 --> 00:00:19,230
+Descriptive Statistics includes measures
+
+7
+00:00:19,250 --> 00:00:21,359
+of central tendency the most common of
+
+8
+00:00:21,370 --> 00:00:23,390
+which is the mean or average.
+
+9
+00:00:23,410 --> 00:00:25,350
+We can calculate the Population Mean
+
+10
+00:00:25,370 --> 00:00:27,599
+represented by the Greek symbol mu or
+
+11
+00:00:27,610 --> 00:00:30,460
+the Sample Mean which is represented by x-bar.
+
+12
+00:00:30,480 --> 00:00:32,279
+The equation for calculating the
+
+13
+00:00:32,290 --> 00:00:34,200
+population or Sample Mean essentially
+
+14
+00:00:34,220 --> 00:00:36,180
+says to sum all of the values for that
+
+15
+00:00:36,200 --> 00:00:38,100
+variable and then divide by the number
+
+16
+00:00:38,120 --> 00:00:40,290
+of values that we have. In this case we
+
+17
+00:00:40,310 --> 00:00:42,300
+sum the individual values related to
+
+18
+00:00:42,320 --> 00:00:45,059
+cupcake sales and obtain a total of 90
+
+19
+00:00:45,070 --> 00:00:46,860
+and then divide by the number of values
+
+20
+00:00:46,880 --> 00:00:51,090
+15 to produce a mean of 6. Another way
+
+21
+00:00:51,110 --> 00:00:53,219
+another measure of central tendency is
+
+22
+00:00:53,230 --> 00:00:55,530
+to calculate the median which represents
+
+23
+00:00:55,550 --> 00:00:57,420
+the middle value in the data set.
+
+24
+00:00:57,440 --> 00:00:59,489
+To find the position of the middle value
+
+25
+00:00:59,500 --> 00:01:02,280
+in a sorted list add 1 to the length of
+
+26
+00:01:02,300 --> 00:01:05,930
+the list and divide by 2, here we have 15 values.
+
+27
+00:01:05,950 --> 00:01:11,300
+We will add 1 to make 16 and divide by 2 to get a result of 8.
+
+28
+00:01:11,320 --> 00:01:13,560
+This tells us that the median value is the
+
+29
+00:01:13,580 --> 00:01:16,170
+8th value in the sorted list which is 6
+
+30
+00:01:16,190 --> 00:01:19,170
+the same as the Mean. The mode is even
+
+31
+00:01:19,190 --> 00:01:21,390
+easier to calculate, it's simply the most
+
+32
+00:01:21,410 --> 00:01:23,650
+frequently occurring value in the dataset.
+
+33
+00:01:23,670 --> 00:01:28,150
+In this case the mode is 6, for a normal distribution of values
+
+34
+00:01:28,170 --> 00:01:32,020
+the mean, median and mode around the same value.
+
+35
+00:01:32,040 --> 00:01:34,530
+Now let's look at those same
+
+36
+00:01:34,550 --> 00:01:36,750
+statistics for a data set that doesn't
+
+37
+00:01:36,770 --> 00:01:39,509
+have a normal distribution, here's a list
+
+38
+00:01:39,520 --> 00:01:42,329
+of daily leaflet handout counts again
+
+39
+00:01:42,340 --> 00:01:44,909
+we'll start with the Sample Mean, we sum
+
+40
+00:01:44,920 --> 00:01:46,860
+the values in our data and then divide
+
+41
+00:01:46,880 --> 00:01:49,560
+by the number of values. Here the sum of
+
+42
+00:01:49,580 --> 00:01:52,740
+our values is 108 and then we divide by
+
+43
+00:01:52,760 --> 00:01:57,680
+the number of values which is 16 to produce a mean of 6.75.
+
+44
+00:01:57,700 --> 00:02:00,810
+Now to find the median which represents the
+
+45
+00:02:00,830 --> 00:02:02,969
+middle value in the data set we add 1 to
+
+46
+00:02:02,980 --> 00:02:05,430
+the length of the list and divide by 2
+
+47
+00:02:05,450 --> 00:02:08,789
+in this case we have 16 values, we add 1
+
+48
+00:02:08,800 --> 00:02:11,459
+which is 17 divided by 2 and we find
+
+49
+00:02:11,470 --> 00:02:13,140
+that the median would be in the
+
+50
+00:02:13,160 --> 00:02:16,200
+position 8.5 in a sorted list.
+
+51
+00:02:16,220 --> 00:02:18,750
+This us that the median value is halfway
+
+52
+00:02:18,770 --> 00:02:21,360
+between the eighth and ninth values in
+
+53
+00:02:21,380 --> 00:02:25,610
+that sorted list. In this list those values are 6 and 7.
+
+54
+00:02:25,630 --> 00:02:30,450
+So the median is halfway between 6 and 7 or 6.5
+
+55
+00:02:30,470 --> 00:02:32,610
+and the mode the most frequently occurring
+
+56
+00:02:32,630 --> 00:02:38,060
+value in the data set, in this case the mode is 5.
+

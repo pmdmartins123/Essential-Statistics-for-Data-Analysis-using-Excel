@@ -1,0 +1,520 @@
+0
+00:00:00,600 --> 00:00:04,620
+So we've been using the analysis tool backer, the data analysis add
+
+1
+00:00:04,620 --> 00:00:07,770
+in that you see here to get these descriptive statistics.
+
+2
+00:00:07,770 --> 00:00:11,740
+But Excel has built in many great statistical functions that you can
+
+3
+00:00:11,740 --> 00:00:14,335
+use to basically get the same information.
+
+4
+00:00:14,335 --> 00:00:16,405
+So I'd like to show you how these functions works,
+
+5
+00:00:16,405 --> 00:00:17,365
+because you may prefer them.
+
+6
+00:00:18,395 --> 00:00:20,515
+Now, if we're going to refer to data often,
+
+7
+00:00:20,515 --> 00:00:22,965
+it often helps to name the data.
+
+8
+00:00:22,965 --> 00:00:26,815
+So, in other words, here is our Cisco data right here.
+
+9
+00:00:26,815 --> 00:00:29,615
+So if I want to color that right there,
+
+10
+00:00:29,615 --> 00:00:31,225
+wouldn't it be nice if I could just name that?
+
+11
+00:00:31,225 --> 00:00:32,775
+And then I don't have to keep pointing to it,
+
+12
+00:00:32,775 --> 00:00:35,650
+I could actually just type the name of the data in there.
+
+13
+00:00:35,650 --> 00:00:39,490
+There is a shortcut using the F3 key to paste the range name in.
+
+14
+00:00:39,490 --> 00:00:43,170
+So, if I select this range of my data, and
+
+15
+00:00:43,170 --> 00:00:48,278
+I can go to this name box here and I can type let's say, Cisco
+
+16
+00:00:48,278 --> 00:00:54,810
+right there and hit enter, now I have named that data Cisco.
+
+17
+00:00:54,810 --> 00:00:56,720
+So if I go to that name box here and
+
+18
+00:00:56,720 --> 00:01:00,790
+I type Click on Cisco, it highlights the data.
+
+19
+00:01:00,790 --> 00:01:04,588
+So basically, I could of course point to this data all the time, but
+
+20
+00:01:04,588 --> 00:01:06,855
+if I'm somewhere else in the workbook,
+
+21
+00:01:06,855 --> 00:01:09,922
+then basically it'll be nice to just use the name, and
+
+22
+00:01:09,922 --> 00:01:12,608
+the F3 key let's you paste a name in a formula.
+
+23
+00:01:15,949 --> 00:01:17,550
+And this is very useful.
+
+24
+00:01:17,550 --> 00:01:21,160
+So let's really duplicate with Excel functions what we got
+
+25
+00:01:21,160 --> 00:01:22,390
+from the analysis tool pack.
+
+26
+00:01:23,600 --> 00:01:26,580
+Okay, so how would I get the mean for Cisco?
+
+27
+00:01:26,580 --> 00:01:30,900
+I could use average as the function, now I could
+
+28
+00:01:30,900 --> 00:01:35,620
+actually just type the word Cisco, I mean Excel would autocomplete that.
+
+29
+00:01:35,620 --> 00:01:38,120
+It understands the range frame so I can use that F3 trick or
+
+30
+00:01:38,120 --> 00:01:39,650
+just point to the data.
+
+31
+00:01:39,650 --> 00:01:43,350
+But I'll average Cisco there, okay, now this is a null thing,
+
+32
+00:01:43,350 --> 00:01:45,350
+Excel thinks it's a date.
+
+33
+00:01:45,350 --> 00:01:49,100
+Okay, so I'm gonna format all these things to be a couple of decimal
+
+34
+00:01:49,100 --> 00:01:53,450
+points, Ctrl+1 brings up Format Cells, and
+
+35
+00:01:53,450 --> 00:01:56,720
+I can make these all be let's say, four decimal points.
+
+36
+00:01:56,720 --> 00:01:59,700
+Okay, so you can see that matches exactly what I have there.
+
+37
+00:01:59,700 --> 00:02:04,020
+Now a neat feature starting Excel 2013 is I can show you the formulas
+
+38
+00:02:04,020 --> 00:02:05,620
+with formula text.
+
+39
+00:02:05,620 --> 00:02:08,460
+If I click FORMULATEXT you're basically gonna
+
+40
+00:02:08,460 --> 00:02:10,590
+see the formula there, okay.
+
+41
+00:02:12,100 --> 00:02:13,240
+Now what about the median,
+
+42
+00:02:13,240 --> 00:02:16,420
+there is a function called MEDIAN that gives you the median.
+
+43
+00:02:17,560 --> 00:02:23,450
+And I can hit F3 now, and the F3 key, see, there's Cisco.
+
+44
+00:02:24,460 --> 00:02:29,445
+I can paste that name in there, see it highlights the data in blue,
+
+45
+00:02:29,445 --> 00:02:33,020
+and I can just copy that formula text down here.
+
+46
+00:02:35,479 --> 00:02:36,430
+Now the mode.
+
+47
+00:02:36,430 --> 00:02:39,470
+There are bunch of mode function cuz mode is most frequently
+
+48
+00:02:39,470 --> 00:02:41,540
+occurring value, there could be more than one mode.
+
+49
+00:02:41,540 --> 00:02:46,140
+I don't want to get into that or readings and the data
+
+50
+00:02:46,140 --> 00:02:50,010
+analysis could talk about that, but let's just use the mode function.
+
+51
+00:02:50,010 --> 00:02:51,470
+So there's a couple of them here it's just
+
+52
+00:02:51,470 --> 00:02:53,280
+not worth the complications.
+
+53
+00:02:53,280 --> 00:02:57,393
+But I'd say mode and basically I should, mode of Cisco or
+
+54
+00:02:57,393 --> 00:03:02,289
+I can use that F3 track, and see that matches what we've got here.
+
+55
+00:03:05,169 --> 00:03:10,495
+Standard deviation, the function is stdev, this time I'll use F3,
+
+56
+00:03:10,495 --> 00:03:15,660
+paste in Cisco, and I'm not sure which is easier, F3 or typing it.
+
+57
+00:03:17,270 --> 00:03:25,600
+That's 12.2%, and the variants use VAR function, I'll type Cisco.
+
+58
+00:03:27,820 --> 00:03:29,340
+That matches what we have here.
+
+59
+00:03:31,120 --> 00:03:34,360
+Now I'll talk about kurtosis briefly, it's not too important.
+
+60
+00:03:34,360 --> 00:03:36,610
+Sounds like a fatal disease, she has kurtosis,
+
+61
+00:03:36,610 --> 00:03:38,600
+she has three months to live.
+
+62
+00:03:38,600 --> 00:03:42,810
+But skewness, there's a function skew, and
+
+63
+00:03:42,810 --> 00:03:46,610
+I'll do Cisco and that matches the skewness.
+
+64
+00:03:46,610 --> 00:03:49,690
+By the way, if you type in a function in Excel,
+
+65
+00:03:49,690 --> 00:03:51,745
+go to the Function wizard and you wanna know more,
+
+66
+00:03:51,745 --> 00:03:55,245
+you can click on help, and you can see the ugly skewness formula.
+
+67
+00:03:55,245 --> 00:03:57,195
+But I don't think we really need to know it,
+
+68
+00:03:57,195 --> 00:03:59,095
+there is the ugly skewness formula.
+
+69
+00:03:59,095 --> 00:04:01,365
+We just need to know what it does, okay.
+
+70
+00:04:01,365 --> 00:04:03,504
+So then I could do formula text again here.
+
+71
+00:04:06,288 --> 00:04:10,450
+And kurtosis basically measures The shape of the histogram,
+
+72
+00:04:10,450 --> 00:04:14,460
+whether it looks like a bell curve, and when it's near 0.
+
+73
+00:04:14,460 --> 00:04:17,650
+The kurtosis means that it looks like a bell curve,
+
+74
+00:04:17,650 --> 00:04:20,850
+when it's not near zero, it doesn't look like a bell curve.
+
+75
+00:04:20,850 --> 00:04:23,450
+This can be important when you're looking at stock returns,
+
+76
+00:04:23,450 --> 00:04:25,790
+to see if they have what's called fat tails.
+
+77
+00:04:25,790 --> 00:04:29,140
+They are spread out more than the bell curve, but
+
+78
+00:04:29,140 --> 00:04:30,960
+just to show you there is a function for this.
+
+79
+00:04:30,960 --> 00:04:33,470
+Although, nothing that we're gonna give you for
+
+80
+00:04:33,470 --> 00:04:36,270
+homework or exams will involve this.
+
+81
+00:04:36,270 --> 00:04:40,610
+But basically you should know these functions available here of enhanced
+
+82
+00:04:40,610 --> 00:04:44,250
+Kurt Jock, that are jock at, that would be important.
+
+83
+00:04:44,250 --> 00:04:47,370
+Okay, now we've got a couple more functions we wanna show you here,
+
+84
+00:04:47,370 --> 00:04:50,420
+before we go on to the next video which we'll deal with some more
+
+85
+00:04:50,420 --> 00:04:53,120
+Excel statistical functions in a different file.
+
+86
+00:04:53,120 --> 00:04:55,590
+But often we wanna know percent dollars of a dataset so
+
+87
+00:04:55,590 --> 00:04:58,470
+the ninetieth percent on Cisco, what does that mean?
+
+88
+00:04:58,470 --> 00:05:08,130
+That means 9 out of 10 months below that, 1 in 10 above that.
+
+89
+00:05:08,130 --> 00:05:11,770
+The 10th percent all means 1 and 10 below, 9 and 10 above.
+
+90
+00:05:11,770 --> 00:05:14,110
+So there's a couple of functions that do this.
+
+91
+00:05:14,110 --> 00:05:21,330
+So I type in percent, there's a PERCENTILE.EXC and PERCENTILE.INC.
+
+92
+00:05:21,330 --> 00:05:24,570
+Now, the book explains the difference between these
+
+93
+00:05:24,570 --> 00:05:26,000
+it's pretty complicated.
+
+94
+00:05:26,000 --> 00:05:30,010
+But the .exe I think is considered a better one.
+
+95
+00:05:30,010 --> 00:05:31,750
+Microsoft added this I think in 2015.
+
+96
+00:05:31,750 --> 00:05:34,350
+So we'll use that.
+
+97
+00:05:34,350 --> 00:05:37,930
+And so then I would basically type in the range name, which is CSCO,
+
+98
+00:05:37,930 --> 00:05:40,330
+and that I want the 90th percentile.
+
+99
+00:05:40,330 --> 00:05:43,100
+I type in 0.9, so roughly this should be a pretty
+
+100
+00:05:43,100 --> 00:05:45,890
+good return of nine out of ten months or worse.
+
+101
+00:05:45,890 --> 00:05:49,390
+And one out of ten months or above that.
+
+102
+00:05:49,390 --> 00:05:53,895
+21% return, one out of ten months roughly CISCO does better than
+
+103
+00:05:53,895 --> 00:05:59,610
+20.6%, nine out of ten months CISCO does worst than 20.6%.
+
+104
+00:05:59,610 --> 00:06:04,530
+Now, sometimes we wanna know where our data point ranks in a data set,
+
+105
+00:06:04,530 --> 00:06:06,360
+basically represented.
+
+106
+00:06:06,360 --> 00:06:09,656
+I look at row 1 53, no reason but it was a bad month.
+
+107
+00:06:09,656 --> 00:06:15,860
+Cisco loss 14%, so the question is where does that row rank?
+
+108
+00:06:15,860 --> 00:06:18,474
+Probably pretty badly as a percentile, so
+
+109
+00:06:18,474 --> 00:06:22,247
+there is a percent rank function, okay not to be confused with
+
+110
+00:06:22,247 --> 00:06:26,620
+percentile function let me just show you again the formula text there.
+
+111
+00:06:29,322 --> 00:06:34,455
+Okay, so we wanna know where August 1998 ranked,
+
+112
+00:06:34,455 --> 00:06:40,060
+I can do percent rank, PERCENTRANK.EXC( I prefer.
+
+113
+00:06:40,060 --> 00:06:42,230
+Okay, now the array is again Cisco.
+
+114
+00:06:43,970 --> 00:06:46,030
+And F 153 was the value.
+
+115
+00:06:46,030 --> 00:06:48,020
+The significance has no significance.
+
+116
+00:06:48,020 --> 00:06:51,396
+It's how many decimal points you want, really not very important.
+
+117
+00:06:51,396 --> 00:06:52,146
+Okay, so
+
+118
+00:06:52,146 --> 00:06:57,610
+basically 4.5% of the months roughly were worse than August 1998.
+
+119
+00:06:57,610 --> 00:06:59,560
+So it was indeed a bad month.
+
+120
+00:07:01,010 --> 00:07:04,850
+Now people sometimes get confused by percentile, percent, and rank.
+
+121
+00:07:04,850 --> 00:07:09,668
+So basically what you should know is percentile returns
+
+122
+00:07:09,668 --> 00:07:13,774
+a value from the dataset, like a stock return.
+
+123
+00:07:17,473 --> 00:07:23,490
+Percent rank, returns in a sense a probability.
+
+124
+00:07:23,490 --> 00:07:27,230
+Or it serves a four and a half percent chance that basically
+
+125
+00:07:27,230 --> 00:07:30,620
+a month would be worse than that, minus 14 percent.
+
+126
+00:07:30,620 --> 00:07:34,690
+But the percentile returns a value of the data set which I can make
+
+127
+00:07:34,690 --> 00:07:39,390
+a percentage if I do Ctrl+1, I can make that into a percentage.
+
+128
+00:07:39,390 --> 00:07:42,321
+Now, in the next video we are going to show you a couple of more
+
+129
+00:07:42,321 --> 00:07:45,673
+Excel functions that can be very useful to you when you analyze data.
+

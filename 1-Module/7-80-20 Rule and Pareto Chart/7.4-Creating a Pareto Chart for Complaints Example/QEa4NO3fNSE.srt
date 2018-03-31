@@ -1,0 +1,200 @@
+0
+00:00:00,510 --> 00:00:02,050
+In the last video in this module,
+
+1
+00:00:02,050 --> 00:00:03,920
+we're gonna teach you how to do a Pareto chart,
+
+2
+00:00:03,920 --> 00:00:07,690
+sort of based on customer complaints, okay?
+
+3
+00:00:07,690 --> 00:00:08,944
+So, let's suppose you own a small restaurant.
+
+4
+00:00:08,944 --> 00:00:11,138
+And hopefully, you don't get that many complaints, but
+
+5
+00:00:11,138 --> 00:00:12,136
+here are the complaints.
+
+6
+00:00:12,136 --> 00:00:16,562
+Small Portions, the wait staff was rude, the taste of the product it
+
+7
+00:00:16,562 --> 00:00:21,620
+didn't taste very good, and then there's too salty, dirty, etc.
+
+8
+00:00:21,620 --> 00:00:24,560
+Okay, not happy to hear this if you run a restaurant.
+
+9
+00:00:24,560 --> 00:00:27,960
+So, we'd like to summarize these complaints with a Pareto chart.
+
+10
+00:00:27,960 --> 00:00:31,540
+Now, unfortunately, the way that Excel has set up the Pareto chart,
+
+11
+00:00:31,540 --> 00:00:33,230
+we can't do it right off the bat, but
+
+12
+00:00:33,230 --> 00:00:36,080
+we can use a pivot table to summarize this data.
+
+13
+00:00:36,080 --> 00:00:39,170
+We will keep track of how many of each complaint occurred with
+
+14
+00:00:39,170 --> 00:00:40,560
+a pivot table, and
+
+15
+00:00:40,560 --> 00:00:44,230
+then we'll have to extract that data from the pivot table because
+
+16
+00:00:44,230 --> 00:00:46,960
+Excel is not equipped to do Pareto charts from a pivot table.
+
+17
+00:00:46,960 --> 00:00:49,000
+But this will take a minute or two.
+
+18
+00:00:49,000 --> 00:00:51,390
+So, okay, all we have to do is select our data,
+
+19
+00:00:52,640 --> 00:00:56,170
+we'll do insert a pivot table, Excel understands.
+
+20
+00:00:56,170 --> 00:00:58,300
+Actually, we could've just been anywhere inside that data.
+
+21
+00:00:58,300 --> 00:00:59,741
+We'll do existing worksheet.
+
+22
+00:01:03,017 --> 00:01:07,070
+And now, we see how many complaints we had if we drag complaints to
+
+23
+00:01:07,070 --> 00:01:10,120
+the row, complaints to the value.
+
+24
+00:01:10,120 --> 00:01:12,130
+We can see, unfortunately, the taste and
+
+25
+00:01:12,130 --> 00:01:14,840
+the wait staff being rude hurt us.
+
+26
+00:01:14,840 --> 00:01:18,560
+Now, if I just copy this stuff out, then I can do the Pareto chart.
+
+27
+00:01:18,560 --> 00:01:23,505
+So, I'll copy that stuff out, Now,
+
+28
+00:01:23,505 --> 00:01:27,250
+I just have to select this, and now I can do a Pareto chart.
+
+29
+00:01:27,250 --> 00:01:29,710
+So, I can do insert, just like we did in the last video.
+
+30
+00:01:30,760 --> 00:01:33,130
+There's Pareto chart, and there it is.
+
+31
+00:01:33,130 --> 00:01:34,280
+So, I can see the taste and
+
+32
+00:01:34,280 --> 00:01:36,970
+the wait staff rude were causing me a lot of problems.
+
+33
+00:01:36,970 --> 00:01:40,660
+Now, this red line is concentrated in the center of the bar.
+
+34
+00:01:40,660 --> 00:01:42,850
+You couldn't really see that in the last video.
+
+35
+00:01:42,850 --> 00:01:49,110
+But, for instance, the taste was 160 our of 470, about 34 or 35%.
+
+36
+00:01:49,110 --> 00:01:53,950
+So, in the middle of that first bar for taste, we have center, or
+
+37
+00:01:53,950 --> 00:01:55,810
+we really are hitting 35%.
+
+38
+00:01:55,810 --> 00:01:58,810
+And then, basically, Excel sort of
+
+39
+00:01:58,810 --> 00:02:03,240
+draws a smooth curve connecting those percentages at the mid points,
+
+40
+00:02:03,240 --> 00:02:07,010
+but we can see taste and the wait staff rude are our big problems.
+
+41
+00:02:07,010 --> 00:02:09,390
+So, we would concentrate on taste of our food and
+
+42
+00:02:09,390 --> 00:02:12,610
+also the hiring process or the training of the wait staff.
+
+43
+00:02:12,610 --> 00:02:15,240
+We wouldn't worry about the saltiness in our food, and
+
+44
+00:02:15,240 --> 00:02:17,640
+it looks like people are getting it okay.
+
+45
+00:02:17,640 --> 00:02:20,670
+Probably because the taste is bad and the wait staff is rude,
+
+46
+00:02:20,670 --> 00:02:22,690
+there's no problem getting in.
+
+47
+00:02:22,690 --> 00:02:24,360
+So, on our next module,
+
+48
+00:02:24,360 --> 00:02:27,230
+we're gonna talk about the wonders of probability,
+
+49
+00:02:27,230 --> 00:02:30,640
+which is really important for understanding data and statistics.
+

@@ -1,0 +1,43 @@
+So in this video we'll show you how to create a pirato chart using a new
+Excel 2016 capability which illustrates the fact that
+a small percentage of our products generate most of our revenue.
+So I've listed a bunch of products here, how many do I have?
+I think a hundred.
+They don't have to be in any order, notice the first product
+doesn't make much money but the second product does and
+basically we would like to have a Pareto chart.
+So all we have to do is select our data, okay, go insert, and
+where we found the box and whisker plot, and basically the histogram.
+There's the Pareto chart, the lines and the bars.
+There is a Pareto chart.
+So you can see we've listed the product sales in descending order.
+Product two was our best product, sold the most.
+And then basically product 64, etc.
+And then this red bar, red line here,
+gives the percentage of our sales by the products reading left to right.
+So you can see they get 80% basically of your basically,
+your revenue,
+you would follow the 80% over the year until the red line hits 80%.
+Noticed that the red line gets flatter.
+Why is that?
+The red curve.
+Because basically every time
+you increase the x-axis by one you're adding a new product.
+The y axis the slope is basically based on what you're adding in
+revenue.
+And you can see that basically, when you're adding later products,
+you're adding less in revenue, so the curve gets flat.
+Notice when you get down here, you're not adding much percentage
+to the coverage of sales but at the beginning you're adding a lot there.
+And it turns out in this example 36 products would basically
+give you 80% in your revenues so wasn't quite a Pareto
+principle that 20 out of 100 generated 80% as your revenue.
+But in real data I have seen it really does hold that 20% of your
+products will usually generate 80% of your revenue or
+profit, or 20% of your customers generate 80% of your profit.
+Now in the next video we'll show you how to create
+a Pareto Chart that basically you would use in quality control
+to sort of summarize complaints about a restaurant.
+And you'll see you can't quite use the Pareto capability right off
+the bat that we've used here because the data is qualitative and
+it's not listed numerically.

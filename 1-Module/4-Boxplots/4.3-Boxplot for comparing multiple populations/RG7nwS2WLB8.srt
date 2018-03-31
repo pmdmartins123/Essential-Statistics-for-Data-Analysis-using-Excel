@@ -1,0 +1,216 @@
+0
+00:00:00,610 --> 00:00:01,970
+If you recall in lesson three,
+
+1
+00:00:01,970 --> 00:00:06,340
+we spent a lot of time comparing monthly returns on GM and Cisco.
+
+2
+00:00:06,340 --> 00:00:09,390
+We did it with a histogram, we did it with descriptive statistics.
+
+3
+00:00:09,390 --> 00:00:10,920
+We'll see a box plot really,
+
+4
+00:00:10,920 --> 00:00:13,810
+I think more easily summarizes the differences and
+
+5
+00:00:13,810 --> 00:00:17,510
+similarities between the monthly returns on Cisco and GM.
+
+6
+00:00:17,510 --> 00:00:21,310
+Now, ideally you would like to have the GM returns in one column and
+
+7
+00:00:21,310 --> 00:00:24,860
+the Cisco returns in another column, like we did in lesson three, but
+
+8
+00:00:24,860 --> 00:00:28,770
+Microsoft's box plot capabilities doesn't support that at present.
+
+9
+00:00:28,770 --> 00:00:33,190
+So what I had to do is put the GM returns in one column, and
+
+10
+00:00:33,190 --> 00:00:35,910
+then the Cisco returns right below that.
+
+11
+00:00:35,910 --> 00:00:39,340
+So, you have to set things up like that,
+
+12
+00:00:39,340 --> 00:00:42,640
+not have your data in multiple columns in this situation.
+
+13
+00:00:42,640 --> 00:00:45,920
+So now we can create a box plot for GM and Cisco with the data set up
+
+14
+00:00:45,920 --> 00:00:49,920
+like this by going Ctrl+Shift+Right arrow+Down arrow.
+
+15
+00:00:49,920 --> 00:00:52,000
+Then again, we'll pick up box and whisker plot.
+
+16
+00:00:55,801 --> 00:00:57,160
+There we go.
+
+17
+00:00:57,160 --> 00:01:01,005
+And again, from the Design tab, I like to make it black.
+
+18
+00:01:02,289 --> 00:01:04,711
+Okay, now what do we learn from this here?
+
+19
+00:01:04,711 --> 00:01:06,870
+Okay, what can we learn about GM and Cisco?
+
+20
+00:01:06,870 --> 00:01:08,620
+We've already learned a lot of stuff.
+
+21
+00:01:08,620 --> 00:01:10,470
+That Cisco does better on average.
+
+22
+00:01:10,470 --> 00:01:11,934
+How do you see that?
+
+23
+00:01:11,934 --> 00:01:16,165
+Typically than GM, because the upper whisker for Cisco is higher, and
+
+24
+00:01:16,165 --> 00:01:18,280
+the box for Cisco is higher.
+
+25
+00:01:18,280 --> 00:01:19,390
+So for typical value,
+
+26
+00:01:19,390 --> 00:01:23,420
+it's easy to see visually that Cisco did better than GM.
+
+27
+00:01:23,420 --> 00:01:24,400
+Okay.
+
+28
+00:01:24,400 --> 00:01:29,150
+Now, basically we had symmetry for both Cisco and GM.
+
+29
+00:01:29,150 --> 00:01:30,550
+And how can we sort of see that?
+
+30
+00:01:30,550 --> 00:01:33,780
+Well, basically, the height of the top whisker and
+
+31
+00:01:33,780 --> 00:01:35,580
+the bottom whisker are roughly the same.
+
+32
+00:01:35,580 --> 00:01:37,910
+So we don't have much skewness, okay.
+
+33
+00:01:37,910 --> 00:01:40,450
+If the top whisker was much bigger than the bottom whisker,
+
+34
+00:01:40,450 --> 00:01:42,270
+you'd have a lot of skewness.
+
+35
+00:01:42,270 --> 00:01:43,172
+Okay?
+
+36
+00:01:43,172 --> 00:01:46,506
+If the bottom whisker was much bigger than the top whisker,
+
+37
+00:01:46,506 --> 00:01:50,255
+you'd have a lot of negative skewness, it spits right out at you.
+
+38
+00:01:50,255 --> 00:01:53,756
+Now, here's an outlier, you can see that X there is an outlier,
+
+39
+00:01:53,756 --> 00:01:56,980
+cuz it's below the bottom of the lower whisker.
+
+40
+00:01:56,980 --> 00:01:59,990
+Now, the third dimension on which we summarize data
+
+41
+00:01:59,990 --> 00:02:01,640
+is spread about the mean.
+
+42
+00:02:01,640 --> 00:02:05,930
+And we can see the box for Cisco is taller than the box for GM,
+
+43
+00:02:05,930 --> 00:02:08,360
+which means there's more spread about the mean.
+
+44
+00:02:08,360 --> 00:02:11,560
+And the whiskers for Cisco are bigger than the whiskers for
+
+45
+00:02:11,560 --> 00:02:14,730
+GM, which means, again, there's more spread about the mean for
+
+46
+00:02:14,730 --> 00:02:16,210
+Cisco than GM.
+
+47
+00:02:16,210 --> 00:02:19,130
+So, we've seen visually, in a minute or
+
+48
+00:02:19,130 --> 00:02:23,670
+two, the comparisons between Cisco and GM on the three dimensions we
+
+49
+00:02:23,670 --> 00:02:28,090
+care about, and I think a picture is much more powerful than numbers.
+
+50
+00:02:28,090 --> 00:02:32,460
+So a box plot is just fantastic for comparing data sets.
+
+51
+00:02:32,460 --> 00:02:36,170
+In the next video, we'll show you how you can do box plots
+
+52
+00:02:36,170 --> 00:02:37,780
+where you have multiple populations, but
+
+53
+00:02:37,780 --> 00:02:39,860
+multiple variables on each population.
+

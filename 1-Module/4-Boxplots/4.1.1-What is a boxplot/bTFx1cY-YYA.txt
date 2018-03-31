@@ -1,0 +1,70 @@
+We're now gonna show you how box plots give you a great
+visual summary of one data set or multiple data sets.
+So let's do this with a really interesting example.
+It's actually a life and death example that's used by a lot of
+statisticians to explain box plots.
+We'll talk about the 1970 selective service draft lottery in the US.
+This was, if you don't know your history,
+the peak of the Vietnam War.
+So, they put every birthday,
+January 1st through December 31st, including February 29th,
+there was a capsule with each date, put in a big container and
+they mixed them up, they thought they mixed them up randomly.
+They put in December last,
+remember that, January 1st then February dates, etc.
+Then they would pick the balls out and, basically,
+January 1st was the 305th capsule picked out.
+January 2nd, the 159th.
+And if you got a low number, like number 17 there,
+you were pretty likely to be drafted and sent to Vietnam, so
+obviously this was a life and death decision.
+If you got a number of 350, then basically you will had no chance of
+really being drafted, you could have enlisted, of course.
+Okay, so, statisticians looked at this draft lottery and
+they said it really wasn't done randomly or fairly and
+the box plots will help us really figure that out.
+Okay, so I'm going to show you the finished box plot first to try and
+explain what the parts of a box plot mean, and
+then we'll create this and come back and interpret it.
+So, basically, for every month, okay,
+those were our 12 populations, the draft lottery numbers for the month.
+So January, there were 31 days in January, so these were the numbers
+for the dates in January, the order which they were picked out.
+So, for instance, that date in January was picked up very late.
+That date in January was picked out very early.
+So how could you summarize these 12,
+366 days of draft orderly numbers very quickly?
+Well this is what we mean by, actually, a box plot, or a box and
+whisker plot.
+The whiskers are the lines, the boxes are the boxes.
+Okay, so what are the pieces of information you get in a box plot
+about a data set?
+Okay, well, you have the box.
+Okay, the lower limit of the box is the 25th percentile of the data.
+Okay, the upper limit of the box is the 75th percentile of the data.
+And then you see inside the box, you'll see an X and
+you'll see a line.
+Okay, the horizontal line is the median, and the X is the mean.
+So we have been talking about those things but now we can actually
+see them, as the Chinese say, a picture is worth 1000 words.
+Then you have the whisker, top whisker and the bottom whisker.
+And now the top whisker basically is computed by Microsoft to be
+the 75th percentile plus 1.5 times the interquartile range.
+What's the interquartile range?
+It's the 75th percentile minus the 25th percentile.
+Or you cut it off at the top value of the data set and,
+basically, outliers anything that's more than 1.5 interquartile ranges
+from either end of the box.
+We'll see some outliers later.
+But this gives us a really quick summary of the data sets.
+We can talk about skewness, we can talk about typical value,
+we can talk about spread about the mean and compare data sets.
+So in the next video, we're gonna create the box plot for
+the draft data, and then we're gonna see that statisticians were
+really right, that basically this was not a fairer lottery.
+Remember that we said the December dates were put in last?
+So if you think about last in,
+first out, if you didn't sort of mix those capsules up randomly,
+you'd expect the later months of the year to be picked earlier.
+And that's what happened.
+And the box plot makes that clear.

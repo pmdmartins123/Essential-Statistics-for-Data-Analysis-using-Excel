@@ -1,0 +1,64 @@
+In this video we're gonna talk about some common shapes of histograms
+that you should be able to recognize.
+And also how you can use histograms to compare different variables.
+So let's look at IQs again which we looked at in the last video.
+So I have a slightly different data set so I have a histogram of IQs.
+And as we mentioned this is what we call a symmetric histogram.
+If you look at the most frequently occurring bin, the highest bin,
+it looks sorta the same, one bin to the left, one bin to the right, etc.
+Then another very common type of histogram is something like
+income in a city or a county or even a country.
+This does not look symmetric at all.
+Here you have the most frequently occurring income in the US,
+or based on my fake data.
+And then basically this is certainly not symmetric.
+You see basically the bars here go much further to the right of
+the peak than the left of the peak.
+So that's called skewed right or positively skewed.
+Because again, the bars go much further to the right of the most
+frequently occurring income than they go to the left.
+This is very common in economic and financial data.
+Now negatively skewed data is not that common to be honest but
+here's an example.
+The number of days from conception til a woman gives birth, okay.
+Now the most common number of days would be roughly 280 days or
+nine months.
+And I don't know what the Guinness Book of World Records is for
+the most days from conception to birth.
+I'm sure no woman wants to experience that.
+But basically we can see you can't go much over nine months or
+the doctor will induce labor.
+So maybe suppose the record is 300 days,
+the bars would go a little bit to the right of 280.
+But they go much further to the left because babies thankfully can be
+born healthy at six months, six and a half months.
+Maybe some of you watching this video fall into that category.
+So there we would have data that's skewed to the left because the bars
+go further to the left were negatively skewed.
+Now we can also use histograms to compare visually data from different
+variables.
+So if we look at returns on Cisco and
+GM which we'll talk a lot about in these videos here, okay.
+We've got histograms for the monthly returns on GM and
+Cisco in the 1990s.
+And so we've made those histograms basically be set
+up with the same set of axes here, okay.
+And then basically what can we say from these two histograms?
+If we look at typical value for GM and Cisco, what can we say?
+Well, Cisco goes further to the right so
+the typical return on Cisco in the 1990s
+would be basically higher than the typical return on GM.
+We can also, as we'll see later, look at that spread about the mean.
+You can see the Cisco returns are more spread out.
+You have more up here.
+You have more down here and less in the middle.
+With regards to the skewness,
+these both look fairly symmetric as histograms.
+So we really can't say much about
+the difference in the skewness basically of Cisco and GM returns.
+And we'll see this quantified with numerical statistics in a couple of
+videos.
+So now that we know to create histograms to visually summarize
+a dataset.
+We want to turn our attention to basically coming up with numerical
+measures that summarize a data set.

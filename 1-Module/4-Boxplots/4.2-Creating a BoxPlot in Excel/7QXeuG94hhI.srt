@@ -1,0 +1,120 @@
+0
+00:00:00,520 --> 00:00:05,200
+Now, let's learn how to create an actual box plot and interpret it.
+
+1
+00:00:05,200 --> 00:00:07,550
+So, let's go back to that draft lottery data.
+
+2
+00:00:07,550 --> 00:00:11,760
+So, in column A, we have the month, January through December of course,
+
+3
+00:00:11,760 --> 00:00:15,900
+and in column B, we have the number which the date was picked.
+
+4
+00:00:15,900 --> 00:00:17,580
+So, January 1st was picked 305th.
+
+5
+00:00:19,040 --> 00:00:22,750
+December 31st was picked a 100th, December 30th was picked third.
+
+6
+00:00:22,750 --> 00:00:25,460
+So, how can we summarize this data by month?
+
+7
+00:00:25,460 --> 00:00:28,190
+Well, we select the data in red, CTRL + SHIFT right arrow,
+
+8
+00:00:28,190 --> 00:00:32,000
+down arrow, and then we go Insert and then we'll get box and
+
+9
+00:00:32,000 --> 00:00:34,610
+whisker plot right here.
+
+10
+00:00:35,740 --> 00:00:40,160
+And, I'm just gonna click on the design tab and make this be black,
+
+11
+00:00:40,160 --> 00:00:42,050
+I think it looks better.
+
+12
+00:00:42,050 --> 00:00:44,100
+Okay, you can see things better.
+
+13
+00:00:44,100 --> 00:00:47,940
+Now, there's a definite downward trend here in the ends of the year.
+
+14
+00:00:47,940 --> 00:00:50,230
+You can see October, November, December,
+
+15
+00:00:50,230 --> 00:00:55,670
+you can see that the line here connecting the medians drops down.
+
+16
+00:00:55,670 --> 00:00:59,788
+And so, basically, that indicates that the months later in the year
+
+17
+00:00:59,788 --> 00:01:04,048
+seem to have, on the average, lower draft numbers which meant you were
+
+18
+00:01:04,048 --> 00:01:07,466
+more likely to go to Vietnam and, unfortunately, die.
+
+19
+00:01:07,466 --> 00:01:11,410
+Okay, and so, basically, statisticians concluded there wasn't
+
+20
+00:01:11,410 --> 00:01:14,946
+sort of adequate mixing of the capsules, that, basically,
+
+21
+00:01:14,946 --> 00:01:18,688
+the ones that were put in last were more likely to be picked first.
+
+22
+00:01:18,688 --> 00:01:21,897
+Now in 1971, they changed the mixing procedure, and
+
+23
+00:01:21,897 --> 00:01:26,284
+in a homework problem, you'll do the box plot for the 1971 draft lottery,
+
+24
+00:01:26,284 --> 00:01:30,700
+and you'll see that this pattern at the end of the year did not exist.
+
+25
+00:01:30,700 --> 00:01:31,700
+And in our next video,
+
+26
+00:01:31,700 --> 00:01:35,970
+we'll do another box plot, going back to our Cisco and GM data, and
+
+27
+00:01:35,970 --> 00:01:39,600
+showing how we can easily compare Cisco and GM with a box plot.
+
+28
+00:01:39,600 --> 00:01:43,250
+Probably much easier to do that than use the descriptive statistics or
+
+29
+00:01:43,250 --> 00:01:44,761
+the histograms that we used earlier.
+

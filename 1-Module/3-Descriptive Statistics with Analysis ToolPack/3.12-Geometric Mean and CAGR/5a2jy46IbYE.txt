@@ -1,0 +1,74 @@
+Okay, let's suppose you're looking at stock returns, rates of growth or
+basically growth in revenues for a company.
+So let's look at two stocks here.
+The first stock every year went up 5%.
+The second stock it went down 50%, up 70%, down 50% up 70%.
+Which of these stocks is better?
+Well, you might look at the average return.
+So you might take the average here, it's gonna be obviously 5%.
+So every year, your money grows by 5%.
+Now you look at the second stock just topping that average across,
+the average return is higher than 10%.
+So it looks like Stock 2 is better, but the answer is it's not.
+Okay, cause the volatility in Stock 2 will eventually kill you.
+If you're in Stock 1, your money will always grow.
+But in Stock 2, your money will decline.
+So what would happen if you start with a dollar in Stock 2.
+Well, the first year you might lose 50%, so you'd be down to $0.50.
+Then you'd grow by 70%, you'd have 1.7 times what you had here, okay.
+Then you'd lose 50%, so you would end up here and
+then you would grow by 70% and you'd end up here.
+That be less money than what you started with.
+If you follow this pattern in four years,
+even though your average return is 10%, you'd have less money.
+So you don't wanna say Stock 2 is better.
+So here's where we need the concept of geometric mean,
+which leads to CAGRs or compound annual growth rate.
+So the geometric mean of n numbers is the nth root
+of the product of those numbers.
+So if I took one, two and four, you multiply those, you get eight.
+The cube root of 8 is 2 cuz 2 times 2 times 2 is 8.
+Now there's a formula or a function in Excel,
+GEOMEAN which would give you 2 there.
+Okay, now so how do you sort of get sort of a typical
+annual growth rate for a stock or revenue growth for
+a corporation, given numbers like these.
+Okay, and that's called the CAGR, not beer, but
+compound annual growth rate.
+But you ask anybody who's been to an MBA program about CAGR,
+they may talk about beer, but
+they'll also talk about compound annual growth rate.
+Okay, so what I did is I took one plus the returns, 1.05, etc.
+One plus the minus 0.5 is 0.5, 1.7 is the one plus this, etc.
+Then you take the geometric mean to get the CAGR,
+basically our compound annual growth rate.
+Basically for each stock and you subtract one.
+So you take geometric mean of these four
+guys minus one, that's gonna come out to 5%.
+It should show you that formula.
+We'll widen the column by double-clicking.
+Now if I copy that across,
+you'll see the second stock has a negative CAGR, negative 8%.
+So Stock 2 has a CAGR of minus 8% per year.
+Okay, and that makes sense because we saw that if you invest in Stock
+2, you would decline over time.
+And basically, if you would take one plus this CAGR to the fourth power,
+you'd get this $0.72.
+If I would take one plus, that's what I mean,
+it's a compound annual growth rate.
+One plus that, carat over the six raises to the fourth power.
+You see those two are exactly the same there.
+Okay, that's $0.72 you'd have in four years,
+if you projected the CAGR four years, you'd have $0.72.
+So these CAGRs are really important and
+the reason they're important again is the volatility.
+In the long run, volatility will cause you to eventually lose money
+if the means are equal.
+Okay, if you've got two data sets where the means are equal,
+the one with the volatility is gonna have the lower compound
+annual growth rate.
+Now in the next lesson, we're gonna start talking about box plots,
+which is new to Excel 2016, beautiful box plots.
+They give you a fantastic way to quickly compare data sets and
+understand the concepts we've been talking about.
+Central location spread about the mean and skewness.

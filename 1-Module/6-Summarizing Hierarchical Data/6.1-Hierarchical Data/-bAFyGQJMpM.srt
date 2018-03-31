@@ -1,0 +1,336 @@
+0
+00:00:00,770 --> 00:00:03,250
+Hierarchical data sets are perfect when
+
+1
+00:00:03,270 --> 00:00:04,720
+there are natural groupings or layers
+
+2
+00:00:04,740 --> 00:00:06,850
+within the data. Organizational
+
+3
+00:00:06,870 --> 00:00:08,650
+structures are classic examples of
+
+4
+00:00:08,670 --> 00:00:10,210
+hierarchical data sets,
+
+5
+00:00:10,230 --> 00:00:12,430
+other examples include product models,
+
+6
+00:00:12,450 --> 00:00:15,610
+inventory lists, it goes on. Essentially
+
+7
+00:00:15,630 --> 00:00:17,710
+hierarchical data uses a one-to-many
+
+8
+00:00:17,730 --> 00:00:20,500
+relationship for data elements. It uses a
+
+9
+00:00:20,520 --> 00:00:22,539
+structure that links desparate elements
+
+10
+00:00:22,550 --> 00:00:25,210
+to one owner or parent. In hierarchical
+
+11
+00:00:25,230 --> 00:00:27,730
+data each child record has only one
+
+12
+00:00:27,750 --> 00:00:30,010
+parent but each parent record can have
+
+13
+00:00:30,030 --> 00:00:33,100
+one or more children. In this example you
+
+14
+00:00:33,120 --> 00:00:34,719
+can see that vehicles can be divided
+
+15
+00:00:34,730 --> 00:00:36,579
+into children called cars and trucks
+
+16
+00:00:36,590 --> 00:00:39,129
+within a car you might have different
+
+17
+00:00:39,140 --> 00:00:42,069
+types Toyota and Ford, and within that a
+
+18
+00:00:42,080 --> 00:00:44,379
+specific version of a Toyota car and a
+
+19
+00:00:44,390 --> 00:00:46,449
+specific version of a Toyota truck.
+
+20
+00:00:46,460 --> 00:00:48,670
+Of course this relationship can be
+
+21
+00:00:48,690 --> 00:00:50,789
+depicted in a slightly different way.
+
+22
+00:00:50,800 --> 00:00:53,589
+Here the ultimate parent is still
+
+23
+00:00:53,600 --> 00:00:56,199
+vehicle but the children are now the
+
+24
+00:00:56,210 --> 00:00:57,850
+different types of vehicles that you
+
+25
+00:00:57,870 --> 00:00:59,709
+could have, Ford and Toyota
+
+26
+00:00:59,720 --> 00:01:02,109
+rather than truck and car as was in the
+
+27
+00:01:02,120 --> 00:01:05,230
+previous example. Children of Ford and Toyota
+
+28
+00:01:05,250 --> 00:01:07,030
+are now truck and car and their
+
+29
+00:01:07,050 --> 00:01:10,780
+children are focus & f-150. Looking at
+
+30
+00:01:10,800 --> 00:01:12,970
+these relationships in a table can be
+
+31
+00:01:12,990 --> 00:01:15,400
+overwhelming, providing visual structure
+
+32
+00:01:15,420 --> 00:01:17,500
+to hierarchical data can help with
+
+33
+00:01:17,520 --> 00:01:19,990
+interpretation within Excel you have two
+
+34
+00:01:20,010 --> 00:01:21,970
+very cool choices and how to display
+
+35
+00:01:21,990 --> 00:01:25,650
+hierarchical data, Tree maps or Sunburst charts
+
+36
+00:01:25,670 --> 00:01:27,610
+you might wonder when should use
+
+37
+00:01:27,630 --> 00:01:29,800
+one over the other. It shouldn't surprise
+
+38
+00:01:29,820 --> 00:01:31,900
+you to know that the answer lies in what
+
+39
+00:01:31,920 --> 00:01:33,430
+you want to convey by creating the
+
+40
+00:01:33,450 --> 00:01:36,070
+visualization. Tree maps like you see
+
+41
+00:01:36,090 --> 00:01:38,860
+here are by their rectangular nature are
+
+42
+00:01:38,880 --> 00:01:41,010
+better suited for comparison among
+
+43
+00:01:41,030 --> 00:01:44,080
+hierarchical levels, a tree map makes it
+
+44
+00:01:44,100 --> 00:01:46,090
+easy to spot patterns such as which
+
+45
+00:01:46,110 --> 00:01:48,400
+organizations spent the most money on HR,
+
+46
+00:01:48,420 --> 00:01:50,590
+physical resources, or other functions
+
+47
+00:01:50,610 --> 00:01:52,360
+and within each of those spending
+
+48
+00:01:52,380 --> 00:01:54,640
+categories more specifically where the
+
+49
+00:01:54,660 --> 00:01:57,280
+money was spent. Tree maps display
+
+50
+00:01:57,300 --> 00:01:59,830
+categories by color with each sub branch
+
+51
+00:01:59,850 --> 00:02:02,710
+being a different color. The size of the
+
+52
+00:02:02,730 --> 00:02:04,500
+rectangle represents a category
+
+53
+00:02:04,520 --> 00:02:06,940
+corresponding with its importance in the
+
+54
+00:02:06,960 --> 00:02:09,009
+hierarchical structure, in other words
+
+55
+00:02:09,020 --> 00:02:11,639
+how much is below it in the hierarchy.
+
+56
+00:02:11,650 --> 00:02:15,370
+Tree maps are good for comparing proportions within
+
+57
+00:02:15,390 --> 00:02:17,470
+the hierarchy, but they are not good at
+
+58
+00:02:17,490 --> 00:02:20,290
+showing hierarchical levels for that you
+
+59
+00:02:20,310 --> 00:02:23,379
+need a Sunburst chart. In Sunburst charts
+
+60
+00:02:23,390 --> 00:02:24,940
+each level of the hierarchy is
+
+61
+00:02:24,960 --> 00:02:27,010
+represented by one ring with the
+
+62
+00:02:27,030 --> 00:02:29,800
+innermost ring being the top hierarchy.
+
+63
+00:02:29,820 --> 00:02:32,590
+A Sunburst chart without any hierarchical
+
+64
+00:02:32,610 --> 00:02:35,160
+data has only one level of category is
+
+65
+00:02:35,180 --> 00:02:38,260
+essentially a donut chart, however a
+
+66
+00:02:38,280 --> 00:02:40,209
+Sunburst chart with multiple levels of
+
+67
+00:02:40,220 --> 00:02:42,670
+categories shows how the outer rings
+
+68
+00:02:42,690 --> 00:02:44,980
+relate to the inner rings. You can use
+
+69
+00:02:45,000 --> 00:02:47,290
+Sunburst charts to emphasize a single
+
+70
+00:02:47,310 --> 00:02:49,480
+slice allowing you to dig deeper into
+
+71
+00:02:49,500 --> 00:02:51,310
+different areas of the hierarchy of
+
+72
+00:02:51,330 --> 00:02:54,099
+interest, for example a sales report may
+
+73
+00:02:54,110 --> 00:02:56,110
+want to highlight a specific month or
+
+74
+00:02:56,130 --> 00:02:58,989
+business unit. Sunburst charts show the
+
+75
+00:02:59,000 --> 00:03:00,970
+full picture of the hierarchy
+
+76
+00:03:00,990 --> 00:03:02,709
+and illustrate the different depths of the
+
+77
+00:03:02,720 --> 00:03:05,260
+hierarchical groups whereas a tree map
+
+78
+00:03:05,280 --> 00:03:07,900
+loses the categories in the middle. As a
+
+79
+00:03:07,920 --> 00:03:09,940
+result Sunburst charts are most
+
+80
+00:03:09,960 --> 00:03:12,220
+effective at showing how one ring is
+
+81
+00:03:12,240 --> 00:03:14,140
+broken into its contributing pieces,
+
+82
+00:03:14,160 --> 00:03:16,660
+while Tree maps are ideal for comparing
+
+83
+00:03:16,680 --> 00:03:20,000
+relative sizes within each level of the hierarchy.
+

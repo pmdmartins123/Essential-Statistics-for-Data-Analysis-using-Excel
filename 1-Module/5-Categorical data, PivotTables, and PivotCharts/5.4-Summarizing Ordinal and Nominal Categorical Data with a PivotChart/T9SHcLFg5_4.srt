@@ -1,0 +1,272 @@
+0
+00:00:00,640 --> 00:00:03,410
+In this video, we'll discuss a really important way to
+
+1
+00:00:03,410 --> 00:00:07,410
+analyze categorical data known as cross tabulation.
+
+2
+00:00:07,410 --> 00:00:11,290
+What you wanna do is figure out how several categorical variables affect
+
+3
+00:00:11,290 --> 00:00:12,910
+the different categorical variables.
+
+4
+00:00:12,910 --> 00:00:14,580
+So here's an example.
+
+5
+00:00:14,580 --> 00:00:16,820
+So, people don't really buy station wagons anymore.
+
+6
+00:00:16,820 --> 00:00:18,320
+But suppose you have a bunch of families,
+
+7
+00:00:18,320 --> 00:00:21,580
+yes means they bought a station wagon, no means they didn't.
+
+8
+00:00:21,580 --> 00:00:23,800
+Then the family size is either large or small.
+
+9
+00:00:23,800 --> 00:00:25,350
+These are all categorical.
+
+10
+00:00:25,350 --> 00:00:28,780
+Large family is more than two children, small family
+
+11
+00:00:28,780 --> 00:00:32,390
+is zero to two children then their salaries is either high or low.
+
+12
+00:00:32,390 --> 00:00:35,860
+So looking at this data which has no numbers, can we create
+
+13
+00:00:35,860 --> 00:00:40,704
+a table which sort of tells us what causes people to buy station wagons,
+
+14
+00:00:40,704 --> 00:00:44,450
+or what demographics are associated with station wagons.
+
+15
+00:00:44,450 --> 00:00:47,670
+So a pivot table will work out really well with this.
+
+16
+00:00:47,670 --> 00:00:52,290
+Now I should basically put my cursor anywhere inside the data.
+
+17
+00:00:52,290 --> 00:00:53,384
+I can do insert pivot table.
+
+18
+00:00:55,844 --> 00:00:56,780
+Okay.
+
+19
+00:00:56,780 --> 00:01:02,530
+And then you can see the series range there is B2 to through D345.
+
+20
+00:01:02,530 --> 00:01:03,940
+Excel picked it out.
+
+21
+00:01:03,940 --> 00:01:06,910
+I don't have to select the range, I can just be inside there.
+
+22
+00:01:06,910 --> 00:01:10,749
+Now I'll do existing let's say right down here.
+
+23
+00:01:10,749 --> 00:01:13,300
+Okay, now how do I want to lay this out?
+
+24
+00:01:13,300 --> 00:01:16,450
+So I wanna know yes or no, did they buy a station wagon?
+
+25
+00:01:16,450 --> 00:01:17,820
+So that'll go in the column field.
+
+26
+00:01:17,820 --> 00:01:21,950
+I wanna count that, so I'll put that in the values field.
+
+27
+00:01:21,950 --> 00:01:24,750
+And then the demographics or the other qualitative variables
+
+28
+00:01:24,750 --> 00:01:27,560
+I'll list in the row field, the order doesn't matter, but
+
+29
+00:01:27,560 --> 00:01:30,580
+I'll do family size and then I'll do salary.
+
+30
+00:01:31,840 --> 00:01:36,040
+So now I have a count of how many people fall into each group.
+
+31
+00:01:36,040 --> 00:01:38,780
+For example, large families with high salaries,
+
+32
+00:01:38,780 --> 00:01:42,860
+there's 34 people who did not buy a wagon.
+
+33
+00:01:42,860 --> 00:01:44,780
+Now if you wanna be a positive person,
+
+34
+00:01:44,780 --> 00:01:46,900
+you might want yes on the left.
+
+35
+00:01:46,900 --> 00:01:50,600
+You can click on column labels, sort z to a.
+
+36
+00:01:50,600 --> 00:01:53,370
+Now yes is on the left, not that that matters.
+
+37
+00:01:53,370 --> 00:01:56,360
+Now this breakdown isn't very meaningful, you need a percentage.
+
+38
+00:01:56,360 --> 00:01:58,970
+In other words, in each of those demographic groups,
+
+39
+00:01:58,970 --> 00:02:00,550
+what percentage bought a wagon?
+
+40
+00:02:00,550 --> 00:02:03,930
+That's what's known as cross tabs and we will return to cross tabs in
+
+41
+00:02:03,930 --> 00:02:07,000
+module five when we talk about the Chi squared test for independence.
+
+42
+00:02:08,020 --> 00:02:10,900
+So right here if I would go right click and
+
+43
+00:02:10,900 --> 00:02:13,510
+I could show values as percentage of row.
+
+44
+00:02:15,800 --> 00:02:19,500
+See now I know what percentage in each group bought the wagon.
+
+45
+00:02:19,500 --> 00:02:21,160
+We'll do this with a graph in a minute but
+
+46
+00:02:21,160 --> 00:02:23,370
+you can see the large families.
+
+47
+00:02:23,370 --> 00:02:26,180
+No matter what their salary, about 70% bought a wagon.
+
+48
+00:02:26,180 --> 00:02:29,960
+The small families, about 5%, no matter what their salaries,
+
+49
+00:02:29,960 --> 00:02:31,190
+bought a wagon.
+
+50
+00:02:31,190 --> 00:02:34,210
+So basically that means that the salary doesn't really matter,
+
+51
+00:02:34,210 --> 00:02:35,790
+it's the family size.
+
+52
+00:02:35,790 --> 00:02:38,750
+And so that's what a cross tabs analysis can show you.
+
+53
+00:02:38,750 --> 00:02:40,370
+Now again, if I want to go in there and
+
+54
+00:02:40,370 --> 00:02:44,950
+go analyze, pivot chart, this one will be absolutely fine.
+
+55
+00:02:44,950 --> 00:02:47,958
+Let's just move this over to the right here.
+
+56
+00:02:50,720 --> 00:02:52,250
+Or move it down let's say.
+
+57
+00:02:54,150 --> 00:02:58,860
+And basically our pivot chart shows us, okay, the large family is,
+
+58
+00:02:58,860 --> 00:03:00,880
+blue is the percentage that bought.
+
+59
+00:03:00,880 --> 00:03:04,160
+Okay, we can see no matter what the salary, high or low.
+
+60
+00:03:04,160 --> 00:03:08,930
+Lots of people bought, but small families, no matter what the salary,
+
+61
+00:03:08,930 --> 00:03:11,720
+high or low, not many people bought.
+
+62
+00:03:11,720 --> 00:03:15,190
+So we can see clearly here from our cross tabs analysis
+
+63
+00:03:15,190 --> 00:03:20,120
+that basically salary was less important than family size
+
+64
+00:03:20,120 --> 00:03:22,720
+in determining who bought a station wagon.
+
+65
+00:03:22,720 --> 00:03:27,629
+In the next lesson, we'll turn our attention to hierarchical data which
+
+66
+00:03:27,629 --> 00:03:31,034
+can be analyzed in a really neat fashion using Excel
+
+67
+00:03:31,034 --> 00:03:34,217
+2016's new sunburst and treemap charts.
+

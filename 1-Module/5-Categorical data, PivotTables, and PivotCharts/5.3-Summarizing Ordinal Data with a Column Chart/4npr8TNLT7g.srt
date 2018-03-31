@@ -1,0 +1,160 @@
+0
+00:00:00,610 --> 00:00:05,470
+In this video we're gonna learn how to graphically describe categorical
+
+1
+00:00:05,470 --> 00:00:06,160
+ordinal data.
+
+2
+00:00:06,160 --> 00:00:10,090
+So let's start with numerical data and try and put some categories in.
+
+3
+00:00:10,090 --> 00:00:12,880
+So we have the age of people that live in your town.
+
+4
+00:00:12,880 --> 00:00:14,375
+So how many people do we have?
+
+5
+00:00:14,375 --> 00:00:15,050
+5,000 people.
+
+6
+00:00:16,080 --> 00:00:18,897
+And so we might wanna break this up in to categories,
+
+7
+00:00:18,897 --> 00:00:22,240
+0-9 years old, 10-19, 20-29, 80-90.
+
+8
+00:00:22,240 --> 00:00:24,940
+Pivot table makes this a snap.
+
+9
+00:00:24,940 --> 00:00:27,590
+So select the data, including the heading.
+
+10
+00:00:27,590 --> 00:00:29,120
+Go insert, pivot table.
+
+11
+00:00:30,970 --> 00:00:32,860
+And we'll put this in the existing worksheet.
+
+12
+00:00:34,860 --> 00:00:37,420
+And then we'll pick age here.
+
+13
+00:00:37,420 --> 00:00:39,630
+Now, we want to count how many people in each age group.
+
+14
+00:00:39,630 --> 00:00:41,200
+We've got to be careful here.
+
+15
+00:00:41,200 --> 00:00:42,980
+See, it says, sum of age.
+
+16
+00:00:42,980 --> 00:00:45,440
+Excel was thinking you want to add these up. Okay.
+
+17
+00:00:45,440 --> 00:00:46,930
+So, like, for
+
+18
+00:00:46,930 --> 00:00:48,560
+six year olds, they add up to 300.
+
+19
+00:00:48,560 --> 00:00:51,150
+That means there's 50 six year olds.
+
+20
+00:00:51,150 --> 00:00:55,170
+But if you double click here, you can change this to count.
+
+21
+00:00:55,170 --> 00:00:56,750
+So now there's 50 six year olds.
+
+22
+00:00:56,750 --> 00:00:58,950
+But still, we want to put categories in there.
+
+23
+00:00:58,950 --> 00:01:00,870
+We want to group those ages.
+
+24
+00:01:00,870 --> 00:01:04,710
+So if you right click here, you can do group.
+
+25
+00:01:04,710 --> 00:01:05,960
+You can do ten year increments.
+
+26
+00:01:05,960 --> 00:01:09,500
+Zero through 90 in ten year increments.
+
+27
+00:01:09,500 --> 00:01:12,530
+See now we could graph this to get an idea of
+
+28
+00:01:12,530 --> 00:01:14,200
+basically the age distribution.
+
+29
+00:01:14,200 --> 00:01:17,330
+We could do percentages but we'll just leave it like this.
+
+30
+00:01:17,330 --> 00:01:18,740
+So we would do insert.
+
+31
+00:01:19,880 --> 00:01:22,310
+Okay, so we analyze.
+
+32
+00:01:22,310 --> 00:01:24,920
+And then basically Pivot Chart again.
+
+33
+00:01:24,920 --> 00:01:27,930
+And that column chart is absolutely fine.
+
+34
+00:01:27,930 --> 00:01:32,930
+And so now we've summarized our categorical ordinal data.
+
+35
+00:01:32,930 --> 00:01:35,390
+You can see there's a numerical order here.
+
+36
+00:01:35,390 --> 00:01:38,880
+The 90 year olds are older than the 0 to the nine year olds.
+
+37
+00:01:38,880 --> 00:01:42,220
+We can see the most common age group was baby bloomers, 50 to 59.
+
+38
+00:01:42,220 --> 00:01:47,000
+Now in the next video we'll show you an important way to summarize
+
+39
+00:01:47,000 --> 00:01:49,660
+categorical data known as cross tabs.
+

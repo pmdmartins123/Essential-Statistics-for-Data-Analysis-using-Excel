@@ -1,0 +1,88 @@
+0
+00:00:01,610 --> 00:00:05,136
+In this video, we're gonna show you how to install the Analysis ToolPak
+
+1
+00:00:05,136 --> 00:00:09,370
+add-in which is useful for a lot of calculations and statistics.
+
+2
+00:00:09,370 --> 00:00:10,830
+So you may already have this installed.
+
+3
+00:00:10,830 --> 00:00:15,380
+If you go to the data tab and you see Analysis ToolPak on the right or
+
+4
+00:00:15,380 --> 00:00:17,810
+Data Analysis add-in, you've got it.
+
+5
+00:00:17,810 --> 00:00:21,280
+Now, I uninstalled mine so I can show you how to install.
+
+6
+00:00:21,280 --> 00:00:28,650
+So all you do is you go to file, you go to options, you go to add-ins.
+
+7
+00:00:28,650 --> 00:00:31,080
+Now, don't click on Analysis ToolPak up here,
+
+8
+00:00:31,080 --> 00:00:33,620
+a lot of people make that mistake, you click go.
+
+9
+00:00:33,620 --> 00:00:37,760
+And now there's two Analysis ToolPak add-ins here,
+
+10
+00:00:37,760 --> 00:00:40,875
+Analysis ToolPak, Analysis ToolPak- VBA.
+
+11
+00:00:40,875 --> 00:00:46,520
+Don't worry about the VBA, just check Analysis ToolPak, click OK,
+
+12
+00:00:46,520 --> 00:00:50,760
+now if I go to data, you'll see Data Analysis and that's what we need.
+
+13
+00:00:50,760 --> 00:00:55,070
+Now, what happens to my students a lot is they've done this procedure
+
+14
+00:00:55,070 --> 00:01:00,100
+perfectly and it happens to me, and the Data Analysis add-in disappears.
+
+15
+00:01:00,100 --> 00:01:02,880
+Even though it's checked when you go add-ins.
+
+16
+00:01:02,880 --> 00:01:04,400
+Then what should you do?
+
+17
+00:01:04,400 --> 00:01:07,160
+You should uncheck it, okay, and
+
+18
+00:01:07,160 --> 00:01:12,310
+then reinstall it, that always seems to work and I have no clue why.
+
+19
+00:01:12,310 --> 00:01:13,290
+So in the next video,
+
+20
+00:01:13,290 --> 00:01:18,280
+we'll use this Data Analysis add-in to get descriptive statistics for
+
+21
+00:01:18,280 --> 00:01:21,610
+GM and Cisco monthly stock returns in the 1990s.
+

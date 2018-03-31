@@ -1,0 +1,30 @@
+Now, let's learn how to create an actual box plot and interpret it.
+So, let's go back to that draft lottery data.
+So, in column A, we have the month, January through December of course,
+and in column B, we have the number which the date was picked.
+So, January 1st was picked 305th.
+December 31st was picked a 100th, December 30th was picked third.
+So, how can we summarize this data by month?
+Well, we select the data in red, CTRL + SHIFT right arrow,
+down arrow, and then we go Insert and then we'll get box and
+whisker plot right here.
+And, I'm just gonna click on the design tab and make this be black,
+I think it looks better.
+Okay, you can see things better.
+Now, there's a definite downward trend here in the ends of the year.
+You can see October, November, December,
+you can see that the line here connecting the medians drops down.
+And so, basically, that indicates that the months later in the year
+seem to have, on the average, lower draft numbers which meant you were
+more likely to go to Vietnam and, unfortunately, die.
+Okay, and so, basically, statisticians concluded there wasn't
+sort of adequate mixing of the capsules, that, basically,
+the ones that were put in last were more likely to be picked first.
+Now in 1971, they changed the mixing procedure, and
+in a homework problem, you'll do the box plot for the 1971 draft lottery,
+and you'll see that this pattern at the end of the year did not exist.
+And in our next video,
+we'll do another box plot, going back to our Cisco and GM data, and
+showing how we can easily compare Cisco and GM with a box plot.
+Probably much easier to do that than use the descriptive statistics or
+the histograms that we used earlier.

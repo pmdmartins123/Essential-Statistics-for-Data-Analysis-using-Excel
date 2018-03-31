@@ -1,0 +1,352 @@
+0
+00:00:01,020 --> 00:00:04,040
+For any data set it's really important to understand
+
+1
+00:00:04,040 --> 00:00:06,120
+the normal range of variation.
+
+2
+00:00:06,120 --> 00:00:08,500
+The great American statistician, Edward Demings,
+
+3
+00:00:08,500 --> 00:00:13,560
+who helped Japan after World War II, come back from
+
+4
+00:00:13,560 --> 00:00:18,520
+their defeat to become a manufacturing power, really harped
+
+5
+00:00:18,520 --> 00:00:23,020
+on the importance of understanding normal variation with a data set.
+
+6
+00:00:23,020 --> 00:00:26,640
+So we're gonna use the rule of thumb here to understand normal variation
+
+7
+00:00:26,640 --> 00:00:27,410
+for a data set.
+
+8
+00:00:28,700 --> 00:00:33,244
+And basically the rule of thumb says in most data sets 95% of your data
+
+9
+00:00:33,244 --> 00:00:36,286
+is within two standard deviations of the mean.
+
+10
+00:00:39,562 --> 00:00:42,535
+And the 95% comes from the normal random variable,
+
+11
+00:00:42,535 --> 00:00:44,386
+you'll see why in module three.
+
+12
+00:00:44,386 --> 00:00:51,130
+Okay, and anything more than two standard deviations from the mean
+
+13
+00:00:53,350 --> 00:00:56,500
+is called an outlier or unusual data point.
+
+14
+00:00:56,500 --> 00:01:00,570
+And we'll highlight the outliers for Cisco, we'll focus on Cisco here.
+
+15
+00:01:00,570 --> 00:01:04,022
+Okay, so basically let's find the range of normal variation.
+
+16
+00:01:04,022 --> 00:01:07,645
+I'll actually give you sports example on this too, but
+
+17
+00:01:07,645 --> 00:01:09,350
+it's really important.
+
+18
+00:01:09,350 --> 00:01:11,690
+We'll give an example on sports and
+
+19
+00:01:11,690 --> 00:01:14,480
+IQs cuz this is such an important topic.
+
+20
+00:01:14,480 --> 00:01:17,220
+So for Cisco what is normal variation?
+
+21
+00:01:17,220 --> 00:01:19,676
+Okay, you would take the mean for
+
+22
+00:01:19,676 --> 00:01:24,081
+Cisco right there minus two times the standard deviation.
+
+23
+00:01:24,081 --> 00:01:27,175
+That's about -19%.
+
+24
+00:01:27,175 --> 00:01:32,290
+Then you would take the mean plus two standard deviations.
+
+25
+00:01:32,290 --> 00:01:34,100
+So normal variation for Cisco and
+
+26
+00:01:34,100 --> 00:01:37,100
+it's almost always a wider range than people think.
+
+27
+00:01:37,100 --> 00:01:41,710
+Normal variation for Cisco monthly return on stock in
+
+28
+00:01:41,710 --> 00:01:45,720
+the 1990s was -19% to 30%, okay.
+
+29
+00:01:45,720 --> 00:01:47,811
+And so if you saw a month for Cisco went up 25%,
+
+30
+00:01:47,811 --> 00:01:49,141
+well that's fairly typical.
+
+31
+00:01:49,141 --> 00:01:51,559
+Down 15% fairly typical.
+
+32
+00:01:51,559 --> 00:01:55,380
+Up 35%, not so typical.
+
+33
+00:01:55,380 --> 00:01:59,430
+So, another example, let's look at IQs which we've discussed.
+
+34
+00:01:59,430 --> 00:02:05,230
+So the mean for IQs, I guess it doesn't want to capitalize
+
+35
+00:02:05,230 --> 00:02:10,040
+is 100 and the standard deviation is 15.
+
+36
+00:02:10,040 --> 00:02:13,432
+So if we go within two standard deviations to the mean,
+
+37
+00:02:13,432 --> 00:02:17,933
+two standard deviations below that would be 100 minus 30, 70 and
+
+38
+00:02:17,933 --> 00:02:20,465
+two standard deviations above 130.
+
+39
+00:02:20,465 --> 00:02:26,220
+70 to 130 should have 95% of all people's IQs.
+
+40
+00:02:28,010 --> 00:02:32,250
+And that's exactly true, cuz IQs are symmetric.
+
+41
+00:02:34,000 --> 00:02:38,210
+And then an outlier would be an IQ above 130 or below 70.
+
+42
+00:02:38,210 --> 00:02:40,120
+Now, one other example on this.
+
+43
+00:02:40,120 --> 00:02:45,000
+Let's take football point spreads, which is a prediction by Las Vegas
+
+44
+00:02:45,000 --> 00:02:48,910
+of how many points a team will win a football game, the pro football.
+
+45
+00:02:51,700 --> 00:02:54,430
+The mean for a football game would be the Las Vegas
+
+46
+00:02:54,430 --> 00:02:56,890
+prediction that's pretty close.
+
+47
+00:02:56,890 --> 00:03:00,076
+Now every year if you take the standard deviation of the scores of
+
+48
+00:03:00,076 --> 00:03:03,322
+football games about the point spread you get about 14 points.
+
+49
+00:03:06,736 --> 00:03:10,438
+So if you look at a football game, like last year's Superbowl,
+
+50
+00:03:10,438 --> 00:03:13,468
+Carolina Panthers were favored by, let's say 5.
+
+51
+00:03:13,468 --> 00:03:17,180
+The Las Vegas people thought they'd win by 5.
+
+52
+00:03:17,180 --> 00:03:20,220
+So if you go double that standard deviation in either direction,
+
+53
+00:03:20,220 --> 00:03:23,372
+28 points in either direction, what would be a normal outcome for
+
+54
+00:03:23,372 --> 00:03:24,386
+that football game?
+
+55
+00:03:24,386 --> 00:03:28,264
+Carolina winning by 28, more than 5, 33.
+
+56
+00:03:28,264 --> 00:03:31,530
+They were playing Denver, who actually won.
+
+57
+00:03:31,530 --> 00:03:34,770
+Go 28 points below that, you go Denver by 23,
+
+58
+00:03:34,770 --> 00:03:38,590
+and that would be a normal range of variation.
+
+59
+00:03:38,590 --> 00:03:41,150
+Now Denver won, and that was considered a big upset.
+
+60
+00:03:41,150 --> 00:03:45,490
+But they didn't win by 23, so that was not an outlier.
+
+61
+00:03:45,490 --> 00:03:49,185
+So to conclude this video, let's show you how to highlight outliers.
+
+62
+00:03:49,185 --> 00:03:53,002
+Notice we have the lower limit here and we have the upper limit here.
+
+63
+00:03:53,002 --> 00:03:56,264
+So we wanna highlight stuff.
+
+64
+00:03:56,264 --> 00:04:00,440
+In Excel, there's a feature called conditional formatting which we're
+
+65
+00:04:00,440 --> 00:04:02,162
+not gonna do in total detail but
+
+66
+00:04:02,162 --> 00:04:05,889
+we can do highlight cells greater than a value or less than a value.
+
+67
+00:04:05,889 --> 00:04:10,111
+So if you would say anything that's greater than this value, we
+
+68
+00:04:10,111 --> 00:04:14,489
+can highlight in one color anything that's less than its value and
+
+69
+00:04:14,489 --> 00:04:17,740
+another color and that highlights our outlier.
+
+70
+00:04:17,740 --> 00:04:19,530
+So we first select our data,
+
+71
+00:04:19,530 --> 00:04:24,350
+control shift down arrow, we go home, conditional formatting.
+
+72
+00:04:25,390 --> 00:04:28,814
+And so we're gonna go highlight cells, we're gonna do greater than,
+
+73
+00:04:28,814 --> 00:04:31,107
+and I can just point I think to that value there.
+
+74
+00:04:34,824 --> 00:04:35,980
+We can make that red.
+
+75
+00:04:37,080 --> 00:04:39,900
+So everything above 29% is red.
+
+76
+00:04:39,900 --> 00:04:44,755
+And I can do home, conditional formatting, top-bottom rules,
+
+77
+00:04:44,755 --> 00:04:48,224
+sorry, highlight cells, less than okay, and
+
+78
+00:04:48,224 --> 00:04:50,924
+then I can point to this number here.
+
+79
+00:04:50,924 --> 00:04:56,750
+I should probably change the color, let's say green, doesn't matter.
+
+80
+00:04:58,010 --> 00:05:00,830
+So then I can see all the really good months were highlighted in red
+
+81
+00:05:00,830 --> 00:05:03,160
+that were outliers, that were unusual, and
+
+82
+00:05:03,160 --> 00:05:05,240
+all the bad months are highlighted in green.
+
+83
+00:05:05,240 --> 00:05:06,340
+There's one right there.
+
+84
+00:05:07,510 --> 00:05:11,490
+Okay, now in our next video we're gonna learn different ways to get
+
+85
+00:05:11,490 --> 00:05:14,350
+these statistics we got with the analysis tool pack.
+
+86
+00:05:14,350 --> 00:05:17,300
+There are Excel functions that will help you get these statistics, and
+
+87
+00:05:17,300 --> 00:05:19,670
+we're gonna show you how to do that in the next video.
+

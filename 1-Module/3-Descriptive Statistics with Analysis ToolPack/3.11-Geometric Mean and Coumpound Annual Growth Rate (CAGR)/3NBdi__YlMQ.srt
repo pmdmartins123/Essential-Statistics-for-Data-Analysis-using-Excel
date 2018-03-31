@@ -1,0 +1,188 @@
+0
+00:00:01,020 --> 00:00:04,700
+Let's take a look at a different type of mean, the geometric mean.
+
+1
+00:00:04,700 --> 00:00:07,180
+The geometric mean is not a simple average.
+
+2
+00:00:07,180 --> 00:00:09,474
+It is the nth root of the product of n numbers.
+
+3
+00:00:09,474 --> 00:00:13,377
+That means you multiply your values and then you take the nth root,
+
+4
+00:00:13,377 --> 00:00:16,970
+where n is the number of values you just multiplied.
+
+5
+00:00:16,970 --> 00:00:19,640
+I know this seems weird and you're probably wondering why you need
+
+6
+00:00:19,640 --> 00:00:23,360
+a different type of mean but it is a great, it is really, really great
+
+7
+00:00:23,360 --> 00:00:27,110
+when you're comparing two variables with very different properties.
+
+8
+00:00:27,110 --> 00:00:30,000
+For example, the geometric mean can give you a meaningful
+
+9
+00:00:30,000 --> 00:00:32,880
+average to compare companies, that are each rated from 0 to 5 for
+
+10
+00:00:32,880 --> 00:00:36,330
+the compensation packages in a scale of 0 to 100 for
+
+11
+00:00:36,330 --> 00:00:38,430
+their citizenship efforts.
+
+12
+00:00:38,430 --> 00:00:40,470
+If you took a simple average of those values,
+
+13
+00:00:40,470 --> 00:00:43,290
+you would be over-weighting the citizenship rating.
+
+14
+00:00:43,290 --> 00:00:47,680
+So, imagine you want to know which company is better then another in
+
+15
+00:00:47,680 --> 00:00:50,580
+terms of their compensation and citizenship ratings.
+
+16
+00:00:50,580 --> 00:00:53,820
+Company A rated a three for compensation and 75 for
+
+17
+00:00:53,820 --> 00:00:59,340
+citizenship while company B has been rated four and 60 respectively.
+
+18
+00:00:59,340 --> 00:01:02,110
+If you took the simple average of those two ratings you would find
+
+19
+00:01:02,110 --> 00:01:05,350
+that the company A had higher average at 39 for
+
+20
+00:01:05,350 --> 00:01:07,670
+company B added an average of 32.
+
+21
+00:01:07,670 --> 00:01:10,720
+However, citizenship ratings are being overweighted in
+
+22
+00:01:10,720 --> 00:01:13,370
+the calculation because the range of values is so
+
+23
+00:01:13,370 --> 00:01:16,640
+dramatically different than those for compensation.
+
+24
+00:01:16,640 --> 00:01:18,730
+If you calculate a geometric mean,
+
+25
+00:01:18,730 --> 00:01:22,290
+will you still see that company A has a higher overall rating?
+
+26
+00:01:22,290 --> 00:01:26,040
+To do this, we multiply the two values and take the, in this case,
+
+27
+00:01:26,040 --> 00:01:30,370
+square root for company A, we get a geometric mean of 15.
+
+28
+00:01:30,370 --> 00:01:33,710
+For company B, a geometric mean of 15.49.
+
+29
+00:01:33,710 --> 00:01:36,310
+A difference.
+
+30
+00:01:36,310 --> 00:01:39,790
+Another great use of a geometric mean is to calculate your annual
+
+31
+00:01:39,790 --> 00:01:42,500
+rate of return on an investment.Imagine that
+
+32
+00:01:42,500 --> 00:01:47,245
+you invest in a stock that increased by 10% in year one, 15% in year two.
+
+33
+00:01:47,245 --> 00:01:51,340
+20% in year three and then lost 10% in year four.
+
+34
+00:01:51,340 --> 00:01:53,860
+What would be your average annual return?
+
+35
+00:01:53,860 --> 00:01:57,260
+You can't simply take the average 8.75 because
+
+36
+00:01:57,260 --> 00:02:00,640
+the success of your percentage increases and losses are based on
+
+37
+00:02:00,640 --> 00:02:03,920
+the principle plus the interest earned the previous year.
+
+38
+00:02:03,920 --> 00:02:06,490
+So we would take the geometric mean.
+
+39
+00:02:06,490 --> 00:02:10,410
+To do that, we have to note a couple of things about how you calculate
+
+40
+00:02:10,410 --> 00:02:12,720
+the geometric mean for percentages.
+
+41
+00:02:12,720 --> 00:02:16,210
+First this calculation assumes a positive so
+
+42
+00:02:16,210 --> 00:02:19,070
+negative percentages are subtracted from 1.
+
+43
+00:02:19,070 --> 00:02:22,070
+And positive percentages are added to one.
+
+44
+00:02:22,070 --> 00:02:22,810
+As you can see,
+
+45
+00:02:22,810 --> 00:02:26,120
+if you do the math in this case, your annual return rate is
+
+46
+00:02:26,120 --> 00:02:29,710
+actually slightly less than what a simple average would have reported.
+

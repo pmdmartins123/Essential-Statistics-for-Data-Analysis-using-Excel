@@ -1,0 +1,16 @@
+Let's start at the beginning, statistics is the process of
+collecting, organizing, and interpreting data.
+Data consist of individuals and variables.
+Individuals are the objects of interest in your study, in other
+words, what you are collecting your information or data on.
+They can be actual individuals or people, or they can be other objects
+such as cities, animals, products, stocks, anything, really.
+Variables are characteristics of those individuals or
+the attributes that you are measuring, such as height, weight,
+age, satisfaction with something or the population size of a city,
+average income, median house price, and average temperature.
+A great way to store your data is in a spreadsheet.
+Data typically takes this form where the rows are individuals and
+the columns are variables.
+In this example, each row represents a survey respondent and each column,
+a piece of information or data that was gathered about that respondent.

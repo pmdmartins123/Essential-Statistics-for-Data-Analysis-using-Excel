@@ -1,0 +1,29 @@
+A histogram is a fancy bar chart.
+The difference between a histogram and
+a bar chart is that histograms show bars for
+ranges of numbers, rather than for a single value as most bar charts do.
+In addition, histograms are used to display continuous data,
+whereas bar charts are used to display discreet data.
+As a result, the bars in histograms touch, but
+they do not touch on bar charts.
+To construct a histogram, the first step is to bin the range of values,
+that is, divide the entire range of values into a series of intervals.
+And then count how many values fall into each of your intervals.
+The bins are consecutive,
+non-overlapping intervals of values associated with a variable.
+The bins must be adjacent and are often, but
+not required to be, of equal size.
+In this case, we are summarizing the number of widgets sold each day for
+two months.
+We created bins the size of 20.
+Histograms, like bar charts, are valuable tools, because they allow
+us to better understand the shape or distribution of our data.
+In general, we want our data to be normally distributed,
+meaning it's symmetrical.
+When it's not,
+it's skewed, with data clustered at one end or the other.
+As data analysis, symmetrical, or normally distributed data,
+is not only pleasing to the eye, but to our spirits as well.
+Because many statistical analyses assume normality of data.
+In other words, if your data aren't normally distributed, you won't be
+able to make the correct interpretation of your results.

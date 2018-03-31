@@ -1,0 +1,47 @@
+Let's take a look at a different type of mean, the geometric mean.
+The geometric mean is not a simple average.
+It is the nth root of the product of n numbers.
+That means you multiply your values and then you take the nth root,
+where n is the number of values you just multiplied.
+I know this seems weird and you're probably wondering why you need
+a different type of mean but it is a great, it is really, really great
+when you're comparing two variables with very different properties.
+For example, the geometric mean can give you a meaningful
+average to compare companies, that are each rated from 0 to 5 for
+the compensation packages in a scale of 0 to 100 for
+their citizenship efforts.
+If you took a simple average of those values,
+you would be over-weighting the citizenship rating.
+So, imagine you want to know which company is better then another in
+terms of their compensation and citizenship ratings.
+Company A rated a three for compensation and 75 for
+citizenship while company B has been rated four and 60 respectively.
+If you took the simple average of those two ratings you would find
+that the company A had higher average at 39 for
+company B added an average of 32.
+However, citizenship ratings are being overweighted in
+the calculation because the range of values is so
+dramatically different than those for compensation.
+If you calculate a geometric mean,
+will you still see that company A has a higher overall rating?
+To do this, we multiply the two values and take the, in this case,
+square root for company A, we get a geometric mean of 15.
+For company B, a geometric mean of 15.49.
+A difference.
+Another great use of a geometric mean is to calculate your annual
+rate of return on an investment.Imagine that
+you invest in a stock that increased by 10% in year one, 15% in year two.
+20% in year three and then lost 10% in year four.
+What would be your average annual return?
+You can't simply take the average 8.75 because
+the success of your percentage increases and losses are based on
+the principle plus the interest earned the previous year.
+So we would take the geometric mean.
+To do that, we have to note a couple of things about how you calculate
+the geometric mean for percentages.
+First this calculation assumes a positive so
+negative percentages are subtracted from 1.
+And positive percentages are added to one.
+As you can see,
+if you do the math in this case, your annual return rate is
+actually slightly less than what a simple average would have reported.

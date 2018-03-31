@@ -1,0 +1,68 @@
+In this video, we'll discuss a really important way to
+analyze categorical data known as cross tabulation.
+What you wanna do is figure out how several categorical variables affect
+the different categorical variables.
+So here's an example.
+So, people don't really buy station wagons anymore.
+But suppose you have a bunch of families,
+yes means they bought a station wagon, no means they didn't.
+Then the family size is either large or small.
+These are all categorical.
+Large family is more than two children, small family
+is zero to two children then their salaries is either high or low.
+So looking at this data which has no numbers, can we create
+a table which sort of tells us what causes people to buy station wagons,
+or what demographics are associated with station wagons.
+So a pivot table will work out really well with this.
+Now I should basically put my cursor anywhere inside the data.
+I can do insert pivot table.
+Okay.
+And then you can see the series range there is B2 to through D345.
+Excel picked it out.
+I don't have to select the range, I can just be inside there.
+Now I'll do existing let's say right down here.
+Okay, now how do I want to lay this out?
+So I wanna know yes or no, did they buy a station wagon?
+So that'll go in the column field.
+I wanna count that, so I'll put that in the values field.
+And then the demographics or the other qualitative variables
+I'll list in the row field, the order doesn't matter, but
+I'll do family size and then I'll do salary.
+So now I have a count of how many people fall into each group.
+For example, large families with high salaries,
+there's 34 people who did not buy a wagon.
+Now if you wanna be a positive person,
+you might want yes on the left.
+You can click on column labels, sort z to a.
+Now yes is on the left, not that that matters.
+Now this breakdown isn't very meaningful, you need a percentage.
+In other words, in each of those demographic groups,
+what percentage bought a wagon?
+That's what's known as cross tabs and we will return to cross tabs in
+module five when we talk about the Chi squared test for independence.
+So right here if I would go right click and
+I could show values as percentage of row.
+See now I know what percentage in each group bought the wagon.
+We'll do this with a graph in a minute but
+you can see the large families.
+No matter what their salary, about 70% bought a wagon.
+The small families, about 5%, no matter what their salaries,
+bought a wagon.
+So basically that means that the salary doesn't really matter,
+it's the family size.
+And so that's what a cross tabs analysis can show you.
+Now again, if I want to go in there and
+go analyze, pivot chart, this one will be absolutely fine.
+Let's just move this over to the right here.
+Or move it down let's say.
+And basically our pivot chart shows us, okay, the large family is,
+blue is the percentage that bought.
+Okay, we can see no matter what the salary, high or low.
+Lots of people bought, but small families, no matter what the salary,
+high or low, not many people bought.
+So we can see clearly here from our cross tabs analysis
+that basically salary was less important than family size
+in determining who bought a station wagon.
+In the next lesson, we'll turn our attention to hierarchical data which
+can be analyzed in a really neat fashion using Excel
+2016's new sunburst and treemap charts.

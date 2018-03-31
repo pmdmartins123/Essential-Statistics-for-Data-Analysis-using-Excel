@@ -1,0 +1,208 @@
+0
+00:00:01,000 --> 00:00:02,560
+Now that we know something about
+
+1
+00:00:02,580 --> 00:00:04,650
+central endencies of the values in our data set.
+
+2
+00:00:04,670 --> 00:00:06,120
+We can calculate the measures of
+
+3
+00:00:06,140 --> 00:00:07,980
+variability in other words how spread
+
+4
+00:00:08,000 --> 00:00:10,830
+apart the data values are, the range is a
+
+5
+00:00:10,850 --> 00:00:14,240
+simple way to express the distribution of the data.
+
+6
+00:00:14,260 --> 00:00:17,370
+It's calculated by subtracting the minimum value in the set
+
+7
+00:00:17,390 --> 00:00:18,780
+from the maximum value.
+
+8
+00:00:18,800 --> 00:00:22,120
+In this case 10 - 2 which gives us a range of 8.
+
+9
+00:00:22,140 --> 00:00:24,600
+The variance is a little more complex
+
+10
+00:00:24,620 --> 00:00:26,310
+depending on whether you have a
+
+11
+00:00:26,330 --> 00:00:28,110
+population or a sample you can calculate
+
+12
+00:00:28,130 --> 00:00:31,080
+the population or sample variance,
+
+13
+00:00:31,100 --> 00:00:33,360
+to calculate either you basically sum the
+
+14
+00:00:33,380 --> 00:00:35,340
+squared differences between each value
+
+15
+00:00:35,360 --> 00:00:37,739
+in the data and the mean and then
+
+16
+00:00:37,750 --> 00:00:39,360
+divide by the number of values in the
+
+17
+00:00:39,380 --> 00:00:41,640
+data set, if you are calculating the
+
+18
+00:00:41,660 --> 00:00:43,410
+sample variance however you will
+
+19
+00:00:43,430 --> 00:00:45,360
+subtract 1 from the number of values in
+
+20
+00:00:45,380 --> 00:00:47,790
+the data in this case we end up with a
+
+21
+00:00:47,810 --> 00:00:50,670
+variance of 4.67 if we believe this is a
+
+22
+00:00:50,690 --> 00:00:52,829
+population of cupcake sales, but I'm
+
+23
+00:00:52,840 --> 00:00:55,290
+hoping this is just a sample I want to
+
+24
+00:00:55,310 --> 00:00:57,329
+keep selling cupcakes. So the sample
+
+25
+00:00:57,340 --> 00:01:00,450
+variance is 5 are you wondering why you
+
+26
+00:01:00,470 --> 00:01:02,340
+square the differences before summing
+
+27
+00:01:02,360 --> 00:01:04,079
+them rather than simply just summing the
+
+28
+00:01:04,090 --> 00:01:05,850
+difference of each value from the mean,
+
+29
+00:01:05,870 --> 00:01:08,670
+if you don't square them the sum of the
+
+30
+00:01:08,690 --> 00:01:11,639
+differences will always be 0, if you want
+
+31
+00:01:11,650 --> 00:01:13,859
+to understand the variation in your data
+
+32
+00:01:13,870 --> 00:01:15,600
+we must square those differences so we
+
+33
+00:01:15,620 --> 00:01:17,880
+don't end up with 0 every time.
+
+34
+00:01:17,900 --> 00:01:20,549
+The standard deviation is a commonly used
+
+35
+00:01:20,560 --> 00:01:22,319
+metric for measuring a unit of
+
+36
+00:01:22,330 --> 00:01:24,479
+difference from the mean. Variance is
+
+37
+00:01:24,490 --> 00:01:26,369
+interesting but because we had to square
+
+38
+00:01:26,380 --> 00:01:28,889
+the differences it is not very easy to
+
+39
+00:01:28,900 --> 00:01:32,340
+interpret. So to put this estimate back
+
+40
+00:01:32,360 --> 00:01:34,380
+on the same scale as the mean you must
+
+41
+00:01:34,400 --> 00:01:36,389
+take the square root, this is known as
+
+42
+00:01:36,400 --> 00:01:38,789
+the standard deviation. The square root
+
+43
+00:01:38,800 --> 00:01:41,189
+of the sample variance is the sample
+
+44
+00:01:41,200 --> 00:01:45,130
+standard deviation which in this example is 2.24
+
+45
+00:01:45,150 --> 00:01:49,000
+Finally the standard error gives a measure of
+
+46
+00:01:49,020 --> 00:01:51,870
+how well a sample represents the population.
+
+47
+00:01:51,890 --> 00:01:55,940
+it is calculated by dividing the standard deviation by the square root
+
+48
+00:01:55,960 --> 00:01:58,150
+of the number of values in your data.
+
+49
+00:01:58,170 --> 00:02:03,150
+In this case, we divide our standard deviation 2.24
+
+50
+00:02:03,170 --> 00:02:05,950
+by the square root of 15 which is 3.87
+
+51
+00:02:05,970 --> 00:02:10,759
+to produce a standard error of 0.58.
+

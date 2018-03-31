@@ -1,0 +1,36 @@
+Another way to visualize data is by using a box plot or a box and
+whisker plot.
+Box plots split the data set into quartiles.
+The body of the box plot consists of a box, hence the name,
+which goes from the first quartile to the third quartile,
+visually showing you the range of the middle 50% of your data.
+Remember the inner quartile range that we mentioned when we discussed
+outliers?
+This box represents that range.
+Within the box, a vertical line is drawn at q2,
+the middle quartile, and this is the median of the data set.
+Sometimes these plots also include a star or
+something similar to indicate the mean of a data set.
+Two horizontal lines called whiskers extend from the top and
+bottom of the box.
+The bottom whisker goes from the bottom of the box to the smallest
+non-outlier in the data set and
+represents the first quartile of the data.
+In other words,
+it shows the range in which the first 25% of your data fall.
+The top whisker goes from the top of the box to the largest
+non-outlier showing where the last 25% of your data fall.
+In the data set typically includes one or more outliers,
+they're defined as one point times the upper and lower quartile value.
+They are plotted separately as points on the chart.
+The third quartile is the top part of the box,
+the second quartile is the bottom part of the box.
+Thus, box plot show you the range of your data,
+as well as within each quartile.
+In addition, they can also review any skewness patterns in your data.
+If most of the observations are concentrated on the low
+end of the scale, the distribution is skewed right.
+And if the observations are concentrated on the upper end,
+the distribution is skewed left.
+If the distribution is symmetric,
+the observations will be evenly split at the median.

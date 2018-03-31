@@ -1,0 +1,148 @@
+0
+00:00:01,230 --> 00:00:03,813
+Now that we have a little better understanding of central tendency,
+
+1
+00:00:03,813 --> 00:00:05,817
+measures of variability, and the shape of our data,
+
+2
+00:00:05,817 --> 00:00:07,302
+let&#39;s take a closer look at outliers.
+
+3
+00:00:07,302 --> 00:00:10,757
+Outliers are often identified through a visual inspection of our
+
+4
+00:00:10,757 --> 00:00:13,411
+data, which is why it&#39;s so important to plot it.
+
+5
+00:00:13,411 --> 00:00:17,215
+You may be wondering if there&#39;s a mathematical way to calculate
+
+6
+00:00:17,215 --> 00:00:17,950
+outliers.
+
+7
+00:00:17,950 --> 00:00:20,435
+Well, it shouldn&#39;t surprise you that there is.
+
+8
+00:00:20,435 --> 00:00:23,760
+Outliers are mathematically defined as being greater
+
+9
+00:00:23,760 --> 00:00:26,210
+than 1.5 times the interquartile range.
+
+10
+00:00:26,210 --> 00:00:29,320
+To calculate the interquartile range for your data, place your
+
+11
+00:00:29,320 --> 00:00:33,250
+data in numerical order and identify the first and third quartile.
+
+12
+00:00:33,250 --> 00:00:37,510
+In other words, at point at which 25% of the data are below, and
+
+13
+00:00:37,510 --> 00:00:40,790
+at which point 25% of the data are above.
+
+14
+00:00:40,790 --> 00:00:44,300
+The first represents the upper bound of what we call the lower, or first,
+
+15
+00:00:44,300 --> 00:00:45,190
+quartile.
+
+16
+00:00:45,190 --> 00:00:47,426
+The latter represents the lower bound of the upper, or
+
+17
+00:00:47,426 --> 00:00:48,305
+fourth, quartile.
+
+18
+00:00:48,305 --> 00:00:53,890
+The IQR is simply the difference between those values.
+
+19
+00:00:53,890 --> 00:00:59,290
+Multiply that range by 1.5, add this value to the third quartile.
+
+20
+00:00:59,290 --> 00:01:02,360
+Any number greater than that would be a suspected outlier.
+
+21
+00:01:02,360 --> 00:01:04,590
+Subtract it from the first quartile, and
+
+22
+00:01:04,590 --> 00:01:07,370
+any number less than that is a suspected outlier.
+
+23
+00:01:07,370 --> 00:01:09,980
+So let&#39;s take a look at an example.
+
+24
+00:01:09,980 --> 00:01:12,800
+Suppose we have the following set of data, and it looks like this.
+
+25
+00:01:12,800 --> 00:01:15,920
+So the question is, is 14 an outlier?
+
+26
+00:01:15,920 --> 00:01:18,110
+There are 15 values in this dataset.
+
+27
+00:01:18,110 --> 00:01:22,900
+To find the first quartile, we need to divide 15 by 4,
+
+28
+00:01:22,900 --> 00:01:28,000
+which is 3.75, so we count over 3.75 values from the left in the dataset.
+
+29
+00:01:28,000 --> 00:01:31,290
+The lower quartile is anything lower than 4.
+
+30
+00:01:31,290 --> 00:01:35,860
+To find the upper quartile, we count 3.75 values over from the right.
+
+31
+00:01:35,860 --> 00:01:38,490
+The upper quartile is anything over 7.
+
+32
+00:01:38,490 --> 00:01:46,210
+To calculate the interquartile range, Q3-Q1, 7-4 = 3.
+
+33
+00:01:46,210 --> 00:01:51,280
+Now we multiply 1.5 by 3, we get 4.5.
+
+34
+00:01:51,280 --> 00:01:56,130
+Outliers on the low end would be anything less than -0.5.
+
+35
+00:01:56,130 --> 00:01:59,541
+Outliers on the upper end would be anything greater than 11.5.
+
+36
+00:01:59,541 --> 00:02:01,941
+So 14 is an outlier.
+

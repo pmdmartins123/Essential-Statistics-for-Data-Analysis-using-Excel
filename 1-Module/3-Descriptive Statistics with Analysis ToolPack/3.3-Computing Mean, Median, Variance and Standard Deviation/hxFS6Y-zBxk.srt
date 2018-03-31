@@ -1,0 +1,368 @@
+0
+00:00:00,540 --> 00:00:03,990
+So now that we know how to create histograms, we want to learn how to
+
+1
+00:00:03,990 --> 00:00:08,310
+basically create numerical measures that can summarize the data set.
+
+2
+00:00:08,310 --> 00:00:11,480
+So what are the three dimensions on which we might want to summarize
+
+3
+00:00:11,480 --> 00:00:12,046
+a data set.
+
+4
+00:00:12,046 --> 00:00:15,300
+A typical value, what's a typical value for a data set?
+
+5
+00:00:16,520 --> 00:00:19,840
+Spread about the typical value, how spread out is the data?
+
+6
+00:00:19,840 --> 00:00:22,460
+Is it concentrated towards the typical value, or
+
+7
+00:00:22,460 --> 00:00:24,370
+does it really very a lot?
+
+8
+00:00:24,370 --> 00:00:27,560
+And then skewness which we talked about, positively skewed,
+
+9
+00:00:27,560 --> 00:00:29,930
+negatively skewed or symmetric.
+
+10
+00:00:29,930 --> 00:00:34,900
+So lets deuce a brief demo without really using excel function or
+
+11
+00:00:34,900 --> 00:00:40,060
+excel capabilities of what we mean by calculating a typical values,
+
+12
+00:00:40,060 --> 00:00:43,160
+spread about the typical value Skewness.
+
+13
+00:00:43,160 --> 00:00:45,890
+The formula's complex so we won't worry about that.
+
+14
+00:00:45,890 --> 00:00:47,720
+But here we have a simple data set.
+
+15
+00:00:47,720 --> 00:00:49,550
+We've got the numbers, 1, 3 and 5.
+
+16
+00:00:49,550 --> 00:00:53,760
+And so for a typical value, we have sort of two measurers.
+
+17
+00:00:53,760 --> 00:00:56,995
+We have the average, which you know what that is,
+
+18
+00:00:56,995 --> 00:00:58,545
+you add up the numbers.
+
+19
+00:00:59,897 --> 00:01:01,440
+And divide by how many?
+
+20
+00:01:03,510 --> 00:01:05,520
+So the average here if I have one, three and
+
+21
+00:01:05,520 --> 00:01:06,940
+five, you add those up you get nine.
+
+22
+00:01:06,940 --> 00:01:11,300
+You divide by three, you get three, okay.
+
+23
+00:01:11,300 --> 00:01:14,320
+Then we sometimes use the median, as you'll see later, for
+
+24
+00:01:14,320 --> 00:01:15,630
+a typical value.
+
+25
+00:01:15,630 --> 00:01:17,800
+The median is sort of the man in the middle,
+
+26
+00:01:17,800 --> 00:01:18,879
+the data point in the middle.
+
+27
+00:01:20,550 --> 00:01:22,250
+Now that can be a lot tricky.
+
+28
+00:01:22,250 --> 00:01:25,770
+So if have one three and five ordered from smallest to largest
+
+29
+00:01:25,770 --> 00:01:29,290
+three is in the middle, there is one data point below it and
+
+30
+00:01:29,290 --> 00:01:31,210
+one above it, so the median would be three.
+
+31
+00:01:34,520 --> 00:01:38,540
+Okay but let's look at the second data set the are four data points so
+
+32
+00:01:38,540 --> 00:01:40,280
+which one is in the middle?
+
+33
+00:01:40,280 --> 00:01:43,510
+The second one has 1 data point below it and
+
+34
+00:01:43,510 --> 00:01:46,880
+the second data point is 2 above it so it's not in the middle.
+
+35
+00:01:46,880 --> 00:01:50,360
+The third data point has 1 data point above it, 2 below it so
+
+36
+00:01:50,360 --> 00:01:51,720
+it's not in the middle.
+
+37
+00:01:51,720 --> 00:01:53,790
+So we have an even number data points,
+
+38
+00:01:53,790 --> 00:01:56,820
+basically we average the two middle ones.
+
+39
+00:01:56,820 --> 00:02:00,117
+Okay so for set 2, the median is 3.5.
+
+40
+00:02:03,115 --> 00:02:07,019
+Now there's a third measure, the mode, the most frequently occurring
+
+41
+00:02:07,019 --> 00:02:10,806
+value, but that's pretty easy to do, we usually use Excel for that.
+
+42
+00:02:12,763 --> 00:02:16,200
+And that's really not usually what we use to summarize the data set.
+
+43
+00:02:18,075 --> 00:02:20,090
+Okay, now what about spread about the mean this is
+
+44
+00:02:20,090 --> 00:02:21,910
+incredibly important.
+
+45
+00:02:21,910 --> 00:02:25,580
+So, basically spread about the mean, the measure we usually use,
+
+46
+00:02:25,580 --> 00:02:28,800
+measures we usually use are variance of standard deviation.
+
+47
+00:02:28,800 --> 00:02:31,920
+So, variances average square deviation from the mean,
+
+48
+00:02:31,920 --> 00:02:36,890
+if we use XBAR for the mean and Xi for the observation, we take every
+
+49
+00:02:36,890 --> 00:02:41,050
+data point minus the mean squared, add those up, and divide.
+
+50
+00:02:41,050 --> 00:02:43,210
+You would think, you would divide by the number of data points, but
+
+51
+00:02:43,210 --> 00:02:45,050
+you divide by one less.
+
+52
+00:02:45,050 --> 00:02:46,890
+That's a bit complicated to explain but
+
+53
+00:02:46,890 --> 00:02:50,030
+we'll probably address that in module four, okay.
+
+54
+00:02:50,030 --> 00:02:52,220
+But why do you square the deviations from the mean,
+
+55
+00:02:52,220 --> 00:02:53,910
+why not just add them up?
+
+56
+00:02:53,910 --> 00:02:57,430
+Well you can show if you're good at algebra for any data set if you take
+
+57
+00:02:57,430 --> 00:03:02,170
+every data point minus the mean and add them up You'll always get zero.
+
+58
+00:03:02,170 --> 00:03:06,100
+You have to square the deviations from the mean so that basically
+
+59
+00:03:06,100 --> 00:03:09,820
+the positive and negative deviations don't cancel out, and
+
+60
+00:03:09,820 --> 00:03:12,830
+then the standard deviation is the square root of the variance.
+
+61
+00:03:12,830 --> 00:03:16,840
+So for the data set 1, 3, and 5, let's go through the calculations.
+
+62
+00:03:16,840 --> 00:03:18,430
+Let's get the variance, so
+
+63
+00:03:18,430 --> 00:03:21,810
+you would take every data point, the mean is 3, we know that.
+
+64
+00:03:21,810 --> 00:03:26,364
+So you take the first data point minus the mean, caret mean squared,
+
+65
+00:03:26,364 --> 00:03:28,806
+then you take the second data point.
+
+66
+00:03:30,555 --> 00:03:33,384
+Minus the mean squared.
+
+67
+00:03:35,930 --> 00:03:40,738
+Then you take the third data point, 5 minus the mean squared,
+
+68
+00:03:40,738 --> 00:03:45,183
+notice those all be positive to be square -2 or when you,
+
+69
+00:03:45,183 --> 00:03:47,922
+that should be -3 there, sorry.
+
+70
+00:03:50,264 --> 00:03:54,130
+Now that's the sum of the squared deviations, you divide that by 2.
+
+71
+00:03:55,633 --> 00:03:58,239
+3-1 cuz there is three data points.
+
+72
+00:04:00,739 --> 00:04:04,325
+Okay, see a -2 squared that's 4,
+
+73
+00:04:04,325 --> 00:04:09,940
+3- 3 squared is 0, 5- 3 squared is 4, 4 + 4 / 2.
+
+74
+00:04:09,940 --> 00:04:14,039
+See if 8/2 which is 4, so there is your variance.
+
+75
+00:04:15,669 --> 00:04:20,939
+And then the standard deviation would be
+
+76
+00:04:20,939 --> 00:04:26,060
+the square root of four, which is two.
+
+77
+00:04:26,060 --> 00:04:29,230
+Now, basically if you know the variance,
+
+78
+00:04:29,230 --> 00:04:32,610
+you know the standard deviation, so which one do we use more often?
+
+79
+00:04:32,610 --> 00:04:36,220
+Okay, basically we use the standard deviation
+
+80
+00:04:36,220 --> 00:04:39,370
+Is used more often as a measure of spread about the typical value.
+
+81
+00:04:41,140 --> 00:04:43,013
+And the reason for that is,
+
+82
+00:04:43,013 --> 00:04:46,764
+the standard deviation has the same units as the data.
+
+83
+00:04:49,475 --> 00:04:53,219
+So if our data is money, it's measured in dollars or euros, I
+
+84
+00:04:53,219 --> 00:04:58,160
+don't know what a dollar squared is, and that's the units of variance.
+
+85
+00:04:58,160 --> 00:04:59,930
+But I do know what a dollar is, okay?
+
+86
+00:04:59,930 --> 00:05:02,410
+So that's why we often use standard deviation
+
+87
+00:05:02,410 --> 00:05:06,940
+instead of variance as a measure of spread about the mean.
+
+88
+00:05:06,940 --> 00:05:07,960
+Now, in our next video,
+
+89
+00:05:07,960 --> 00:05:11,240
+we're going to show you how to install the great analysis tool
+
+90
+00:05:11,240 --> 00:05:16,170
+pack add into Excel 2016, cuz we can use that to get a lot of
+
+91
+00:05:16,170 --> 00:05:19,350
+these descriptive statistics that we use to describe a data set.
+

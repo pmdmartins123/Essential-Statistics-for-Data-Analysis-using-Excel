@@ -1,0 +1,88 @@
+For any data set it's really important to understand
+the normal range of variation.
+The great American statistician, Edward Demings,
+who helped Japan after World War II, come back from
+their defeat to become a manufacturing power, really harped
+on the importance of understanding normal variation with a data set.
+So we're gonna use the rule of thumb here to understand normal variation
+for a data set.
+And basically the rule of thumb says in most data sets 95% of your data
+is within two standard deviations of the mean.
+And the 95% comes from the normal random variable,
+you'll see why in module three.
+Okay, and anything more than two standard deviations from the mean
+is called an outlier or unusual data point.
+And we'll highlight the outliers for Cisco, we'll focus on Cisco here.
+Okay, so basically let's find the range of normal variation.
+I'll actually give you sports example on this too, but
+it's really important.
+We'll give an example on sports and
+IQs cuz this is such an important topic.
+So for Cisco what is normal variation?
+Okay, you would take the mean for
+Cisco right there minus two times the standard deviation.
+That's about -19%.
+Then you would take the mean plus two standard deviations.
+So normal variation for Cisco and
+it's almost always a wider range than people think.
+Normal variation for Cisco monthly return on stock in
+the 1990s was -19% to 30%, okay.
+And so if you saw a month for Cisco went up 25%,
+well that's fairly typical.
+Down 15% fairly typical.
+Up 35%, not so typical.
+So, another example, let's look at IQs which we've discussed.
+So the mean for IQs, I guess it doesn't want to capitalize
+is 100 and the standard deviation is 15.
+So if we go within two standard deviations to the mean,
+two standard deviations below that would be 100 minus 30, 70 and
+two standard deviations above 130.
+70 to 130 should have 95% of all people's IQs.
+And that's exactly true, cuz IQs are symmetric.
+And then an outlier would be an IQ above 130 or below 70.
+Now, one other example on this.
+Let's take football point spreads, which is a prediction by Las Vegas
+of how many points a team will win a football game, the pro football.
+The mean for a football game would be the Las Vegas
+prediction that's pretty close.
+Now every year if you take the standard deviation of the scores of
+football games about the point spread you get about 14 points.
+So if you look at a football game, like last year's Superbowl,
+Carolina Panthers were favored by, let's say 5.
+The Las Vegas people thought they'd win by 5.
+So if you go double that standard deviation in either direction,
+28 points in either direction, what would be a normal outcome for
+that football game?
+Carolina winning by 28, more than 5, 33.
+They were playing Denver, who actually won.
+Go 28 points below that, you go Denver by 23,
+and that would be a normal range of variation.
+Now Denver won, and that was considered a big upset.
+But they didn't win by 23, so that was not an outlier.
+So to conclude this video, let's show you how to highlight outliers.
+Notice we have the lower limit here and we have the upper limit here.
+So we wanna highlight stuff.
+In Excel, there's a feature called conditional formatting which we're
+not gonna do in total detail but
+we can do highlight cells greater than a value or less than a value.
+So if you would say anything that's greater than this value, we
+can highlight in one color anything that's less than its value and
+another color and that highlights our outlier.
+So we first select our data,
+control shift down arrow, we go home, conditional formatting.
+And so we're gonna go highlight cells, we're gonna do greater than,
+and I can just point I think to that value there.
+We can make that red.
+So everything above 29% is red.
+And I can do home, conditional formatting, top-bottom rules,
+sorry, highlight cells, less than okay, and
+then I can point to this number here.
+I should probably change the color, let's say green, doesn't matter.
+So then I can see all the really good months were highlighted in red
+that were outliers, that were unusual, and
+all the bad months are highlighted in green.
+There's one right there.
+Okay, now in our next video we're gonna learn different ways to get
+these statistics we got with the analysis tool pack.
+There are Excel functions that will help you get these statistics, and
+we're gonna show you how to do that in the next video.

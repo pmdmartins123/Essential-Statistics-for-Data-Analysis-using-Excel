@@ -1,0 +1,130 @@
+So we've been using the analysis tool backer, the data analysis add
+in that you see here to get these descriptive statistics.
+But Excel has built in many great statistical functions that you can
+use to basically get the same information.
+So I'd like to show you how these functions works,
+because you may prefer them.
+Now, if we're going to refer to data often,
+it often helps to name the data.
+So, in other words, here is our Cisco data right here.
+So if I want to color that right there,
+wouldn't it be nice if I could just name that?
+And then I don't have to keep pointing to it,
+I could actually just type the name of the data in there.
+There is a shortcut using the F3 key to paste the range name in.
+So, if I select this range of my data, and
+I can go to this name box here and I can type let's say, Cisco
+right there and hit enter, now I have named that data Cisco.
+So if I go to that name box here and
+I type Click on Cisco, it highlights the data.
+So basically, I could of course point to this data all the time, but
+if I'm somewhere else in the workbook,
+then basically it'll be nice to just use the name, and
+the F3 key let's you paste a name in a formula.
+And this is very useful.
+So let's really duplicate with Excel functions what we got
+from the analysis tool pack.
+Okay, so how would I get the mean for Cisco?
+I could use average as the function, now I could
+actually just type the word Cisco, I mean Excel would autocomplete that.
+It understands the range frame so I can use that F3 trick or
+just point to the data.
+But I'll average Cisco there, okay, now this is a null thing,
+Excel thinks it's a date.
+Okay, so I'm gonna format all these things to be a couple of decimal
+points, Ctrl+1 brings up Format Cells, and
+I can make these all be let's say, four decimal points.
+Okay, so you can see that matches exactly what I have there.
+Now a neat feature starting Excel 2013 is I can show you the formulas
+with formula text.
+If I click FORMULATEXT you're basically gonna
+see the formula there, okay.
+Now what about the median,
+there is a function called MEDIAN that gives you the median.
+And I can hit F3 now, and the F3 key, see, there's Cisco.
+I can paste that name in there, see it highlights the data in blue,
+and I can just copy that formula text down here.
+Now the mode.
+There are bunch of mode function cuz mode is most frequently
+occurring value, there could be more than one mode.
+I don't want to get into that or readings and the data
+analysis could talk about that, but let's just use the mode function.
+So there's a couple of them here it's just
+not worth the complications.
+But I'd say mode and basically I should, mode of Cisco or
+I can use that F3 track, and see that matches what we've got here.
+Standard deviation, the function is stdev, this time I'll use F3,
+paste in Cisco, and I'm not sure which is easier, F3 or typing it.
+That's 12.2%, and the variants use VAR function, I'll type Cisco.
+That matches what we have here.
+Now I'll talk about kurtosis briefly, it's not too important.
+Sounds like a fatal disease, she has kurtosis,
+she has three months to live.
+But skewness, there's a function skew, and
+I'll do Cisco and that matches the skewness.
+By the way, if you type in a function in Excel,
+go to the Function wizard and you wanna know more,
+you can click on help, and you can see the ugly skewness formula.
+But I don't think we really need to know it,
+there is the ugly skewness formula.
+We just need to know what it does, okay.
+So then I could do formula text again here.
+And kurtosis basically measures The shape of the histogram,
+whether it looks like a bell curve, and when it's near 0.
+The kurtosis means that it looks like a bell curve,
+when it's not near zero, it doesn't look like a bell curve.
+This can be important when you're looking at stock returns,
+to see if they have what's called fat tails.
+They are spread out more than the bell curve, but
+just to show you there is a function for this.
+Although, nothing that we're gonna give you for
+homework or exams will involve this.
+But basically you should know these functions available here of enhanced
+Kurt Jock, that are jock at, that would be important.
+Okay, now we've got a couple more functions we wanna show you here,
+before we go on to the next video which we'll deal with some more
+Excel statistical functions in a different file.
+But often we wanna know percent dollars of a dataset so
+the ninetieth percent on Cisco, what does that mean?
+That means 9 out of 10 months below that, 1 in 10 above that.
+The 10th percent all means 1 and 10 below, 9 and 10 above.
+So there's a couple of functions that do this.
+So I type in percent, there's a PERCENTILE.EXC and PERCENTILE.INC.
+Now, the book explains the difference between these
+it's pretty complicated.
+But the .exe I think is considered a better one.
+Microsoft added this I think in 2015.
+So we'll use that.
+And so then I would basically type in the range name, which is CSCO,
+and that I want the 90th percentile.
+I type in 0.9, so roughly this should be a pretty
+good return of nine out of ten months or worse.
+And one out of ten months or above that.
+21% return, one out of ten months roughly CISCO does better than
+20.6%, nine out of ten months CISCO does worst than 20.6%.
+Now, sometimes we wanna know where our data point ranks in a data set,
+basically represented.
+I look at row 1 53, no reason but it was a bad month.
+Cisco loss 14%, so the question is where does that row rank?
+Probably pretty badly as a percentile, so
+there is a percent rank function, okay not to be confused with
+percentile function let me just show you again the formula text there.
+Okay, so we wanna know where August 1998 ranked,
+I can do percent rank, PERCENTRANK.EXC( I prefer.
+Okay, now the array is again Cisco.
+And F 153 was the value.
+The significance has no significance.
+It's how many decimal points you want, really not very important.
+Okay, so
+basically 4.5% of the months roughly were worse than August 1998.
+So it was indeed a bad month.
+Now people sometimes get confused by percentile, percent, and rank.
+So basically what you should know is percentile returns
+a value from the dataset, like a stock return.
+Percent rank, returns in a sense a probability.
+Or it serves a four and a half percent chance that basically
+a month would be worse than that, minus 14 percent.
+But the percentile returns a value of the data set which I can make
+a percentage if I do Ctrl+1, I can make that into a percentage.
+Now, in the next video we are going to show you a couple of more
+Excel functions that can be very useful to you when you analyze data.

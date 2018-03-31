@@ -1,0 +1,50 @@
+In the last video in this module,
+we're gonna teach you how to do a Pareto chart,
+sort of based on customer complaints, okay?
+So, let's suppose you own a small restaurant.
+And hopefully, you don't get that many complaints, but
+here are the complaints.
+Small Portions, the wait staff was rude, the taste of the product it
+didn't taste very good, and then there's too salty, dirty, etc.
+Okay, not happy to hear this if you run a restaurant.
+So, we'd like to summarize these complaints with a Pareto chart.
+Now, unfortunately, the way that Excel has set up the Pareto chart,
+we can't do it right off the bat, but
+we can use a pivot table to summarize this data.
+We will keep track of how many of each complaint occurred with
+a pivot table, and
+then we'll have to extract that data from the pivot table because
+Excel is not equipped to do Pareto charts from a pivot table.
+But this will take a minute or two.
+So, okay, all we have to do is select our data,
+we'll do insert a pivot table, Excel understands.
+Actually, we could've just been anywhere inside that data.
+We'll do existing worksheet.
+And now, we see how many complaints we had if we drag complaints to
+the row, complaints to the value.
+We can see, unfortunately, the taste and
+the wait staff being rude hurt us.
+Now, if I just copy this stuff out, then I can do the Pareto chart.
+So, I'll copy that stuff out, Now,
+I just have to select this, and now I can do a Pareto chart.
+So, I can do insert, just like we did in the last video.
+There's Pareto chart, and there it is.
+So, I can see the taste and
+the wait staff rude were causing me a lot of problems.
+Now, this red line is concentrated in the center of the bar.
+You couldn't really see that in the last video.
+But, for instance, the taste was 160 our of 470, about 34 or 35%.
+So, in the middle of that first bar for taste, we have center, or
+we really are hitting 35%.
+And then, basically, Excel sort of
+draws a smooth curve connecting those percentages at the mid points,
+but we can see taste and the wait staff rude are our big problems.
+So, we would concentrate on taste of our food and
+also the hiring process or the training of the wait staff.
+We wouldn't worry about the saltiness in our food, and
+it looks like people are getting it okay.
+Probably because the taste is bad and the wait staff is rude,
+there's no problem getting in.
+So, on our next module,
+we're gonna talk about the wonders of probability,
+which is really important for understanding data and statistics.

@@ -1,0 +1,37 @@
+Now that we have a little better understanding of central tendency,
+measures of variability, and the shape of our data,
+let's take a closer look at outliers.
+Outliers are often identified through a visual inspection of our
+data, which is why it's so important to plot it.
+You may be wondering if there's a mathematical way to calculate
+outliers.
+Well, it shouldn't surprise you that there is.
+Outliers are mathematically defined as being greater
+than 1.5 times the interquartile range.
+To calculate the interquartile range for your data, place your
+data in numerical order and identify the first and third quartile.
+In other words, at point at which 25% of the data are below, and
+at which point 25% of the data are above.
+The first represents the upper bound of what we call the lower, or first,
+quartile.
+The latter represents the lower bound of the upper, or
+fourth, quartile.
+The IQR is simply the difference between those values.
+Multiply that range by 1.5, add this value to the third quartile.
+Any number greater than that would be a suspected outlier.
+Subtract it from the first quartile, and
+any number less than that is a suspected outlier.
+So let's take a look at an example.
+Suppose we have the following set of data, and it looks like this.
+So the question is, is 14 an outlier?
+There are 15 values in this dataset.
+To find the first quartile, we need to divide 15 by 4,
+which is 3.75, so we count over 3.75 values from the left in the dataset.
+The lower quartile is anything lower than 4.
+To find the upper quartile, we count 3.75 values over from the right.
+The upper quartile is anything over 7.
+To calculate the interquartile range, Q3-Q1, 7-4 = 3.
+Now we multiply 1.5 by 3, we get 4.5.
+Outliers on the low end would be anything less than -0.5.
+Outliers on the upper end would be anything greater than 11.5.
+So 14 is an outlier.

@@ -1,0 +1,64 @@
+0
+00:00:01,280 --> 00:00:03,830
+Let's start at the beginning, statistics is the process of
+
+1
+00:00:03,830 --> 00:00:06,360
+collecting, organizing, and interpreting data.
+
+2
+00:00:06,360 --> 00:00:08,531
+Data consist of individuals and variables.
+
+3
+00:00:08,531 --> 00:00:11,353
+Individuals are the objects of interest in your study, in other
+
+4
+00:00:11,353 --> 00:00:14,084
+words, what you are collecting your information or data on.
+
+5
+00:00:14,084 --> 00:00:17,801
+They can be actual individuals or people, or they can be other objects
+
+6
+00:00:17,801 --> 00:00:22,030
+such as cities, animals, products, stocks, anything, really.
+
+7
+00:00:22,030 --> 00:00:24,820
+Variables are characteristics of those individuals or
+
+8
+00:00:24,820 --> 00:00:27,890
+the attributes that you are measuring, such as height, weight,
+
+9
+00:00:27,890 --> 00:00:31,570
+age, satisfaction with something or the population size of a city,
+
+10
+00:00:31,570 --> 00:00:34,970
+average income, median house price, and average temperature.
+
+11
+00:00:34,970 --> 00:00:37,610
+A great way to store your data is in a spreadsheet.
+
+12
+00:00:37,610 --> 00:00:41,140
+Data typically takes this form where the rows are individuals and
+
+13
+00:00:41,140 --> 00:00:42,820
+the columns are variables.
+
+14
+00:00:42,820 --> 00:00:46,570
+In this example, each row represents a survey respondent and each column,
+
+15
+00:00:46,570 --> 00:00:50,280
+a piece of information or data that was gathered about that respondent.
+

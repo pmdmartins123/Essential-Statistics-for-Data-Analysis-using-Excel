@@ -1,0 +1,92 @@
+So now that we know how to create histograms, we want to learn how to
+basically create numerical measures that can summarize the data set.
+So what are the three dimensions on which we might want to summarize
+a data set.
+A typical value, what's a typical value for a data set?
+Spread about the typical value, how spread out is the data?
+Is it concentrated towards the typical value, or
+does it really very a lot?
+And then skewness which we talked about, positively skewed,
+negatively skewed or symmetric.
+So lets deuce a brief demo without really using excel function or
+excel capabilities of what we mean by calculating a typical values,
+spread about the typical value Skewness.
+The formula's complex so we won't worry about that.
+But here we have a simple data set.
+We've got the numbers, 1, 3 and 5.
+And so for a typical value, we have sort of two measurers.
+We have the average, which you know what that is,
+you add up the numbers.
+And divide by how many?
+So the average here if I have one, three and
+five, you add those up you get nine.
+You divide by three, you get three, okay.
+Then we sometimes use the median, as you'll see later, for
+a typical value.
+The median is sort of the man in the middle,
+the data point in the middle.
+Now that can be a lot tricky.
+So if have one three and five ordered from smallest to largest
+three is in the middle, there is one data point below it and
+one above it, so the median would be three.
+Okay but let's look at the second data set the are four data points so
+which one is in the middle?
+The second one has 1 data point below it and
+the second data point is 2 above it so it's not in the middle.
+The third data point has 1 data point above it, 2 below it so
+it's not in the middle.
+So we have an even number data points,
+basically we average the two middle ones.
+Okay so for set 2, the median is 3.5.
+Now there's a third measure, the mode, the most frequently occurring
+value, but that's pretty easy to do, we usually use Excel for that.
+And that's really not usually what we use to summarize the data set.
+Okay, now what about spread about the mean this is
+incredibly important.
+So, basically spread about the mean, the measure we usually use,
+measures we usually use are variance of standard deviation.
+So, variances average square deviation from the mean,
+if we use XBAR for the mean and Xi for the observation, we take every
+data point minus the mean squared, add those up, and divide.
+You would think, you would divide by the number of data points, but
+you divide by one less.
+That's a bit complicated to explain but
+we'll probably address that in module four, okay.
+But why do you square the deviations from the mean,
+why not just add them up?
+Well you can show if you're good at algebra for any data set if you take
+every data point minus the mean and add them up You'll always get zero.
+You have to square the deviations from the mean so that basically
+the positive and negative deviations don't cancel out, and
+then the standard deviation is the square root of the variance.
+So for the data set 1, 3, and 5, let's go through the calculations.
+Let's get the variance, so
+you would take every data point, the mean is 3, we know that.
+So you take the first data point minus the mean, caret mean squared,
+then you take the second data point.
+Minus the mean squared.
+Then you take the third data point, 5 minus the mean squared,
+notice those all be positive to be square -2 or when you,
+that should be -3 there, sorry.
+Now that's the sum of the squared deviations, you divide that by 2.
+3-1 cuz there is three data points.
+Okay, see a -2 squared that's 4,
+3- 3 squared is 0, 5- 3 squared is 4, 4 + 4 / 2.
+See if 8/2 which is 4, so there is your variance.
+And then the standard deviation would be
+the square root of four, which is two.
+Now, basically if you know the variance,
+you know the standard deviation, so which one do we use more often?
+Okay, basically we use the standard deviation
+Is used more often as a measure of spread about the typical value.
+And the reason for that is,
+the standard deviation has the same units as the data.
+So if our data is money, it's measured in dollars or euros, I
+don't know what a dollar squared is, and that's the units of variance.
+But I do know what a dollar is, okay?
+So that's why we often use standard deviation
+instead of variance as a measure of spread about the mean.
+Now, in our next video,
+we're going to show you how to install the great analysis tool
+pack add into Excel 2016, cuz we can use that to get a lot of
+these descriptive statistics that we use to describe a data set.

@@ -1,0 +1,40 @@
+In this video we're gonna learn how to graphically describe categorical
+ordinal data.
+So let's start with numerical data and try and put some categories in.
+So we have the age of people that live in your town.
+So how many people do we have?
+5,000 people.
+And so we might wanna break this up in to categories,
+0-9 years old, 10-19, 20-29, 80-90.
+Pivot table makes this a snap.
+So select the data, including the heading.
+Go insert, pivot table.
+And we'll put this in the existing worksheet.
+And then we'll pick age here.
+Now, we want to count how many people in each age group.
+We've got to be careful here.
+See, it says, sum of age.
+Excel was thinking you want to add these up. Okay.
+So, like, for
+six year olds, they add up to 300.
+That means there's 50 six year olds.
+But if you double click here, you can change this to count.
+So now there's 50 six year olds.
+But still, we want to put categories in there.
+We want to group those ages.
+So if you right click here, you can do group.
+You can do ten year increments.
+Zero through 90 in ten year increments.
+See now we could graph this to get an idea of
+basically the age distribution.
+We could do percentages but we'll just leave it like this.
+So we would do insert.
+Okay, so we analyze.
+And then basically Pivot Chart again.
+And that column chart is absolutely fine.
+And so now we've summarized our categorical ordinal data.
+You can see there's a numerical order here.
+The 90 year olds are older than the 0 to the nine year olds.
+We can see the most common age group was baby bloomers, 50 to 59.
+Now in the next video we'll show you an important way to summarize
+categorical data known as cross tabs.

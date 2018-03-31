@@ -1,0 +1,84 @@
+0
+00:00:01,010 --> 00:00:03,000
+Data can take on one of two forms.
+
+1
+00:00:03,000 --> 00:00:04,235
+It can be categorical,
+
+2
+00:00:04,235 --> 00:00:08,150
+meaning that it classifies as a variable into a specific category.
+
+3
+00:00:08,150 --> 00:00:10,690
+Gender is a great example of a categorical variable.
+
+4
+00:00:10,690 --> 00:00:13,350
+You either identify yourself as a male or female.
+
+5
+00:00:13,350 --> 00:00:15,960
+Sometimes you will hear data called qualitative.
+
+6
+00:00:15,960 --> 00:00:19,670
+Qualitative data is categorical data, just by a different name.
+
+7
+00:00:19,670 --> 00:00:22,320
+Or data can be numerical or quantitative.
+
+8
+00:00:22,320 --> 00:00:24,060
+In this case, the numbers have meaning.
+
+9
+00:00:24,060 --> 00:00:26,780
+Generally, larger numbers mean more of something.
+
+10
+00:00:26,780 --> 00:00:30,930
+Weight, height, temperature are examples of numerical variables.
+
+11
+00:00:30,930 --> 00:00:34,990
+Further, numerical variables can be discrete or continuous.
+
+12
+00:00:34,990 --> 00:00:37,800
+Discrete variables take on a specific value and
+
+13
+00:00:37,800 --> 00:00:39,040
+must be an integer.
+
+14
+00:00:39,040 --> 00:00:41,920
+The number of vehicles that you own, or the number of flights that you
+
+15
+00:00:41,920 --> 00:00:44,570
+took this year, are examples of discrete variables.
+
+16
+00:00:44,570 --> 00:00:48,260
+You can't have a part of a car, or take part of a flight.
+
+17
+00:00:48,260 --> 00:00:51,650
+Continuous variables can take on any value within a range.
+
+18
+00:00:51,650 --> 00:00:55,032
+Weight, temperature are continuous variables because something might
+
+19
+00:00:55,032 --> 00:00:58,010
+weigh a fraction of a pound or a kilo, or
+
+20
+00:00:58,010 --> 00:01:00,540
+temperature can be somewhere between two values on a scale.
+

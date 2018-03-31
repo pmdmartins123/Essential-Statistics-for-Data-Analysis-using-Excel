@@ -1,0 +1,22 @@
+In this video, we're gonna show you how to install the Analysis ToolPak
+add-in which is useful for a lot of calculations and statistics.
+So you may already have this installed.
+If you go to the data tab and you see Analysis ToolPak on the right or
+Data Analysis add-in, you've got it.
+Now, I uninstalled mine so I can show you how to install.
+So all you do is you go to file, you go to options, you go to add-ins.
+Now, don't click on Analysis ToolPak up here,
+a lot of people make that mistake, you click go.
+And now there's two Analysis ToolPak add-ins here,
+Analysis ToolPak, Analysis ToolPak- VBA.
+Don't worry about the VBA, just check Analysis ToolPak, click OK,
+now if I go to data, you'll see Data Analysis and that's what we need.
+Now, what happens to my students a lot is they've done this procedure
+perfectly and it happens to me, and the Data Analysis add-in disappears.
+Even though it's checked when you go add-ins.
+Then what should you do?
+You should uncheck it, okay, and
+then reinstall it, that always seems to work and I have no clue why.
+So in the next video,
+we'll use this Data Analysis add-in to get descriptive statistics for
+GM and Cisco monthly stock returns in the 1990s.

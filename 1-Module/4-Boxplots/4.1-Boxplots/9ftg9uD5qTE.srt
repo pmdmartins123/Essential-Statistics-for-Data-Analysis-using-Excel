@@ -1,0 +1,144 @@
+0
+00:00:01,000 --> 00:00:04,300
+Another way to visualize data is by using a box plot or a box and
+
+1
+00:00:04,300 --> 00:00:05,153
+whisker plot.
+
+2
+00:00:05,153 --> 00:00:09,940
+Box plots split the data set into quartiles.
+
+3
+00:00:09,940 --> 00:00:13,330
+The body of the box plot consists of a box, hence the name,
+
+4
+00:00:13,330 --> 00:00:16,120
+which goes from the first quartile to the third quartile,
+
+5
+00:00:16,120 --> 00:00:18,670
+visually showing you the range of the middle 50% of your data.
+
+6
+00:00:19,700 --> 00:00:22,804
+Remember the inner quartile range that we mentioned when we discussed
+
+7
+00:00:22,804 --> 00:00:23,360
+outliers?
+
+8
+00:00:23,360 --> 00:00:25,810
+This box represents that range.
+
+9
+00:00:25,810 --> 00:00:28,690
+Within the box, a vertical line is drawn at q2,
+
+10
+00:00:28,690 --> 00:00:33,390
+the middle quartile, and this is the median of the data set.
+
+11
+00:00:33,390 --> 00:00:37,040
+Sometimes these plots also include a star or
+
+12
+00:00:37,040 --> 00:00:40,270
+something similar to indicate the mean of a data set.
+
+13
+00:00:40,270 --> 00:00:43,400
+Two horizontal lines called whiskers extend from the top and
+
+14
+00:00:43,400 --> 00:00:44,830
+bottom of the box.
+
+15
+00:00:44,830 --> 00:00:48,335
+The bottom whisker goes from the bottom of the box to the smallest
+
+16
+00:00:48,335 --> 00:00:50,370
+non-outlier in the data set and
+
+17
+00:00:50,370 --> 00:00:53,200
+represents the first quartile of the data.
+
+18
+00:00:53,200 --> 00:00:53,700
+In other words,
+
+19
+00:00:53,700 --> 00:00:57,410
+it shows the range in which the first 25% of your data fall.
+
+20
+00:00:57,410 --> 00:01:00,915
+The top whisker goes from the top of the box to the largest
+
+21
+00:01:00,915 --> 00:01:05,626
+non-outlier showing where the last 25% of your data fall.
+
+22
+00:01:05,626 --> 00:01:09,570
+In the data set typically includes one or more outliers,
+
+23
+00:01:09,570 --> 00:01:13,490
+they're defined as one point times the upper and lower quartile value.
+
+24
+00:01:13,490 --> 00:01:16,300
+They are plotted separately as points on the chart.
+
+25
+00:01:16,300 --> 00:01:19,230
+The third quartile is the top part of the box,
+
+26
+00:01:19,230 --> 00:01:22,530
+the second quartile is the bottom part of the box.
+
+27
+00:01:22,530 --> 00:01:25,650
+Thus, box plot show you the range of your data,
+
+28
+00:01:25,650 --> 00:01:28,080
+as well as within each quartile.
+
+29
+00:01:28,080 --> 00:01:32,600
+In addition, they can also review any skewness patterns in your data.
+
+30
+00:01:32,600 --> 00:01:35,520
+If most of the observations are concentrated on the low
+
+31
+00:01:35,520 --> 00:01:38,320
+end of the scale, the distribution is skewed right.
+
+32
+00:01:38,320 --> 00:01:41,130
+And if the observations are concentrated on the upper end,
+
+33
+00:01:41,130 --> 00:01:43,120
+the distribution is skewed left.
+
+34
+00:01:43,120 --> 00:01:44,750
+If the distribution is symmetric,
+
+35
+00:01:44,750 --> 00:01:47,440
+the observations will be evenly split at the median.
+

@@ -1,0 +1,33 @@
+Okay in this lesson we're gonna discuss hierarchical data.
+Now I'm not sure I can say that word right so just bear with me.
+So hierarchical data is a way to organize data with multiple
+one-to-many relationships.
+The structure is based on the rule that one parent can have many
+children, but a child can have only one parent.
+So let's look at example.
+We could look at food.
+So we could look at ice cream, so that would be the parent.
+And the children might be gelato ice cream, low fat ice cream,
+high fat ice cream, or brands of ice cream.
+Okay, we could look at cereals.
+Okay, that would be the parent.
+And the children would be bran, granola, oatmeal.
+There could be other things there.
+And fruit could be the parent.
+We might have apple, pears, plums and grapes.
+Another example, we could look at enrollments in a college.
+So we could look at HPER, the School of Health,
+Physical Education and Recreation, okay, that would be the parent.
+And then the children would be basically students
+enrolled in public health, kinesiology or parks administration.
+We might have the College of Arts and Sciences,
+that would be the parent.
+The children, and I'm not being exhaustive here,
+would be basically students enrolled in sociology,
+chemistry, mathematics, English, history or psychology.
+We might have business school being the parent.
+And we might have the children being basically
+students enrolled in accounting, finance, marketing, and operations.
+So we can learn in the next videos how we can
+use two new exciting charts from Excel 2016, the tree map and
+the sunburst charts, to summarize hierarchical data.

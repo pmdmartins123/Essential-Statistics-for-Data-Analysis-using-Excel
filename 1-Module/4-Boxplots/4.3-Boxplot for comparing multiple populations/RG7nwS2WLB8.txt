@@ -1,0 +1,54 @@
+If you recall in lesson three,
+we spent a lot of time comparing monthly returns on GM and Cisco.
+We did it with a histogram, we did it with descriptive statistics.
+We'll see a box plot really,
+I think more easily summarizes the differences and
+similarities between the monthly returns on Cisco and GM.
+Now, ideally you would like to have the GM returns in one column and
+the Cisco returns in another column, like we did in lesson three, but
+Microsoft's box plot capabilities doesn't support that at present.
+So what I had to do is put the GM returns in one column, and
+then the Cisco returns right below that.
+So, you have to set things up like that,
+not have your data in multiple columns in this situation.
+So now we can create a box plot for GM and Cisco with the data set up
+like this by going Ctrl+Shift+Right arrow+Down arrow.
+Then again, we'll pick up box and whisker plot.
+There we go.
+And again, from the Design tab, I like to make it black.
+Okay, now what do we learn from this here?
+Okay, what can we learn about GM and Cisco?
+We've already learned a lot of stuff.
+That Cisco does better on average.
+How do you see that?
+Typically than GM, because the upper whisker for Cisco is higher, and
+the box for Cisco is higher.
+So for typical value,
+it's easy to see visually that Cisco did better than GM.
+Okay.
+Now, basically we had symmetry for both Cisco and GM.
+And how can we sort of see that?
+Well, basically, the height of the top whisker and
+the bottom whisker are roughly the same.
+So we don't have much skewness, okay.
+If the top whisker was much bigger than the bottom whisker,
+you'd have a lot of skewness.
+Okay?
+If the bottom whisker was much bigger than the top whisker,
+you'd have a lot of negative skewness, it spits right out at you.
+Now, here's an outlier, you can see that X there is an outlier,
+cuz it's below the bottom of the lower whisker.
+Now, the third dimension on which we summarize data
+is spread about the mean.
+And we can see the box for Cisco is taller than the box for GM,
+which means there's more spread about the mean.
+And the whiskers for Cisco are bigger than the whiskers for
+GM, which means, again, there's more spread about the mean for
+Cisco than GM.
+So, we've seen visually, in a minute or
+two, the comparisons between Cisco and GM on the three dimensions we
+care about, and I think a picture is much more powerful than numbers.
+So a box plot is just fantastic for comparing data sets.
+In the next video, we'll show you how you can do box plots
+where you have multiple populations, but
+multiple variables on each population.

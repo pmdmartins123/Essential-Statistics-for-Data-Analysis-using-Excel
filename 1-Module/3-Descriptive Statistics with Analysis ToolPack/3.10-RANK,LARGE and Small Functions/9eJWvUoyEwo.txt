@@ -1,0 +1,98 @@
+In this video, we're gonna show you a couple more really useful
+Excel statistical functions.
+So our data set will be scores, and they could be exam scores or
+golf scores, you'll see the difference.
+If it's a test score, a high score is good.
+If it's a golf score, a low score is good.
+So here we have the scores, and
+we'll name them like we did in the last video because I think that's
+fairly useful then we don't have to keep pointing to the data.
+So if I select the data there, I can go right here and type the word,
+scores.
+Okay, so whenever I use the word scores,
+it's gonna highlight that data.
+Okay.
+So suppose I wanna know the second highest score, okay,
+we'll exhume their exam scores.
+Well, there's a function called the large function.
+So we'll type equal large, and I would type in scores so
+I could use that F3, comma 2 would be the second large score.
+Comma one would be the highest score.
+So I'll show you that formula.
+Second highest score was 99.
+Now what was the second lowest score?
+Small function, I'll use that F3 trick.
+Cisco, sorry not Cisco, we want scores there.
+It's easier to type scores I think here.
+Then the second smallest score was an 80.
+Okay.
+Now we wanna know how to rank things in a data set.
+So, guess what that function would be?
+Well, something to do with the word rank.
+So let's suppose these are exam scores, so the highest exam score,
+which is a 100, should have a rank of one.
+Now if they're golf scores, 100 is the worst score.
+That's what I would get for nine holes, the few times I played
+golf and then somebody stole my clubs and that was the end of it.
+So if we go here and type in rank, there's a couple of functions.
+There's RANK.AVG, RANK.EQ, and RANK.
+Now, RANK and RANK.EQ were basically the same.
+And I think Microsoft is trying to phase out rank, so
+I guess I'll use RANK.EQ.
+Now RANK.AVG, will get to what that is in a minute, but I would say
+RANK.EQ, okay, now basically the number here we wanna rank this
+score, and then the revis or data, which is again gonna be scores. Okay.
+Now the important thing comes next.
+See descending or ascending,
+zero means descending would mean the highest score gets a rank of 1.
+And that's what we want here of these sort of exams.
+So I put a 0 there.
+Now I can copy that down.
+I can double-click the, see the formula here looks like this.
+And I can copy that down by double-clicking the left mouse.
+Double-clicking the left mouse copies a formula or
+multiple columns down the matched column to the left.
+So if I copy, actually I could copy these both down.
+Double-click the left mouse, there we go.
+So 100 was the best score, and you can see all those formulas,
+not that you really need to see them all.
+Now, if they are golf scores, what would we do?
+We'd change the 0 to a 1, cuz a 100 should be the worst score.
+So I would do RANK, okay, .EQ again.
+I think I may have, let's widen this column here.
+Okay, sometimes you need to deceive this.
+So I wanna do a rank, and I wanna rank that score.
+Then I'll type Scores.
+Now I want a 1 there for ascending.
+Okay, so you can see the 100 was the worst score, ranked 59th,
+and then the best score was an 80, which was the worst score here.
+Okay, now the thing that's a bit annoying about this but
+we can fix it, is then we have ties.
+Okay.
+So see here two people had a 92.
+And they both get a rank of 24.
+Now if you think about that, once you get a rank of 24 and
+once you get a rank of 25.
+But Excel has a way to sort of take care of that.
+The RANK.AVG, if you had two people tied for 24th you each
+give them a rank of 24 and a half, which I think makes more sense.
+So let's do that assuming they're exam scores.
+So I can type, RANK.AVG.
+We want the number, is right there.
+And then I want scores, and then I want 0,
+highest score would be ascending.
+Highest score is a 1.
+Okay, so you can see here these two guys got
+a rank of 24.5 like I discussed, because of the ties.
+If three tied, I guess it would be 21.33, something like that.
+But Excel knows to give those tied ranks.
+Which I think it makes more sense to see 24.5 twice than two 24s there.
+So that concludes our discussion for
+now of typical Excel statistical functions.
+Now, in the next video,
+we're gonna talk about something that's very important finance.
+Geometric means and CAGRs.
+Not beer but compound annual growth rate.
+When you're analyzing stock returns or
+rate of growth of revenue you need to understand geometric mean,
+and that's what we'll discuss in the next video.

@@ -1,0 +1,29 @@
+So another way to summarize hierarchical data
+is a sunburst chart.
+And it's got some advantages and
+some disadvantages over the treemap chart, as we'll see.
+So we can select our data for the bookstore again.
+And all we gotta do is insert, go to right here, and
+instead of selecting Treemap, Sunburst.
+Okay, you can see it sorta looks like the sun there.
+Okay, the disadvantage is you can't really, I think the human eye,
+really spot what fraction of the area goes with each product.
+The rectangles are easier I think for us to work with as human beings.
+But the advantage here, you can see here H three through five,
+I've got the breakdown of how the books went on the age three through
+five kids, okay?
+And I did not have that breakdown when I did the treemap chart.
+But that's really all there is to sunburst charts.
+You have to experiment with the right size, but
+basically you can really see the hierarchical relationship better,
+I think, in this case.
+But you really, I don't think, can judge.
+You can see the children's books for the highest percentage in the mag
+and science fantasy, fiction fantasy, and do that well.
+But I think with the rectangles,
+it's easier to see the particular percentage there.
+Now again, hovering over a particular point,
+shows you the numerical value there.
+So, in our next lesson, we're going to talk about Pareto charts,
+which are really nicely done in Excel 2016.
+So, we'll get to that in a few minutes

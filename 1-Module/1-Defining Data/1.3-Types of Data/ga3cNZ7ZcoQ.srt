@@ -1,0 +1,364 @@
+0
+00:00:00,740 --> 00:00:04,530
+Hi, since our course is called Essential Statistics for
+
+1
+00:00:04,530 --> 00:00:06,190
+Data Analysis Using Excel,
+
+2
+00:00:06,190 --> 00:00:10,690
+we should probably start off talking about what we mean by data.
+
+3
+00:00:10,690 --> 00:00:14,050
+So data is made up of individuals and variables.
+
+4
+00:00:14,050 --> 00:00:16,470
+Okay, so what do we mean by individuals?
+
+5
+00:00:16,470 --> 00:00:19,730
+Individuals are the objects described by the data set.
+
+6
+00:00:19,730 --> 00:00:23,480
+Individuals might be people, stocks, cities, etc.
+
+7
+00:00:23,480 --> 00:00:25,530
+So do we mean by a variable?
+
+8
+00:00:25,530 --> 00:00:28,060
+A variable is a characteristic of an individual and
+
+9
+00:00:28,060 --> 00:00:29,510
+here are some examples.
+
+10
+00:00:29,510 --> 00:00:31,050
+So the individual might be a person.
+
+11
+00:00:31,050 --> 00:00:33,870
+So what variables might you associate with a person?
+
+12
+00:00:33,870 --> 00:00:37,600
+Well, their height, their weight, their IQ, the number of siblings,
+
+13
+00:00:37,600 --> 00:00:39,680
+perhaps their family income.
+
+14
+00:00:39,680 --> 00:00:40,958
+If the individual is a city,
+
+15
+00:00:40,958 --> 00:00:44,140
+what are some variables you might associate with a city?
+
+16
+00:00:44,140 --> 00:00:47,370
+The population of the city, the area of the city,
+
+17
+00:00:47,370 --> 00:00:50,270
+the total income of individuals in the city.
+
+18
+00:00:50,270 --> 00:00:52,880
+If the individual is a stock,
+
+19
+00:00:52,880 --> 00:00:55,110
+what variable might you associate with a stock?
+
+20
+00:00:55,110 --> 00:00:58,410
+Well, there are many, but you might look at the price of the stock
+
+21
+00:00:58,410 --> 00:01:02,448
+during each day in the year 2020, or whatever year you're interested in.
+
+22
+00:01:02,448 --> 00:01:03,683
+If your individual is a car,
+
+23
+00:01:03,683 --> 00:01:06,570
+there are many variables you might associate with a car.
+
+24
+00:01:06,570 --> 00:01:09,571
+The color of the car, the horsepower of the car.
+
+25
+00:01:09,571 --> 00:01:11,150
+You might use the miles per gallon.
+
+26
+00:01:11,150 --> 00:01:12,170
+There are just so many.
+
+27
+00:01:13,230 --> 00:01:17,010
+Okay, so the next thing we wanna talk about are variables, okay?
+
+28
+00:01:17,010 --> 00:01:21,420
+And there are two types of variables, categorical or numerical.
+
+29
+00:01:21,420 --> 00:01:22,990
+Okay, so a numerical or
+
+30
+00:01:22,990 --> 00:01:26,870
+sometimes a quantitative variable takes a numerical value.
+
+31
+00:01:26,870 --> 00:01:29,950
+A numerical value can be a mistake.
+
+32
+00:01:29,950 --> 00:01:33,760
+A numerical variable can be discrete or continuous.
+
+33
+00:01:33,760 --> 00:01:36,710
+A discrete variable assumes distinct values,
+
+34
+00:01:36,710 --> 00:01:40,800
+whereas continuous variable can assume any value within a range.
+
+35
+00:01:40,800 --> 00:01:43,132
+Often a discrete variable assumes an integer value.
+
+36
+00:01:43,132 --> 00:01:44,511
+Here are some examples.
+
+37
+00:01:44,511 --> 00:01:47,465
+If we look at the market share for a cholesterol drug,
+
+38
+00:01:47,465 --> 00:01:50,070
+that's a continuous variable, why?
+
+39
+00:01:50,070 --> 00:01:52,121
+Cuz you can take on any value between zero and
+
+40
+00:01:52,121 --> 00:01:54,400
+one, any value in an interval.
+
+41
+00:01:54,400 --> 00:01:57,060
+Profit margin for a product is continuous.
+
+42
+00:01:57,060 --> 00:02:00,180
+Again, it can take on any value between zero and one.
+
+43
+00:02:00,180 --> 00:02:03,010
+The number of children in a family is discrete.
+
+44
+00:02:03,010 --> 00:02:06,146
+You could have zero children in a family, one child, two child,
+
+45
+00:02:06,146 --> 00:02:09,641
+I don't know, the Guinness Book of World Records may be 25 children.
+
+46
+00:02:09,641 --> 00:02:13,500
+The number of days a child misses of school in a year is discrete.
+
+47
+00:02:13,500 --> 00:02:17,190
+They can miss zero days hopefully, one day, two days.
+
+48
+00:02:17,190 --> 00:02:20,560
+If there's 180 days of school I suppose they can miss 180 days.
+
+49
+00:02:20,560 --> 00:02:22,440
+I hope they're not that sick.
+
+50
+00:02:22,440 --> 00:02:23,720
+Height and weight are continuous.
+
+51
+00:02:23,720 --> 00:02:25,743
+Now you might think, if you're a man,
+
+52
+00:02:25,743 --> 00:02:29,605
+that your height might be 5 foot 10, 5 foot 11 or 6 feet.
+
+53
+00:02:29,605 --> 00:02:33,665
+But your height could be sort of any number, let's say between 2 feet and
+
+54
+00:02:33,665 --> 00:02:34,201
+8 feet.
+
+55
+00:02:34,201 --> 00:02:38,488
+So basically your height, if you say you're 6 feet tall,
+
+56
+00:02:38,488 --> 00:02:41,766
+it may mean you're 72.0000 inches.
+
+57
+00:02:41,766 --> 00:02:44,425
+The annual return on a stock is continuous.
+
+58
+00:02:44,425 --> 00:02:47,657
+The worst thing that could happen to a stock, it loses all its value,
+
+59
+00:02:47,657 --> 00:02:50,620
+you would have a minus 100% return during a year.
+
+60
+00:02:50,620 --> 00:02:54,250
+But there is no upper limit on what the return on the stock could be.
+
+61
+00:02:54,250 --> 00:02:57,330
+Now, we also wanna talk about non-numerical or
+
+62
+00:02:57,330 --> 00:03:00,350
+quantitative variables called categorical variables.
+
+63
+00:03:00,350 --> 00:03:03,250
+Also, the term used is qualitative variables.
+
+64
+00:03:03,250 --> 00:03:06,550
+And we classify a variable into one of several categories.
+
+65
+00:03:06,550 --> 00:03:09,149
+So a categorical variable can be nominal or ordinal.
+
+66
+00:03:10,160 --> 00:03:11,706
+For a nominal variable,
+
+67
+00:03:11,706 --> 00:03:15,790
+the categories cannot be assigned a numerical value.
+
+68
+00:03:15,790 --> 00:03:19,380
+For ordinal data, the categories can be sorted in a logical fashion.
+
+69
+00:03:19,380 --> 00:03:22,880
+So here are some examples of categorical variables.
+
+70
+00:03:22,880 --> 00:03:24,800
+The color of a car is nominal.
+
+71
+00:03:24,800 --> 00:03:28,030
+I mean, I don't think there's any ordering where you can order a green
+
+72
+00:03:28,030 --> 00:03:30,400
+car over a red car over a silver car.
+
+73
+00:03:31,670 --> 00:03:35,870
+The age group of a person in the US, Generation X, Millenial,
+
+74
+00:03:35,870 --> 00:03:39,290
+Baby Boomers common classifications, that's ordinal.
+
+75
+00:03:39,290 --> 00:03:41,130
+Cuz basically based on your birth date,
+
+76
+00:03:41,130 --> 00:03:43,100
+you're classified in one of these groups.
+
+77
+00:03:43,100 --> 00:03:48,010
+If you're older or you were born in 1946-1964, you're a Baby Boomer.
+
+78
+00:03:48,010 --> 00:03:52,468
+The Gen X is 65-80 and the Millenials, in the 80s and 90s.
+
+79
+00:03:52,468 --> 00:03:55,900
+So there is a numerical order that can be associated there.
+
+80
+00:03:55,900 --> 00:03:59,150
+Basically, we would have an ordinal categorical variable.
+
+81
+00:03:59,150 --> 00:04:02,636
+Your party affiliation United States, Republican, Democrat,
+
+82
+00:04:02,636 --> 00:04:05,260
+Libertarian or Independent, that's nominal.
+
+83
+00:04:05,260 --> 00:04:09,350
+I don't think that you can place a numerical order on that.
+
+84
+00:04:09,350 --> 00:04:10,220
+Rating a teacher,
+
+85
+00:04:10,220 --> 00:04:14,330
+which is controversial in the US as excellent, good, average or poor.
+
+86
+00:04:14,330 --> 00:04:18,601
+Now that is ordinal because basically you might base those
+
+87
+00:04:18,601 --> 00:04:22,784
+ratings on teacher evaluations, you might say a seven or
+
+88
+00:04:22,784 --> 00:04:26,375
+a six is excellent, a five or four is good, etc.
+
+89
+00:04:26,375 --> 00:04:30,199
+In our next video, we'll talk about how we can summarize quantitative or
+
+90
+00:04:30,199 --> 00:04:32,060
+numerical data using histograms.
+

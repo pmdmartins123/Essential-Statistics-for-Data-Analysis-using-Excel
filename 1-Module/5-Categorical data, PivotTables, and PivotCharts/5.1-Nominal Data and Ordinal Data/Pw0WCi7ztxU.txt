@@ -1,0 +1,47 @@
+It is important to understand that not only can your data be
+different types.
+Remember the categorical qualitative or
+numerical quantitative conversation we had earlier?
+It also has a scale of measurement associated with it that describes
+what the values mean.
+This is important because the interpretation of statistical
+analysis is based on underlying assumptions about the type of data
+and its scale of measurement among other characteristics.
+Just because you can run a statistic on some data doesn't mean that
+the results will actually make sense.
+Further, different visualizations or charts should be used depending on
+the scale of measurement and data type.
+Data can be nominal, which means that the values associated with that
+variable represent identifiers.
+These are unranked categorizations.
+For example, demographic information, such as gender, race or
+ethnicity, color of a car.
+Those might be nominal.
+Because you can only do statistical analysis on number, not words.
+You would have to assign a code to differentiate between genders for
+example.
+This is what we call a dummy code.
+For example, you might characterize women as one and men as two.
+Here is an example of when running some statistics, mean for example,
+makes no sense.
+If you ran a mean on a nominal variable such as gender,
+what would 1.25 mean in this context?
+Data can be ordinal where values associated with that value represent
+rank ordered category.
+So that the values have meaning relative to each other such as low,
+moderate or high.
+But the distance between each category doesn't have any meaning
+and may not be equivalent.
+Variables can also be interval, where the measurements are on
+a numerical scale with an arbitrary zero point that has no meaning.
+For example, zero degrees Fahrenheit means cold, not no heat.
+Similar to ordinal data,
+the distance between the points isn't the same across the scale.
+For example, 60 degrees is not twice as warm as 30 degrees.
+Finally, the variables can have a ratio scale of measurement.
+In this case,
+values are on a numerical scale with a meaningful zero point.
+$0 means you have no money.
+As a result, values can be compared in terms of their interval and
+ratio scales.
+So 30 times $30 is three times more than $10.

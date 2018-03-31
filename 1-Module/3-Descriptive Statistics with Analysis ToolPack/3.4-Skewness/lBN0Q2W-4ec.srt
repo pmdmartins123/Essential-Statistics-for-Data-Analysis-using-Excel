@@ -1,0 +1,224 @@
+0
+00:00:01,020 --> 00:00:04,160
+Wayne mentioned skewness earlier, and showed some example.
+
+1
+00:00:04,160 --> 00:00:08,680
+Let's take a closer look at skewness in terms of mean, median and mode.
+
+2
+00:00:08,680 --> 00:00:12,100
+Data can be normally distributed, the shape of a normal distribution
+
+3
+00:00:12,100 --> 00:00:14,610
+is often called bell-shaped, because the data
+
+4
+00:00:14,610 --> 00:00:17,710
+is distributed symmetrically around the mid-point of the data.
+
+5
+00:00:17,710 --> 00:00:19,790
+In such distributions, the mean, median,
+
+6
+00:00:19,790 --> 00:00:21,280
+and mode are clustered together.
+
+7
+00:00:22,460 --> 00:00:25,910
+Some histograms will show a skewed distribution to the right.
+
+8
+00:00:25,910 --> 00:00:29,790
+A skewed distribution to the right is said to be positively skewed.
+
+9
+00:00:29,790 --> 00:00:33,260
+In this kind of distribution, you have a large number of occurrences
+
+10
+00:00:33,260 --> 00:00:35,010
+on the left side of the chart and
+
+11
+00:00:35,010 --> 00:00:37,630
+a fewer, in the upper values, on the right side.
+
+12
+00:00:37,630 --> 00:00:41,780
+So the tail, goes to the right, that's a right skew.
+
+13
+00:00:41,780 --> 00:00:45,285
+In some histograms, will show a skewed distribution, to the left.
+
+14
+00:00:45,285 --> 00:00:48,910
+A distribution skewed to the left is said to be negatively skewed.
+
+15
+00:00:48,910 --> 00:00:51,660
+This kind of distribution has a large number of occurrences,
+
+16
+00:00:51,660 --> 00:00:54,860
+in the upper values,or the right side, and
+
+17
+00:00:54,860 --> 00:00:59,170
+a lower, a fewer, values in the lower or the left side.
+
+18
+00:00:59,170 --> 00:01:02,130
+The distribution of the mode is greater than the mean and
+
+19
+00:01:02,130 --> 00:01:02,650
+the median.
+
+20
+00:01:04,640 --> 00:01:08,310
+Now we can also look at some other shapes the distributions can take.
+
+21
+00:01:08,310 --> 00:01:11,710
+For example some distributions may be bi-modal,
+
+22
+00:01:11,710 --> 00:01:13,810
+meaning it has two peaks.
+
+23
+00:01:13,810 --> 00:01:16,840
+This shape makes sure that the data is being affected by two different
+
+24
+00:01:16,840 --> 00:01:17,750
+sources.
+
+25
+00:01:17,750 --> 00:01:19,110
+If this shape occurs,
+
+26
+00:01:19,110 --> 00:01:21,598
+the two sources should be analyzed separately.
+
+27
+00:01:21,598 --> 00:01:23,590
+In a bi-modal distribution, the min and
+
+28
+00:01:23,590 --> 00:01:26,700
+median may actually cluster together and you might assume
+
+29
+00:01:26,700 --> 00:01:30,185
+the distribution is normal if you don't plot the data histogram.
+
+30
+00:01:30,185 --> 00:01:33,030
+Although measure of central tendency are important in understanding
+
+31
+00:01:33,030 --> 00:01:35,350
+your data, sometimes visually inspecting it,
+
+32
+00:01:35,350 --> 00:01:37,750
+can also provide you good insight.
+
+33
+00:01:37,750 --> 00:01:41,200
+Our uniform distributions shows little variation across your bins or
+
+34
+00:01:41,200 --> 00:01:42,290
+categories.
+
+35
+00:01:42,290 --> 00:01:45,010
+This type of distribution could occur because you have combined
+
+36
+00:01:45,010 --> 00:01:47,630
+the sources of variation in your visualization, or
+
+37
+00:01:47,630 --> 00:01:50,580
+because you're bins are too small, or too large.
+
+38
+00:01:50,580 --> 00:01:53,290
+Change the way you are creating your histogram can provide
+
+39
+00:01:53,290 --> 00:01:55,870
+more information about the actual distribution of your data.
+
+40
+00:01:56,880 --> 00:01:59,180
+Finally, a distribution might be random,
+
+41
+00:01:59,180 --> 00:02:01,470
+which means it has no apparent pattern.
+
+42
+00:02:01,470 --> 00:02:04,740
+It may describe a distribution that has several modes or peaks,
+
+43
+00:02:04,740 --> 00:02:08,690
+it could occur for the same reasons a uniform distribution does, similar
+
+44
+00:02:08,690 --> 00:02:11,920
+changes might provide more insight into the distribution of your data.
+
+45
+00:02:13,050 --> 00:02:15,880
+Finally histograms are valuable tools because they
+
+46
+00:02:15,880 --> 00:02:19,700
+allow us to better understand the shape or distribution of our data.
+
+47
+00:02:19,700 --> 00:02:22,570
+In general we want our data to be normally distributed.
+
+48
+00:02:22,570 --> 00:02:23,430
+When it's not,
+
+49
+00:02:23,430 --> 00:02:27,540
+it's what we call skewed with data clustered at one end or the other.
+
+50
+00:02:27,540 --> 00:02:30,560
+If our data are normally distributed we know
+
+51
+00:02:30,560 --> 00:02:34,555
+that 68% of the data fell within one plus one minus one standard
+
+52
+00:02:34,555 --> 00:02:39,295
+deviations of the mean 95% within two standard deviations and
+
+53
+00:02:39,295 --> 00:02:44,150
+99% within three and as I mentioned, most statistics assume normality.
+
+54
+00:02:44,150 --> 00:02:48,088
+If not normal although we can run the statistic results that we would
+
+55
+00:02:48,088 --> 00:02:52,109
+get will be uninterpretable or worse lead to the wrong conclusions.
+

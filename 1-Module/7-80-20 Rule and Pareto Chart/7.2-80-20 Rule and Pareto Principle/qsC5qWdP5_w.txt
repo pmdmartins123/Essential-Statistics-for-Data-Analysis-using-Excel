@@ -1,0 +1,21 @@
+In this lesson, we're gonna talk about the Pareto principle,
+also known as the 80/20 rule, the law of the vital few, or
+the principle of factor sparsity.
+Basically, the Pareto principle states that for
+many events, roughly 80% of the effects come from 20% of the causes.
+So, here's some examples.
+20% of the customers generate 80% of the profit.
+20% of the products may generate 80% of the profit.
+Most importantly, 20% of the people have 80% of the money.
+And very interesting in today's internet age,
+20% of the websites seem to get 80% of the hits.
+And there's actually a mathematical explanation for that last point.
+I'm not sure there is for the others.
+So, how can we illustrate the Pareto principle or the 80/20 rule?
+We can create Pareto charts using Excel 2016.
+And a Pareto chart, named after the economist Pareto,
+is a type of chart that contains both bars and a line graph.
+So the individual values of your data are represented in descending
+order by bars, and the cumulative total is represented by a line.
+And so, in the next video,
+we'll start teaching you how to make your own Pareto charts.

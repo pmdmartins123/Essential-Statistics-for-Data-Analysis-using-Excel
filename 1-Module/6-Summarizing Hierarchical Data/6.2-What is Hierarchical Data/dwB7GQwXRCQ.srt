@@ -1,0 +1,132 @@
+0
+00:00:00,290 --> 00:00:03,350
+Okay in this lesson we're gonna discuss hierarchical data.
+
+1
+00:00:03,350 --> 00:00:07,050
+Now I'm not sure I can say that word right so just bear with me.
+
+2
+00:00:07,050 --> 00:00:10,545
+So hierarchical data is a way to organize data with multiple
+
+3
+00:00:10,545 --> 00:00:12,200
+one-to-many relationships.
+
+4
+00:00:12,200 --> 00:00:14,870
+The structure is based on the rule that one parent can have many
+
+5
+00:00:14,870 --> 00:00:19,050
+children, but a child can have only one parent.
+
+6
+00:00:19,050 --> 00:00:20,030
+So let's look at example.
+
+7
+00:00:20,030 --> 00:00:20,950
+We could look at food.
+
+8
+00:00:20,950 --> 00:00:23,420
+So we could look at ice cream, so that would be the parent.
+
+9
+00:00:23,420 --> 00:00:26,110
+And the children might be gelato ice cream, low fat ice cream,
+
+10
+00:00:26,110 --> 00:00:28,600
+high fat ice cream, or brands of ice cream.
+
+11
+00:00:28,600 --> 00:00:30,430
+Okay, we could look at cereals.
+
+12
+00:00:30,430 --> 00:00:32,230
+Okay, that would be the parent.
+
+13
+00:00:32,230 --> 00:00:35,260
+And the children would be bran, granola, oatmeal.
+
+14
+00:00:35,260 --> 00:00:37,260
+There could be other things there.
+
+15
+00:00:37,260 --> 00:00:38,550
+And fruit could be the parent.
+
+16
+00:00:38,550 --> 00:00:41,200
+We might have apple, pears, plums and grapes.
+
+17
+00:00:41,200 --> 00:00:45,410
+Another example, we could look at enrollments in a college.
+
+18
+00:00:45,410 --> 00:00:48,370
+So we could look at HPER, the School of Health,
+
+19
+00:00:48,370 --> 00:00:52,620
+Physical Education and Recreation, okay, that would be the parent.
+
+20
+00:00:52,620 --> 00:00:56,400
+And then the children would be basically students
+
+21
+00:00:56,400 --> 00:01:00,460
+enrolled in public health, kinesiology or parks administration.
+
+22
+00:01:00,460 --> 00:01:02,360
+We might have the College of Arts and Sciences,
+
+23
+00:01:02,360 --> 00:01:03,570
+that would be the parent.
+
+24
+00:01:03,570 --> 00:01:06,060
+The children, and I'm not being exhaustive here,
+
+25
+00:01:06,060 --> 00:01:08,940
+would be basically students enrolled in sociology,
+
+26
+00:01:08,940 --> 00:01:12,720
+chemistry, mathematics, English, history or psychology.
+
+27
+00:01:12,720 --> 00:01:15,050
+We might have business school being the parent.
+
+28
+00:01:15,050 --> 00:01:17,730
+And we might have the children being basically
+
+29
+00:01:17,730 --> 00:01:22,100
+students enrolled in accounting, finance, marketing, and operations.
+
+30
+00:01:22,100 --> 00:01:25,870
+So we can learn in the next videos how we can
+
+31
+00:01:25,870 --> 00:01:30,550
+use two new exciting charts from Excel 2016, the tree map and
+
+32
+00:01:30,550 --> 00:01:34,320
+the sunburst charts, to summarize hierarchical data.
+

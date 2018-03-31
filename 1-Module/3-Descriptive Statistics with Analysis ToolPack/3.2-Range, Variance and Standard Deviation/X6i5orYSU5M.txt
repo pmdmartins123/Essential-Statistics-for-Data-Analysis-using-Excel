@@ -1,0 +1,52 @@
+Now that we know something about
+central endencies of the values in our data set.
+We can calculate the measures of
+variability in other words how spread
+apart the data values are, the range is a
+simple way to express the distribution of the data.
+It's calculated by subtracting the minimum value in the set
+from the maximum value.
+In this case 10 - 2 which gives us a range of 8.
+The variance is a little more complex
+depending on whether you have a
+population or a sample you can calculate
+the population or sample variance,
+to calculate either you basically sum the
+squared differences between each value
+in the data and the mean and then
+divide by the number of values in the
+data set, if you are calculating the
+sample variance however you will
+subtract 1 from the number of values in
+the data in this case we end up with a
+variance of 4.67 if we believe this is a
+population of cupcake sales, but I'm
+hoping this is just a sample I want to
+keep selling cupcakes. So the sample
+variance is 5 are you wondering why you
+square the differences before summing
+them rather than simply just summing the
+difference of each value from the mean,
+if you don't square them the sum of the
+differences will always be 0, if you want
+to understand the variation in your data
+we must square those differences so we
+don't end up with 0 every time.
+The standard deviation is a commonly used
+metric for measuring a unit of
+difference from the mean. Variance is
+interesting but because we had to square
+the differences it is not very easy to
+interpret. So to put this estimate back
+on the same scale as the mean you must
+take the square root, this is known as
+the standard deviation. The square root
+of the sample variance is the sample
+standard deviation which in this example is 2.24
+Finally the standard error gives a measure of
+how well a sample represents the population.
+it is calculated by dividing the standard deviation by the square root
+of the number of values in your data.
+In this case, we divide our standard deviation 2.24
+by the square root of 15 which is 3.87
+to produce a standard error of 0.58.

@@ -1,0 +1,84 @@
+0
+00:00:00,300 --> 00:00:02,970
+In this lesson, we're gonna talk about the Pareto principle,
+
+1
+00:00:02,970 --> 00:00:06,390
+also known as the 80/20 rule, the law of the vital few, or
+
+2
+00:00:06,390 --> 00:00:08,700
+the principle of factor sparsity.
+
+3
+00:00:08,700 --> 00:00:11,210
+Basically, the Pareto principle states that for
+
+4
+00:00:11,210 --> 00:00:15,260
+many events, roughly 80% of the effects come from 20% of the causes.
+
+5
+00:00:15,260 --> 00:00:16,425
+So, here's some examples.
+
+6
+00:00:16,425 --> 00:00:19,765
+20% of the customers generate 80% of the profit.
+
+7
+00:00:19,765 --> 00:00:23,248
+20% of the products may generate 80% of the profit.
+
+8
+00:00:23,248 --> 00:00:27,280
+Most importantly, 20% of the people have 80% of the money.
+
+9
+00:00:27,280 --> 00:00:29,705
+And very interesting in today's internet age,
+
+10
+00:00:29,705 --> 00:00:32,370
+20% of the websites seem to get 80% of the hits.
+
+11
+00:00:32,370 --> 00:00:36,360
+And there's actually a mathematical explanation for that last point.
+
+12
+00:00:36,360 --> 00:00:38,130
+I'm not sure there is for the others.
+
+13
+00:00:38,130 --> 00:00:42,080
+So, how can we illustrate the Pareto principle or the 80/20 rule?
+
+14
+00:00:42,080 --> 00:00:45,610
+We can create Pareto charts using Excel 2016.
+
+15
+00:00:45,610 --> 00:00:48,830
+And a Pareto chart, named after the economist Pareto,
+
+16
+00:00:48,830 --> 00:00:51,630
+is a type of chart that contains both bars and a line graph.
+
+17
+00:00:52,850 --> 00:00:56,210
+So the individual values of your data are represented in descending
+
+18
+00:00:56,210 --> 00:01:00,960
+order by bars, and the cumulative total is represented by a line.
+
+19
+00:01:00,960 --> 00:01:02,066
+And so, in the next video,
+
+20
+00:01:02,066 --> 00:01:05,060
+we'll start teaching you how to make your own Pareto charts.
+

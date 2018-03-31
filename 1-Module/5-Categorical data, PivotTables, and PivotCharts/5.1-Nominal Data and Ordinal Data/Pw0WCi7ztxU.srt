@@ -1,0 +1,188 @@
+0
+00:00:00,253 --> 00:00:03,648
+It is important to understand that not only can your data be
+
+1
+00:00:03,648 --> 00:00:05,070
+different types.
+
+2
+00:00:05,070 --> 00:00:07,040
+Remember the categorical qualitative or
+
+3
+00:00:07,040 --> 00:00:10,170
+numerical quantitative conversation we had earlier?
+
+4
+00:00:10,170 --> 00:00:14,090
+It also has a scale of measurement associated with it that describes
+
+5
+00:00:14,090 --> 00:00:15,820
+what the values mean.
+
+6
+00:00:15,820 --> 00:00:18,490
+This is important because the interpretation of statistical
+
+7
+00:00:18,490 --> 00:00:22,250
+analysis is based on underlying assumptions about the type of data
+
+8
+00:00:22,250 --> 00:00:25,280
+and its scale of measurement among other characteristics.
+
+9
+00:00:25,280 --> 00:00:28,350
+Just because you can run a statistic on some data doesn't mean that
+
+10
+00:00:28,350 --> 00:00:30,580
+the results will actually make sense.
+
+11
+00:00:30,580 --> 00:00:34,220
+Further, different visualizations or charts should be used depending on
+
+12
+00:00:34,220 --> 00:00:36,820
+the scale of measurement and data type.
+
+13
+00:00:36,820 --> 00:00:40,120
+Data can be nominal, which means that the values associated with that
+
+14
+00:00:40,120 --> 00:00:42,350
+variable represent identifiers.
+
+15
+00:00:42,350 --> 00:00:44,910
+These are unranked categorizations.
+
+16
+00:00:44,910 --> 00:00:48,300
+For example, demographic information, such as gender, race or
+
+17
+00:00:48,300 --> 00:00:50,470
+ethnicity, color of a car.
+
+18
+00:00:50,470 --> 00:00:52,280
+Those might be nominal.
+
+19
+00:00:52,280 --> 00:00:56,530
+Because you can only do statistical analysis on number, not words.
+
+20
+00:00:56,530 --> 00:01:00,010
+You would have to assign a code to differentiate between genders for
+
+21
+00:01:00,010 --> 00:01:00,940
+example.
+
+22
+00:01:00,940 --> 00:01:03,120
+This is what we call a dummy code.
+
+23
+00:01:03,120 --> 00:01:07,010
+For example, you might characterize women as one and men as two.
+
+24
+00:01:08,350 --> 00:01:12,950
+Here is an example of when running some statistics, mean for example,
+
+25
+00:01:12,950 --> 00:01:14,270
+makes no sense.
+
+26
+00:01:14,270 --> 00:01:17,398
+If you ran a mean on a nominal variable such as gender,
+
+27
+00:01:17,398 --> 00:01:21,180
+what would 1.25 mean in this context?
+
+28
+00:01:21,180 --> 00:01:25,410
+Data can be ordinal where values associated with that value represent
+
+29
+00:01:25,410 --> 00:01:26,790
+rank ordered category.
+
+30
+00:01:26,790 --> 00:01:30,620
+So that the values have meaning relative to each other such as low,
+
+31
+00:01:30,620 --> 00:01:31,880
+moderate or high.
+
+32
+00:01:31,880 --> 00:01:35,000
+But the distance between each category doesn't have any meaning
+
+33
+00:01:35,000 --> 00:01:37,160
+and may not be equivalent.
+
+34
+00:01:37,160 --> 00:01:41,110
+Variables can also be interval, where the measurements are on
+
+35
+00:01:41,110 --> 00:01:45,830
+a numerical scale with an arbitrary zero point that has no meaning.
+
+36
+00:01:45,830 --> 00:01:50,750
+For example, zero degrees Fahrenheit means cold, not no heat.
+
+37
+00:01:50,750 --> 00:01:52,140
+Similar to ordinal data,
+
+38
+00:01:52,140 --> 00:01:55,630
+the distance between the points isn't the same across the scale.
+
+39
+00:01:55,630 --> 00:02:00,390
+For example, 60 degrees is not twice as warm as 30 degrees.
+
+40
+00:02:00,390 --> 00:02:03,730
+Finally, the variables can have a ratio scale of measurement.
+
+41
+00:02:03,730 --> 00:02:04,564
+In this case,
+
+42
+00:02:04,564 --> 00:02:08,193
+values are on a numerical scale with a meaningful zero point.
+
+43
+00:02:08,193 --> 00:02:12,060
+$0 means you have no money.
+
+44
+00:02:12,060 --> 00:02:15,210
+As a result, values can be compared in terms of their interval and
+
+45
+00:02:15,210 --> 00:02:16,460
+ratio scales.
+
+46
+00:02:16,460 --> 00:02:23,714
+So 30 times $30 is three times more than $10.
+

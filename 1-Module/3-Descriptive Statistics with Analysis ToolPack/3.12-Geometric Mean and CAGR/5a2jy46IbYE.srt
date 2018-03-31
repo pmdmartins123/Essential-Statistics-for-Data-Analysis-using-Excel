@@ -1,0 +1,296 @@
+0
+00:00:00,742 --> 00:00:04,803
+Okay, let's suppose you're looking at stock returns, rates of growth or
+
+1
+00:00:04,803 --> 00:00:07,640
+basically growth in revenues for a company.
+
+2
+00:00:07,640 --> 00:00:09,470
+So let's look at two stocks here.
+
+3
+00:00:09,470 --> 00:00:12,660
+The first stock every year went up 5%.
+
+4
+00:00:12,660 --> 00:00:18,290
+The second stock it went down 50%, up 70%, down 50% up 70%.
+
+5
+00:00:18,290 --> 00:00:19,980
+Which of these stocks is better?
+
+6
+00:00:19,980 --> 00:00:22,660
+Well, you might look at the average return.
+
+7
+00:00:22,660 --> 00:00:25,720
+So you might take the average here, it's gonna be obviously 5%.
+
+8
+00:00:25,720 --> 00:00:29,365
+So every year, your money grows by 5%.
+
+9
+00:00:29,365 --> 00:00:33,132
+Now you look at the second stock just topping that average across,
+
+10
+00:00:33,132 --> 00:00:35,600
+the average return is higher than 10%.
+
+11
+00:00:35,600 --> 00:00:39,625
+So it looks like Stock 2 is better, but the answer is it's not.
+
+12
+00:00:39,625 --> 00:00:42,810
+Okay, cause the volatility in Stock 2 will eventually kill you.
+
+13
+00:00:42,810 --> 00:00:45,420
+If you're in Stock 1, your money will always grow.
+
+14
+00:00:45,420 --> 00:00:49,670
+But in Stock 2, your money will decline.
+
+15
+00:00:49,670 --> 00:00:52,810
+So what would happen if you start with a dollar in Stock 2.
+
+16
+00:00:52,810 --> 00:00:57,990
+Well, the first year you might lose 50%, so you'd be down to $0.50.
+
+17
+00:00:57,990 --> 00:01:05,340
+Then you'd grow by 70%, you'd have 1.7 times what you had here, okay.
+
+18
+00:01:05,340 --> 00:01:11,110
+Then you'd lose 50%, so you would end up here and
+
+19
+00:01:11,110 --> 00:01:15,340
+then you would grow by 70% and you'd end up here.
+
+20
+00:01:15,340 --> 00:01:17,950
+That be less money than what you started with.
+
+21
+00:01:17,950 --> 00:01:20,240
+If you follow this pattern in four years,
+
+22
+00:01:20,240 --> 00:01:23,950
+even though your average return is 10%, you'd have less money.
+
+23
+00:01:23,950 --> 00:01:26,100
+So you don't wanna say Stock 2 is better.
+
+24
+00:01:26,100 --> 00:01:29,570
+So here's where we need the concept of geometric mean,
+
+25
+00:01:29,570 --> 00:01:33,660
+which leads to CAGRs or compound annual growth rate.
+
+26
+00:01:33,660 --> 00:01:36,660
+So the geometric mean of n numbers is the nth root
+
+27
+00:01:36,660 --> 00:01:38,340
+of the product of those numbers.
+
+28
+00:01:38,340 --> 00:01:41,950
+So if I took one, two and four, you multiply those, you get eight.
+
+29
+00:01:41,950 --> 00:01:47,339
+The cube root of 8 is 2 cuz 2 times 2 times 2 is 8.
+
+30
+00:01:47,339 --> 00:01:50,779
+Now there's a formula or a function in Excel,
+
+31
+00:01:50,779 --> 00:01:53,700
+GEOMEAN which would give you 2 there.
+
+32
+00:01:56,280 --> 00:02:00,500
+Okay, now so how do you sort of get sort of a typical
+
+33
+00:02:00,500 --> 00:02:04,760
+annual growth rate for a stock or revenue growth for
+
+34
+00:02:04,760 --> 00:02:07,430
+a corporation, given numbers like these.
+
+35
+00:02:07,430 --> 00:02:11,950
+Okay, and that's called the CAGR, not beer, but
+
+36
+00:02:11,950 --> 00:02:13,730
+compound annual growth rate.
+
+37
+00:02:16,680 --> 00:02:20,199
+But you ask anybody who's been to an MBA program about CAGR,
+
+38
+00:02:20,199 --> 00:02:21,924
+they may talk about beer, but
+
+39
+00:02:21,924 --> 00:02:25,840
+they'll also talk about compound annual growth rate.
+
+40
+00:02:25,840 --> 00:02:30,238
+Okay, so what I did is I took one plus the returns, 1.05, etc.
+
+41
+00:02:30,238 --> 00:02:35,936
+One plus the minus 0.5 is 0.5, 1.7 is the one plus this, etc.
+
+42
+00:02:35,936 --> 00:02:38,830
+Then you take the geometric mean to get the CAGR,
+
+43
+00:02:38,830 --> 00:02:42,220
+basically our compound annual growth rate.
+
+44
+00:02:42,220 --> 00:02:45,390
+Basically for each stock and you subtract one.
+
+45
+00:02:45,390 --> 00:02:49,910
+So you take geometric mean of these four
+
+46
+00:02:49,910 --> 00:02:54,488
+guys minus one, that's gonna come out to 5%.
+
+47
+00:02:54,488 --> 00:02:56,710
+It should show you that formula.
+
+48
+00:03:00,048 --> 00:03:02,620
+We'll widen the column by double-clicking.
+
+49
+00:03:02,620 --> 00:03:04,090
+Now if I copy that across,
+
+50
+00:03:04,090 --> 00:03:08,451
+you'll see the second stock has a negative CAGR, negative 8%.
+
+51
+00:03:10,410 --> 00:03:16,420
+So Stock 2 has a CAGR of minus 8% per year.
+
+52
+00:03:17,540 --> 00:03:20,935
+Okay, and that makes sense because we saw that if you invest in Stock
+
+53
+00:03:20,935 --> 00:03:24,110
+2, you would decline over time.
+
+54
+00:03:24,110 --> 00:03:28,273
+And basically, if you would take one plus this CAGR to the fourth power,
+
+55
+00:03:28,273 --> 00:03:29,991
+you'd get this $0.72.
+
+56
+00:03:29,991 --> 00:03:32,232
+If I would take one plus, that's what I mean,
+
+57
+00:03:32,232 --> 00:03:34,620
+it's a compound annual growth rate.
+
+58
+00:03:34,620 --> 00:03:38,560
+One plus that, carat over the six raises to the fourth power.
+
+59
+00:03:38,560 --> 00:03:40,651
+You see those two are exactly the same there.
+
+60
+00:03:40,651 --> 00:03:44,470
+Okay, that's $0.72 you'd have in four years,
+
+61
+00:03:44,470 --> 00:03:48,969
+if you projected the CAGR four years, you'd have $0.72.
+
+62
+00:03:48,969 --> 00:03:51,062
+So these CAGRs are really important and
+
+63
+00:03:51,062 --> 00:03:54,113
+the reason they're important again is the volatility.
+
+64
+00:03:54,113 --> 00:03:57,476
+In the long run, volatility will cause you to eventually lose money
+
+65
+00:03:57,476 --> 00:03:59,120
+if the means are equal.
+
+66
+00:03:59,120 --> 00:04:02,610
+Okay, if you've got two data sets where the means are equal,
+
+67
+00:04:02,610 --> 00:04:06,920
+the one with the volatility is gonna have the lower compound
+
+68
+00:04:06,920 --> 00:04:08,570
+annual growth rate.
+
+69
+00:04:08,570 --> 00:04:12,740
+Now in the next lesson, we're gonna start talking about box plots,
+
+70
+00:04:12,740 --> 00:04:16,870
+which is new to Excel 2016, beautiful box plots.
+
+71
+00:04:16,870 --> 00:04:21,820
+They give you a fantastic way to quickly compare data sets and
+
+72
+00:04:21,820 --> 00:04:24,650
+understand the concepts we've been talking about.
+
+73
+00:04:24,650 --> 00:04:27,884
+Central location spread about the mean and skewness.
+

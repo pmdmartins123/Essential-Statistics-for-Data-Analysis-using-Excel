@@ -1,0 +1,116 @@
+0
+00:00:01,240 --> 00:00:03,260
+A histogram is a fancy bar chart.
+
+1
+00:00:03,260 --> 00:00:04,810
+The difference between a histogram and
+
+2
+00:00:04,810 --> 00:00:07,100
+a bar chart is that histograms show bars for
+
+3
+00:00:07,100 --> 00:00:11,390
+ranges of numbers, rather than for a single value as most bar charts do.
+
+4
+00:00:11,390 --> 00:00:14,590
+In addition, histograms are used to display continuous data,
+
+5
+00:00:14,590 --> 00:00:17,430
+whereas bar charts are used to display discreet data.
+
+6
+00:00:17,430 --> 00:00:19,640
+As a result, the bars in histograms touch, but
+
+7
+00:00:19,640 --> 00:00:21,338
+they do not touch on bar charts.
+
+8
+00:00:21,338 --> 00:00:25,860
+To construct a histogram, the first step is to bin the range of values,
+
+9
+00:00:25,860 --> 00:00:29,520
+that is, divide the entire range of values into a series of intervals.
+
+10
+00:00:29,520 --> 00:00:34,050
+And then count how many values fall into each of your intervals.
+
+11
+00:00:34,050 --> 00:00:35,345
+The bins are consecutive,
+
+12
+00:00:35,345 --> 00:00:39,240
+non-overlapping intervals of values associated with a variable.
+
+13
+00:00:39,240 --> 00:00:41,970
+The bins must be adjacent and are often, but
+
+14
+00:00:41,970 --> 00:00:44,580
+not required to be, of equal size.
+
+15
+00:00:44,580 --> 00:00:47,900
+In this case, we are summarizing the number of widgets sold each day for
+
+16
+00:00:47,900 --> 00:00:48,600
+two months.
+
+17
+00:00:48,600 --> 00:00:51,080
+We created bins the size of 20.
+
+18
+00:00:51,080 --> 00:00:54,520
+Histograms, like bar charts, are valuable tools, because they allow
+
+19
+00:00:54,520 --> 00:00:57,860
+us to better understand the shape or distribution of our data.
+
+20
+00:00:57,860 --> 00:01:00,760
+In general, we want our data to be normally distributed,
+
+21
+00:01:00,760 --> 00:01:02,270
+meaning it's symmetrical.
+
+22
+00:01:02,270 --> 00:01:03,010
+When it's not,
+
+23
+00:01:03,010 --> 00:01:06,930
+it's skewed, with data clustered at one end or the other.
+
+24
+00:01:06,930 --> 00:01:10,420
+As data analysis, symmetrical, or normally distributed data,
+
+25
+00:01:10,420 --> 00:01:13,410
+is not only pleasing to the eye, but to our spirits as well.
+
+26
+00:01:13,410 --> 00:01:16,800
+Because many statistical analyses assume normality of data.
+
+27
+00:01:16,800 --> 00:01:19,900
+In other words, if your data aren't normally distributed, you won't be
+
+28
+00:01:19,900 --> 00:01:22,670
+able to make the correct interpretation of your results.
+

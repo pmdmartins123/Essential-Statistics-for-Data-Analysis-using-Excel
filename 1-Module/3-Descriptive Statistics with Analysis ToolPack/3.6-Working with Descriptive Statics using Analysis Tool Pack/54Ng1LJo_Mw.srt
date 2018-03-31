@@ -1,0 +1,508 @@
+0
+00:00:00,670 --> 00:00:03,190
+Now that we've installed the Analysis Toolpak, or
+
+1
+00:00:03,190 --> 00:00:06,200
+the data analysis add-in, let's use it to analyze monthly
+
+2
+00:00:06,200 --> 00:00:09,250
+returns in the 1990s on GM and Cisco.
+
+3
+00:00:09,250 --> 00:00:12,860
+There are some other stocks here, but we'll just focus on GM and
+
+4
+00:00:12,860 --> 00:00:14,100
+Cisco here.
+
+5
+00:00:14,100 --> 00:00:16,960
+Okay, so we go data, data analysis,
+
+6
+00:00:16,960 --> 00:00:19,280
+which we now see cuz we installed it.
+
+7
+00:00:19,280 --> 00:00:22,810
+And then there's plenty of options here but what we really care about
+
+8
+00:00:22,810 --> 00:00:25,370
+is Descriptive Statistics, which is right here.
+
+9
+00:00:25,370 --> 00:00:29,540
+We'll be using a bunch more of these things later in the course, okay, so
+
+10
+00:00:29,540 --> 00:00:32,570
+now we gotta fill in this dialog box.
+
+11
+00:00:32,570 --> 00:00:37,290
+So the Input Range is our data and I'd like to include the labels, so
+
+12
+00:00:37,290 --> 00:00:38,880
+I'll start here with GM.
+
+13
+00:00:38,880 --> 00:00:42,620
+I do Ctrl+Shift+Right Arrow to go to the right, down right go to
+
+14
+00:00:42,620 --> 00:00:46,110
+the bottom, that picks off my datam, the data is in columns.
+
+15
+00:00:47,540 --> 00:00:51,340
+Output range is the upper left hand corner of where I want excel to put
+
+16
+00:00:51,340 --> 00:00:54,920
+its statistics, I can just say right here.
+
+17
+00:00:56,090 --> 00:00:59,300
+Let's say, I6, then you have to check summary statistics or
+
+18
+00:00:59,300 --> 00:01:01,900
+you won't get any, so you click okay.
+
+19
+00:01:01,900 --> 00:01:03,693
+You'll get summary statistics,
+
+20
+00:01:03,693 --> 00:01:06,298
+okay, now we might make that a little bit bigger.
+
+21
+00:01:08,038 --> 00:01:11,140
+Bold face it, okay.
+
+22
+00:01:11,140 --> 00:01:14,910
+So now what we want to do is really compare GM and
+
+23
+00:01:14,910 --> 00:01:16,370
+Cisco on three dimensions.
+
+24
+00:01:16,370 --> 00:01:18,620
+Remember we said, typical value.
+
+25
+00:01:21,270 --> 00:01:25,100
+Now, question would be mean or median or mode here.
+
+26
+00:01:25,100 --> 00:01:27,210
+Okay, so the mean is right here.
+
+27
+00:01:27,210 --> 00:01:33,300
+So, GM average about 1% a month returns, CSCO about 5.5% and
+
+28
+00:01:33,300 --> 00:01:36,620
+media which you know, half the data is below it, half the data is above
+
+29
+00:01:36,620 --> 00:01:39,730
+it, GM's median was actually slightly negative.
+
+30
+00:01:39,730 --> 00:01:44,490
+Cisco's median was 5% which is fairly positive.
+
+31
+00:01:44,490 --> 00:01:47,990
+There is no mode, remember that mode is most frequently occurring value.
+
+32
+00:01:49,120 --> 00:01:53,300
+Again, let me highlight basically, let's say in yellow, what we use for
+
+33
+00:01:53,300 --> 00:01:54,000
+typical value.
+
+34
+00:01:56,600 --> 00:01:59,570
+So there's no mode for GM and the reason for
+
+35
+00:01:59,570 --> 00:02:04,950
+that is because no, return on GM occurred more than once.
+
+36
+00:02:04,950 --> 00:02:07,970
+And for CISCO the most recurring value is 5.1% we dont
+
+37
+00:02:07,970 --> 00:02:08,810
+use that too much.
+
+38
+00:02:08,810 --> 00:02:11,230
+But the question is, for
+
+39
+00:02:11,230 --> 00:02:14,770
+typical value should I use the Mean or the Median.
+
+40
+00:02:14,770 --> 00:02:18,640
+And it depends on Skewness as it turns out.
+
+41
+00:02:18,640 --> 00:02:20,110
+If you have lots of Skewness and
+
+42
+00:02:20,110 --> 00:02:22,540
+there's a measure of Skewness on the output.
+
+43
+00:02:22,540 --> 00:02:27,530
+There's a skewness value here, okay.
+
+44
+00:02:27,530 --> 00:02:31,190
+And we'll define what we mean by lots of skewness in a minute, okay.
+
+45
+00:02:32,360 --> 00:02:34,760
+If have lots of skewness and
+
+46
+00:02:34,760 --> 00:02:38,180
+basically that generally means that skewness measure
+
+47
+00:02:39,570 --> 00:02:44,210
+if it's greater than +1 it means it's very positive we skew the data.
+
+48
+00:02:44,210 --> 00:02:46,970
+Or the skewness is less than minus one.
+
+49
+00:02:46,970 --> 00:02:48,120
+If you have a lot of skewness,
+
+50
+00:02:48,120 --> 00:02:50,100
+we'll have a great example of this in a minute,
+
+51
+00:02:50,100 --> 00:02:51,990
+you should use the median.
+
+52
+00:02:51,990 --> 00:02:56,720
+Because basically what happens is the extreme values basically distort
+
+53
+00:02:57,740 --> 00:02:59,750
+the typical value.
+
+54
+00:02:59,750 --> 00:03:02,380
+If you look at income that's a very good example where there's a lot of
+
+55
+00:03:02,380 --> 00:03:03,630
+skewness.
+
+56
+00:03:03,630 --> 00:03:06,260
+If somebody has an income of a hundred million dollars a year in
+
+57
+00:03:06,260 --> 00:03:09,630
+a small town, they would greatly raise the mean.
+
+58
+00:03:09,630 --> 00:03:11,750
+We'll see example of this in a minute but
+
+59
+00:03:11,750 --> 00:03:13,700
+they really wouldn't do much to the median and
+
+60
+00:03:13,700 --> 00:03:18,780
+there $100 million a year is not really the typical person, okay.
+
+61
+00:03:18,780 --> 00:03:21,732
+So we look here we don't have much skewness we would use the mean for
+
+62
+00:03:21,732 --> 00:03:25,291
+typical value, So
+
+63
+00:03:25,291 --> 00:03:29,959
+Cisco does better than GM typically, higher mean.
+
+64
+00:03:34,099 --> 00:03:35,933
+Now what about spread about the mean,
+
+65
+00:03:35,933 --> 00:03:38,540
+which doc has more spread about the mean?
+
+66
+00:03:38,540 --> 00:03:41,320
+Well, we learned a couple of videos ago you look at the standard
+
+67
+00:03:41,320 --> 00:03:42,640
+deviation and the variance.
+
+68
+00:03:46,120 --> 00:03:49,155
+And so the standard deviation is what we usually like to use,
+
+69
+00:03:49,155 --> 00:03:51,010
+it's the square root the variance.
+
+70
+00:03:51,010 --> 00:03:53,950
+You really need the variance to get to the standard deviation,
+
+71
+00:03:53,950 --> 00:03:56,650
+but once you have the standard deviation that's enough.
+
+72
+00:03:56,650 --> 00:04:00,907
+So, standard deviation on Cisco is 12.2% on the monthly returns,
+
+73
+00:04:00,907 --> 00:04:05,250
+on GM it's about 9%, so there's more spread about the mean for Cisco.
+
+74
+00:04:09,410 --> 00:04:11,842
+And then there's not much skewness,
+
+75
+00:04:11,842 --> 00:04:15,414
+these numbers are very close to zero, again greater and
+
+76
+00:04:15,414 --> 00:04:19,690
+plus one is possibly skew, minus one is negatively skewed.
+
+77
+00:04:19,690 --> 00:04:23,180
+So basically not much skewness and
+
+78
+00:04:23,180 --> 00:04:26,796
+we saw that in the histograms that we had for GM and sysco.
+
+79
+00:04:26,796 --> 00:04:32,070
+Fairly symmetric data sets.
+
+80
+00:04:32,070 --> 00:04:35,570
+Now a more powerful example of why you don't always want to use
+
+81
+00:04:35,570 --> 00:04:36,150
+the mean for
+
+82
+00:04:36,150 --> 00:04:40,940
+typical value, though people like to do this is based on real situation.
+
+83
+00:04:40,940 --> 00:04:44,600
+Let’s talk about 1984 and this really happen, if you are basketball
+
+84
+00:04:44,600 --> 00:04:48,570
+fan you may think about his and even if you are not a U-S
+
+85
+00:04:48,570 --> 00:04:51,580
+citizen I think the person I’m talking about you heard of.
+
+86
+00:04:51,580 --> 00:04:54,680
+Because he was one of the most recognizable people in the world,
+
+87
+00:04:54,680 --> 00:04:58,420
+okay so let’s look at 1984 University of North Carolina,
+
+88
+00:04:58,420 --> 00:04:59,080
+a great school.
+
+89
+00:04:59,080 --> 00:05:02,900
+Geography majors had the highest average salary, this is true.
+
+90
+00:05:02,900 --> 00:05:06,000
+A friend of mine told me, at the University of North Carolina, okay.
+
+91
+00:05:06,000 --> 00:05:08,990
+So should everybody have wanted to be a geography major?
+
+92
+00:05:08,990 --> 00:05:11,990
+So let's suppose there were 15 geography majors,
+
+93
+00:05:11,990 --> 00:05:17,030
+who average $40,000 who got made $40,000, and one made $1 million.
+
+94
+00:05:17,030 --> 00:05:18,930
+This isn't that far from the truth.
+
+95
+00:05:18,930 --> 00:05:22,521
+Now if you look at the median, you know that's gonna be the midpoint
+
+96
+00:05:22,521 --> 00:05:26,780
+between the eighth and ninth largest salary, that's gonna be 40,000.
+
+97
+00:05:26,780 --> 00:05:30,960
+That's a much better measure of the typical income of the geography
+
+98
+00:05:30,960 --> 00:05:34,540
+major than if I average these numbers, I mean we'll skip ahead.
+
+99
+00:05:34,540 --> 00:05:38,200
+There's a function average which we'll learn about later, but
+
+100
+00:05:38,200 --> 00:05:40,190
+I think most of you know that one.
+
+101
+00:05:40,190 --> 00:05:43,450
+What was the average salary for geography majors?
+
+102
+00:05:43,450 --> 00:05:46,910
+$100,000 and it's indeed true the highest average salary for
+
+103
+00:05:46,910 --> 00:05:49,090
+1984 geography majors at UNC.
+
+104
+00:05:49,090 --> 00:05:53,230
+The highest starting salary majors in any
+
+105
+00:05:53,230 --> 00:05:56,740
+academic major at UNC was geography majors.
+
+106
+00:05:56,740 --> 00:05:58,950
+So should everybody have been a geography major?
+
+107
+00:05:58,950 --> 00:06:01,850
+But the median salary was surely higher for let's say,
+
+108
+00:06:01,850 --> 00:06:04,040
+accounting mayors or computer science mayors.
+
+109
+00:06:04,040 --> 00:06:05,420
+What was going on?
+
+110
+00:06:05,420 --> 00:06:07,800
+Michael Jordan was a geography mayor.
+
+111
+00:06:07,800 --> 00:06:09,780
+As we know we can't all be like Mike,
+
+112
+00:06:09,780 --> 00:06:11,880
+I mean that's probably a slogan.
+
+113
+00:06:11,880 --> 00:06:16,050
+Basically we should've been looked at the mean salary of geography
+
+114
+00:06:16,050 --> 00:06:18,940
+majors, we should've the mediator, the typical value.
+
+115
+00:06:20,010 --> 00:06:21,900
+Basically here is a great example,
+
+116
+00:06:21,900 --> 00:06:24,880
+there would be a lot of scewness against skipping ahead of it.
+
+117
+00:06:24,880 --> 00:06:28,075
+There is an Excel function that measures skewness and
+
+118
+00:06:28,075 --> 00:06:31,057
+if you would look at the skewness of this dataset,
+
+119
+00:06:31,057 --> 00:06:34,473
+you get a skewness of four which is much bigger than +1.
+
+120
+00:06:34,473 --> 00:06:38,077
+So our roll would tell you to use the median income to measure
+
+121
+00:06:38,077 --> 00:06:41,757
+basically atypical value for UNC Geography Majors income,
+
+122
+00:06:41,757 --> 00:06:44,000
+rather than the mean.
+
+123
+00:06:44,000 --> 00:06:49,630
+Now in the next video will show how you can take the mean for
+
+124
+00:06:49,630 --> 00:06:53,880
+a data set and the standard deviation, put them together and try
+
+125
+00:06:53,880 --> 00:06:57,630
+to understand the typical range for a data set, which is very important.
+
+126
+00:06:57,630 --> 00:07:01,320
+And also spot unusual data points know as highlighters.
+

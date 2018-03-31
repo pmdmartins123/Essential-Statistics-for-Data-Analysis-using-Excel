@@ -1,0 +1,55 @@
+A common method of summarizing data is
+a histogram that the data is numerical.
+So basically, a histogram, you divide
+the range of values in your data into 5 to 15 groups or bins.
+Usually they have equal width,
+and you simply count how many observations in each bin, and
+draw a nice column or a bar graph to summarize where the data is.
+And Excel in previous versions through Excel 2016 did histograms,
+but they really didn't look that great.
+But in Excel 2016, they look fantastic.
+So let's look at a sample of IQs of, let's say,
+students at a high school.
+We've got about 1,000 kids there.
+And we want to summarize the IQs in a histogram.
+Well, what you have to decide is basically,
+how many bins you want and basically a lower limit,
+sort of to cut off everybody below that limit in the first bin, and
+everybody above the upper limit in the last bin.
+So for IQs, we know something about the value of IQs from just our
+worldly experience.
+We're gonna put everybody who is 55 or
+below in the lowest bin, everybody who is 145 or over in the upper bin.
+And we like to have nice round bins, we don't want
+bins like 8.55 in width, so we'll have a bin width of 10.
+So how do we create a histogram in Excel?
+We first select the data.
+So we'll start with the first IQ,
+Control+Shift+down arrow goes down to the bottom.
+Then we'll do Insert.
+Okay, and then right here, this is new to 2016,
+there's the histogram option, and so there we have a histogram.
+This one we don't need.
+Okay, so now what we wanna do,
+we have these ugly bin boundaries, we wanna switch that.
+So we go right click, Format Axis.
+Okay, now Bin Width we said we want that to be 10.
+Okay, Overflow Bin would be the upper one.
+We want that to be 145, we've got that.
+Underflow Bin 55, okay.
+And then basically, we've got our histogram, so we can label this IQs.
+Okay, now what that tells us is roughly,
+how many of the students here have IQs in each range?
+So our first bin is below 55 and above 145.
+It doesn't appear that there are any, but
+the most frequently occurring IQ range is 95 to 105, which makes
+sense cuz you know the average IQ Is around 100, it's supposed to be 100.
+And we can also see this IQ graph is what we call, or
+histogram is called symmetric,
+because it looks sort of the same to the left and right of the peak here.
+Go one bar to the left, one bar to the right,
+the heights are pretty much the same.
+Two bars to the left, two bars to the right,
+the heights are pretty much the same, etc.
+And in our next video,
+we'll explore more the most common shapes of histograms.

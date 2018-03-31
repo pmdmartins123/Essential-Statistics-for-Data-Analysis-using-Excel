@@ -1,0 +1,64 @@
+You recall earlier in this module we discussed categorical data, so
+now let's return to that.
+There are two types of categorical data, nominal and ordinal.
+So how can we graphically summarize nominal and
+ordinal categorical data?
+Let's talk first about nominal categorical data.
+So here we have an example.
+We have colors of US cars.
+Okay, so what are some ways that we could summarize this data?
+Well, we're gonna use a pivot table tool to basically find out how many
+cars were of each color or the percentage of cars of each color.
+We'll do the percentage.
+Okay, so now we can select this data here.
+And if you're not familiar with pivot tables,
+you can follow these steps pretty easily and
+the book has a lot of stuff on this.
+Insert pivot table, okay, now we'll say the current worksheet,
+Okay, now we wanna drag the car type here.
+All the colors are there and then value is right here.
+It's gonna count how many cars of each type, there were 500 cars here.
+Now we can leave it like this to summarize, but maybe we want to know
+the percentage of basically cars that were each color.
+So then you can right-click on a pivot table.
+Right-clicking is very helpful.
+Right-click and
+we can do Summarize > Show Values as Percentage of Column.
+Now we see what percentage of the cars were each color.
+Now you may want the car that's most common here,
+gray or white to be on top.
+You could go here and go Data Sort, you don't have to do that.
+We will go largest to smallest.
+Now we can do a chart.
+So we can do a column chart or we could do a pie chart, okay.
+So we want to do a column chart.
+Basically go analyze,
+you can create a chart from the pivot table by clicking on Analyze.
+Okay, and then there's PivotChart and you can pick your type of chart.
+Now the column chart is fine for me now.
+So I can see the percentage of cars that basically were each color.
+It goes grey, white, silver, I think I'm a little low on green.
+I think a lot more cars are green than what I have here, but
+that's okay.
+But you might also wanna summarize this as a pie chart.
+So you want to summarize this as a pie chart,
+you can always change the type of chart.
+You can go right-click, Change Chart Type, okay, so I can go pie chart.
+Okay, now that's a pretty boring pie chart cuz it doesn't have any
+numbers inside there.
+It does have the orange being the black car, etc.
+But then if you go up into Excel, you go Format, sorry, Design.
+Add Chart Element.
+And you can go Data Labels and say More Label Options.
+Okay, and now I wanna show the value and
+I wanna show the category name in this cell.
+Okay, so that would show like the brown cars were 8.3%, etc, and
+I think that's a better pie chart.
+So that let's you summarize again our nominal categorical data.
+But we could have done it with a column chart.
+I guess I like the pie chart better.
+A lot of statisticians don't like pie charts, but
+I think that's fairly nice there to show you what's going on.
+In our next video, we'll talk about ordinal data and
+how we can summarize that.
+Again, the PivotTable will be the key basis of how we do this.

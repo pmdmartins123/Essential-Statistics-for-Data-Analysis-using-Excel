@@ -1,0 +1,21 @@
+Data can take on one of two forms.
+It can be categorical,
+meaning that it classifies as a variable into a specific category.
+Gender is a great example of a categorical variable.
+You either identify yourself as a male or female.
+Sometimes you will hear data called qualitative.
+Qualitative data is categorical data, just by a different name.
+Or data can be numerical or quantitative.
+In this case, the numbers have meaning.
+Generally, larger numbers mean more of something.
+Weight, height, temperature are examples of numerical variables.
+Further, numerical variables can be discrete or continuous.
+Discrete variables take on a specific value and
+must be an integer.
+The number of vehicles that you own, or the number of flights that you
+took this year, are examples of discrete variables.
+You can't have a part of a car, or take part of a flight.
+Continuous variables can take on any value within a range.
+Weight, temperature are continuous variables because something might
+weigh a fraction of a pound or a kilo, or
+temperature can be somewhere between two values on a scale.

@@ -1,0 +1,172 @@
+0
+00:00:00,520 --> 00:00:04,420
+So in this video we'll show you how to create a pirato chart using a new
+
+1
+00:00:04,420 --> 00:00:08,660
+Excel 2016 capability which illustrates the fact that
+
+2
+00:00:08,660 --> 00:00:12,130
+a small percentage of our products generate most of our revenue.
+
+3
+00:00:12,130 --> 00:00:14,630
+So I've listed a bunch of products here, how many do I have?
+
+4
+00:00:14,630 --> 00:00:15,840
+I think a hundred.
+
+5
+00:00:15,840 --> 00:00:18,740
+They don't have to be in any order, notice the first product
+
+6
+00:00:18,740 --> 00:00:21,440
+doesn't make much money but the second product does and
+
+7
+00:00:21,440 --> 00:00:23,540
+basically we would like to have a Pareto chart.
+
+8
+00:00:23,540 --> 00:00:28,430
+So all we have to do is select our data, okay, go insert, and
+
+9
+00:00:28,430 --> 00:00:33,940
+where we found the box and whisker plot, and basically the histogram.
+
+10
+00:00:33,940 --> 00:00:36,740
+There's the Pareto chart, the lines and the bars.
+
+11
+00:00:36,740 --> 00:00:38,440
+There is a Pareto chart.
+
+12
+00:00:38,440 --> 00:00:42,210
+So you can see we've listed the product sales in descending order.
+
+13
+00:00:42,210 --> 00:00:45,210
+Product two was our best product, sold the most.
+
+14
+00:00:45,210 --> 00:00:47,996
+And then basically product 64, etc.
+
+15
+00:00:47,996 --> 00:00:51,560
+And then this red bar, red line here,
+
+16
+00:00:51,560 --> 00:00:56,120
+gives the percentage of our sales by the products reading left to right.
+
+17
+00:00:56,120 --> 00:01:00,930
+So you can see they get 80% basically of your basically,
+
+18
+00:01:00,930 --> 00:01:01,690
+your revenue,
+
+19
+00:01:01,690 --> 00:01:06,480
+you would follow the 80% over the year until the red line hits 80%.
+
+20
+00:01:06,480 --> 00:01:09,940
+Noticed that the red line gets flatter.
+
+21
+00:01:09,940 --> 00:01:10,730
+Why is that?
+
+22
+00:01:10,730 --> 00:01:11,800
+The red curve.
+
+23
+00:01:11,800 --> 00:01:14,290
+Because basically every time
+
+24
+00:01:14,290 --> 00:01:17,920
+you increase the x-axis by one you're adding a new product.
+
+25
+00:01:17,920 --> 00:01:21,950
+The y axis the slope is basically based on what you're adding in
+
+26
+00:01:21,950 --> 00:01:22,450
+revenue.
+
+27
+00:01:22,450 --> 00:01:27,030
+And you can see that basically, when you're adding later products,
+
+28
+00:01:27,030 --> 00:01:29,960
+you're adding less in revenue, so the curve gets flat.
+
+29
+00:01:29,960 --> 00:01:33,290
+Notice when you get down here, you're not adding much percentage
+
+30
+00:01:33,290 --> 00:01:36,810
+to the coverage of sales but at the beginning you're adding a lot there.
+
+31
+00:01:36,810 --> 00:01:40,710
+And it turns out in this example 36 products would basically
+
+32
+00:01:40,710 --> 00:01:45,300
+give you 80% in your revenues so wasn't quite a Pareto
+
+33
+00:01:45,300 --> 00:01:49,540
+principle that 20 out of 100 generated 80% as your revenue.
+
+34
+00:01:49,540 --> 00:01:53,170
+But in real data I have seen it really does hold that 20% of your
+
+35
+00:01:53,170 --> 00:01:56,500
+products will usually generate 80% of your revenue or
+
+36
+00:01:56,500 --> 00:02:01,280
+profit, or 20% of your customers generate 80% of your profit.
+
+37
+00:02:01,280 --> 00:02:04,670
+Now in the next video we'll show you how to create
+
+38
+00:02:04,670 --> 00:02:08,240
+a Pareto Chart that basically you would use in quality control
+
+39
+00:02:08,240 --> 00:02:11,420
+to sort of summarize complaints about a restaurant.
+
+40
+00:02:11,420 --> 00:02:14,740
+And you'll see you can't quite use the Pareto capability right off
+
+41
+00:02:14,740 --> 00:02:19,005
+the bat that we've used here because the data is qualitative and
+
+42
+00:02:19,005 --> 00:02:20,370
+it's not listed numerically.
+

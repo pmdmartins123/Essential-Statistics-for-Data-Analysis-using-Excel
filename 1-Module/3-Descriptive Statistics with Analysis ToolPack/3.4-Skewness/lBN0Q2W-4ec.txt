@@ -1,0 +1,56 @@
+Wayne mentioned skewness earlier, and showed some example.
+Let's take a closer look at skewness in terms of mean, median and mode.
+Data can be normally distributed, the shape of a normal distribution
+is often called bell-shaped, because the data
+is distributed symmetrically around the mid-point of the data.
+In such distributions, the mean, median,
+and mode are clustered together.
+Some histograms will show a skewed distribution to the right.
+A skewed distribution to the right is said to be positively skewed.
+In this kind of distribution, you have a large number of occurrences
+on the left side of the chart and
+a fewer, in the upper values, on the right side.
+So the tail, goes to the right, that's a right skew.
+In some histograms, will show a skewed distribution, to the left.
+A distribution skewed to the left is said to be negatively skewed.
+This kind of distribution has a large number of occurrences,
+in the upper values,or the right side, and
+a lower, a fewer, values in the lower or the left side.
+The distribution of the mode is greater than the mean and
+the median.
+Now we can also look at some other shapes the distributions can take.
+For example some distributions may be bi-modal,
+meaning it has two peaks.
+This shape makes sure that the data is being affected by two different
+sources.
+If this shape occurs,
+the two sources should be analyzed separately.
+In a bi-modal distribution, the min and
+median may actually cluster together and you might assume
+the distribution is normal if you don't plot the data histogram.
+Although measure of central tendency are important in understanding
+your data, sometimes visually inspecting it,
+can also provide you good insight.
+Our uniform distributions shows little variation across your bins or
+categories.
+This type of distribution could occur because you have combined
+the sources of variation in your visualization, or
+because you're bins are too small, or too large.
+Change the way you are creating your histogram can provide
+more information about the actual distribution of your data.
+Finally, a distribution might be random,
+which means it has no apparent pattern.
+It may describe a distribution that has several modes or peaks,
+it could occur for the same reasons a uniform distribution does, similar
+changes might provide more insight into the distribution of your data.
+Finally histograms are valuable tools because they
+allow us to better understand the shape or distribution of our data.
+In general we want our data to be normally distributed.
+When it's not,
+it's what we call skewed with data clustered at one end or the other.
+If our data are normally distributed we know
+that 68% of the data fell within one plus one minus one standard
+deviations of the mean 95% within two standard deviations and
+99% within three and as I mentioned, most statistics assume normality.
+If not normal although we can run the statistic results that we would
+get will be uninterpretable or worse lead to the wrong conclusions.

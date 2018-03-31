@@ -1,0 +1,61 @@
+In this video, we're gonna show you how to create an exciting Treemap
+chart to summarize hierarchical data.
+So, suppose you own an independent bookstore, and basically,
+in column A you have sort of the major types of books you sell,
+arts and photography, nonfiction.
+You may sell some magazine,
+science fiction and fantasy which some people like.
+And then you have sub genre.
+So, basically, for
+children's book, you may have baby books aged three through five.
+And there is no sub genre for
+baby books before aged three through five.
+We have first readers, ABCs and for
+those parents who really wanna get their kids going,
+we have Tolstoy for Tots that you can learn all about War and
+Peace and Anna Karenina, the two greatest novels ever written.
+So we have the revenue for each of these categories.
+We wanna summarize, basically,
+which of our books are selling a lot, okay?
+Cuz these numbers just don't tell us much.
+A chart is always a better way to summarize data if
+you can come up with the right chart.
+So, basically, if I just select this data, and
+all I have to do is do Insert.
+And then, what's new here is right here.
+There's Treemap and Sunburst hierarchy chart.
+So, let's do Treemap right here.
+Now, we wanna make this bigger.
+But basically, the areas are proportional to the numbers that we
+have in the last column.
+Okay, so we have the children's books,
+we've got basically the 1st Readers, ABCs, Tolstoy for Tots, we can see
+1st Readers was the best seller from the children's books there.
+We can see that up here, the 24,000, and
+if you hover over a number here, it should show you, basically,
+right there, see there you can see the numerical value there.
+And we can change the way these labels look in a minute.
+Now, the problem is, what size should you make this chart?
+So, I mean, you don't wanna make it too big or
+basically, you couldn't print it or see all of it.
+But if you make it bigger, you're gonna get more detail.
+So, you just have to experiment with what size you want this thing to be.
+But the main lesson we learned here is the orange,
+the children's book, are the biggest percentage of our sales.
+We don't sell much science fiction and fantasy.
+We might use this reallocate our shelf space.
+Then, are magazines here, we can see are in green.
+But, basically, this is a really nice way to summarize for
+a company that sells stuff what, basically,
+are the products that you're selling.
+Now if I right click in a blank space here and
+do Format Data Series, I can change this to say banner.
+So now, the labels look a little bit different which I think looks
+a little bit better.
+So that Treemap chart is one great way to summarize hierarchical data.
+In the next video, we'll see a Sunburst chart which
+basically can also be used to summarize hierarchical data.
+See the one thing here that's the problem is,
+I didn't see the breakdown for the age three through five kids.
+Okay, and basically,
+we'll see in the Sunburst chart that would show up.

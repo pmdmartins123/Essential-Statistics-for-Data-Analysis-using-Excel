@@ -1,0 +1,256 @@
+0
+00:00:00,740 --> 00:00:04,440
+In this video we're gonna talk about some common shapes of histograms
+
+1
+00:00:04,440 --> 00:00:05,880
+that you should be able to recognize.
+
+2
+00:00:05,880 --> 00:00:09,927
+And also how you can use histograms to compare different variables.
+
+3
+00:00:09,927 --> 00:00:13,590
+So let's look at IQs again which we looked at in the last video.
+
+4
+00:00:13,590 --> 00:00:16,850
+So I have a slightly different data set so I have a histogram of IQs.
+
+5
+00:00:16,850 --> 00:00:20,520
+And as we mentioned this is what we call a symmetric histogram.
+
+6
+00:00:20,520 --> 00:00:25,890
+If you look at the most frequently occurring bin, the highest bin,
+
+7
+00:00:25,890 --> 00:00:29,500
+it looks sorta the same, one bin to the left, one bin to the right, etc.
+
+8
+00:00:31,700 --> 00:00:35,850
+Then another very common type of histogram is something like
+
+9
+00:00:35,850 --> 00:00:38,980
+income in a city or a county or even a country.
+
+10
+00:00:38,980 --> 00:00:41,130
+This does not look symmetric at all.
+
+11
+00:00:41,130 --> 00:00:44,030
+Here you have the most frequently occurring income in the US,
+
+12
+00:00:44,030 --> 00:00:46,720
+or based on my fake data.
+
+13
+00:00:46,720 --> 00:00:49,490
+And then basically this is certainly not symmetric.
+
+14
+00:00:49,490 --> 00:00:52,974
+You see basically the bars here go much further to the right of
+
+15
+00:00:52,974 --> 00:00:54,968
+the peak than the left of the peak.
+
+16
+00:00:54,968 --> 00:00:58,250
+So that's called skewed right or positively skewed.
+
+17
+00:00:58,250 --> 00:01:01,020
+Because again, the bars go much further to the right of the most
+
+18
+00:01:01,020 --> 00:01:03,895
+frequently occurring income than they go to the left.
+
+19
+00:01:03,895 --> 00:01:07,210
+This is very common in economic and financial data.
+
+20
+00:01:07,210 --> 00:01:10,420
+Now negatively skewed data is not that common to be honest but
+
+21
+00:01:10,420 --> 00:01:12,110
+here's an example.
+
+22
+00:01:12,110 --> 00:01:15,847
+The number of days from conception til a woman gives birth, okay.
+
+23
+00:01:15,847 --> 00:01:20,477
+Now the most common number of days would be roughly 280 days or
+
+24
+00:01:20,477 --> 00:01:21,512
+nine months.
+
+25
+00:01:21,512 --> 00:01:24,008
+And I don't know what the Guinness Book of World Records is for
+
+26
+00:01:24,008 --> 00:01:25,643
+the most days from conception to birth.
+
+27
+00:01:25,643 --> 00:01:28,735
+I'm sure no woman wants to experience that.
+
+28
+00:01:28,735 --> 00:01:32,421
+But basically we can see you can't go much over nine months or
+
+29
+00:01:32,421 --> 00:01:34,311
+the doctor will induce labor.
+
+30
+00:01:34,311 --> 00:01:36,851
+So maybe suppose the record is 300 days,
+
+31
+00:01:36,851 --> 00:01:39,882
+the bars would go a little bit to the right of 280.
+
+32
+00:01:39,882 --> 00:01:43,445
+But they go much further to the left because babies thankfully can be
+
+33
+00:01:43,445 --> 00:01:46,144
+born healthy at six months, six and a half months.
+
+34
+00:01:46,144 --> 00:01:49,960
+Maybe some of you watching this video fall into that category.
+
+35
+00:01:49,960 --> 00:01:53,300
+So there we would have data that's skewed to the left because the bars
+
+36
+00:01:53,300 --> 00:01:56,650
+go further to the left were negatively skewed.
+
+37
+00:01:56,650 --> 00:02:01,197
+Now we can also use histograms to compare visually data from different
+
+38
+00:02:01,197 --> 00:02:02,053
+variables.
+
+39
+00:02:02,053 --> 00:02:04,218
+So if we look at returns on Cisco and
+
+40
+00:02:04,218 --> 00:02:08,039
+GM which we'll talk a lot about in these videos here, okay.
+
+41
+00:02:08,039 --> 00:02:11,551
+We've got histograms for the monthly returns on GM and
+
+42
+00:02:11,551 --> 00:02:13,162
+Cisco in the 1990s.
+
+43
+00:02:13,162 --> 00:02:16,747
+And so we've made those histograms basically be set
+
+44
+00:02:16,747 --> 00:02:19,524
+up with the same set of axes here, okay.
+
+45
+00:02:19,524 --> 00:02:23,880
+And then basically what can we say from these two histograms?
+
+46
+00:02:23,880 --> 00:02:28,150
+If we look at typical value for GM and Cisco, what can we say?
+
+47
+00:02:28,150 --> 00:02:30,420
+Well, Cisco goes further to the right so
+
+48
+00:02:30,420 --> 00:02:33,870
+the typical return on Cisco in the 1990s
+
+49
+00:02:33,870 --> 00:02:37,810
+would be basically higher than the typical return on GM.
+
+50
+00:02:37,810 --> 00:02:41,110
+We can also, as we'll see later, look at that spread about the mean.
+
+51
+00:02:41,110 --> 00:02:43,550
+You can see the Cisco returns are more spread out.
+
+52
+00:02:43,550 --> 00:02:45,320
+You have more up here.
+
+53
+00:02:45,320 --> 00:02:48,510
+You have more down here and less in the middle.
+
+54
+00:02:48,510 --> 00:02:49,630
+With regards to the skewness,
+
+55
+00:02:49,630 --> 00:02:52,620
+these both look fairly symmetric as histograms.
+
+56
+00:02:52,620 --> 00:02:55,040
+So we really can't say much about
+
+57
+00:02:55,040 --> 00:02:59,160
+the difference in the skewness basically of Cisco and GM returns.
+
+58
+00:02:59,160 --> 00:03:03,700
+And we'll see this quantified with numerical statistics in a couple of
+
+59
+00:03:03,700 --> 00:03:04,311
+videos.
+
+60
+00:03:04,311 --> 00:03:07,619
+So now that we know to create histograms to visually summarize
+
+61
+00:03:07,619 --> 00:03:08,263
+a dataset.
+
+62
+00:03:08,263 --> 00:03:12,071
+We want to turn our attention to basically coming up with numerical
+
+63
+00:03:12,071 --> 00:03:14,180
+measures that summarize a data set.
+

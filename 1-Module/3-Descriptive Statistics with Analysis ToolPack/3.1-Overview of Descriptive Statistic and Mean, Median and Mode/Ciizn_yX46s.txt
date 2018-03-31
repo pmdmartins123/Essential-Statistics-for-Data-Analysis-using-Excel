@@ -1,0 +1,57 @@
+Let's take a closer look at Descriptive Statistics.
+Descriptive Statistics do exactly that,
+they describe your data. Specifically its
+most common values dispersion and distribution.
+Here's a list of values which may represent something like say
+hourly sales of cupcakes,
+Descriptive Statistics includes measures
+of central tendency the most common of
+which is the mean or average.
+We can calculate the Population Mean
+represented by the Greek symbol mu or
+the Sample Mean which is represented by x-bar.
+The equation for calculating the
+population or Sample Mean essentially
+says to sum all of the values for that
+variable and then divide by the number
+of values that we have. In this case we
+sum the individual values related to
+cupcake sales and obtain a total of 90
+and then divide by the number of values
+15 to produce a mean of 6. Another way
+another measure of central tendency is
+to calculate the median which represents
+the middle value in the data set.
+To find the position of the middle value
+in a sorted list add 1 to the length of
+the list and divide by 2, here we have 15 values.
+We will add 1 to make 16 and divide by 2 to get a result of 8.
+This tells us that the median value is the
+8th value in the sorted list which is 6
+the same as the Mean. The mode is even
+easier to calculate, it's simply the most
+frequently occurring value in the dataset.
+In this case the mode is 6, for a normal distribution of values
+the mean, median and mode around the same value.
+Now let's look at those same
+statistics for a data set that doesn't
+have a normal distribution, here's a list
+of daily leaflet handout counts again
+we'll start with the Sample Mean, we sum
+the values in our data and then divide
+by the number of values. Here the sum of
+our values is 108 and then we divide by
+the number of values which is 16 to produce a mean of 6.75.
+Now to find the median which represents the
+middle value in the data set we add 1 to
+the length of the list and divide by 2
+in this case we have 16 values, we add 1
+which is 17 divided by 2 and we find
+that the median would be in the
+position 8.5 in a sorted list.
+This us that the median value is halfway
+between the eighth and ninth values in
+that sorted list. In this list those values are 6 and 7.
+So the median is halfway between 6 and 7 or 6.5
+and the mode the most frequently occurring
+value in the data set, in this case the mode is 5.
